@@ -1,0 +1,22 @@
+[
+  {"state":"CA","county":"Kern","fips":"06029","total_mw":7800,"project_count":42,"solar":5200,"storage":1800,"wind":800},
+  {"state":"CA","county":"Riverside","fips":"06065","total_mw":4200,"project_count":28,"solar":2800,"storage":900,"wind":500},
+  {"state":"CA","county":"San Bernardino","fips":"06071","total_mw":3100,"project_count":22,"solar":2100,"storage":700,"wind":300},
+  {"state":"CA","county":"Imperial","fips":"06025","total_mw":2400,"project_count":18,"solar":1800,"storage":400,"wind":200},
+  {"state":"CA","county":"Los Angeles","fips":"06037","total_mw":1200,"project_count":15,"solar":800,"storage":300,"wind":100},
+  {"state":"TX","county":"Pecos","fips":"48371","total_mw":5600,"project_count":35,"solar":3200,"storage":600,"wind":1800},
+  {"state":"TX","county":"Nolan","fips":"48345","total_mw":4100,"project_count":24,"solar":900,"storage":200,"wind":3000},
+  {"state":"TX","county":"Ward","fips":"48475","total_mw":3300,"project_count":20,"solar":2400,"storage":500,"wind":400},
+  {"state":"TX","county":"Upton","fips":"48461","total_mw":2800,"project_count":16,"solar":2000,"storage":300,"wind":500},
+  {"state":"TX","county":"Andrews","fips":"48003","total_mw":1900,"project_count":12,"solar":1400,"storage":250,"wind":250},
+  {"state":"IL","county":"McLean","fips":"17113","total_mw":2200,"project_count":14,"solar":400,"storage":100,"wind":1700},
+  {"state":"IL","county":"Ford","fips":"17053","total_mw":1800,"project_count":10,"solar":200,"storage":80,"wind":1520},
+  {"state":"IL","county":"Vermilion","fips":"17183","total_mw":1400,"project_count":8,"solar":300,"storage":90,"wind":1010},
+  {"state":"IL","county":"DeKalb","fips":"17037","total_mw":900,"project_count":6,"solar":150,"storage":50,"wind":700},
+  {"state":"PA","county":"Armstrong","fips":"42005","total_mw":620,"project_count":7,"solar":180,"storage":40,"wind":400},
+  {"state":"PA","county":"Indiana","fips":"42063","total_mw":480,"project_count":5,"solar":120,"storage":30,"wind":330},
+  {"state":"PA","county":"Cambria","fips":"42021","total_mw":310,"project_count":4,"solar":90,"storage":20,"wind":200},
+  {"state":"MA","county":"Barnstable","fips":"25001","total_mw":420,"project_count":8,"solar":280,"storage":120,"wind":20},
+  {"state":"MA","county":"Hampshire","fips":"25015","total_mw":280,"project_count":6,"solar":190,"storage":70,"wind":20},
+  {"state":"MA","county":"Worcester","fips":"25027","total_mw":180,"project_count":4,"solar":110,"storage":50,"wind":20}
+]

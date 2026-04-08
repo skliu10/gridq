@@ -1,0 +1,9 @@
+[
+  {"iso":"CAISO","total_mw":45200,"project_count":312},
+  {"iso":"PJM","total_mw":98400,"project_count":687},
+  {"iso":"MISO","total_mw":112000,"project_count":891},
+  {"iso":"ERCOT","total_mw":76300,"project_count":543},
+  {"iso":"ISONE","total_mw":18200,"project_count":134},
+  {"iso":"NYISO","total_mw":22100,"project_count":178},
+  {"iso":"SPP","total_mw":54600,"project_count":421}
+]

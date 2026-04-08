@@ -1,0 +1,665 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.42,
+          33.89
+        ]
+      },
+      "properties": {
+        "id": "CA-001",
+        "name": "Desert Sunlight East",
+        "iso": "CAISO",
+        "fuel": "solar",
+        "mw": 250,
+        "status": "Active",
+        "state": "CA",
+        "poi": "Devers Sub",
+        "cod": "2028-06-01",
+        "geo_score": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.85,
+          33.52
+        ]
+      },
+      "properties": {
+        "id": "CA-002",
+        "name": "Perris Valley Storage",
+        "iso": "CAISO",
+        "fuel": "storage",
+        "mw": 150,
+        "status": "Active",
+        "state": "CA",
+        "poi": "Romoland Sub",
+        "cod": "2029-01-15",
+        "geo_score": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1,
+          34.72
+        ]
+      },
+      "properties": {
+        "id": "CA-003",
+        "name": "Antelope Wind Farm",
+        "iso": "CAISO",
+        "fuel": "wind",
+        "mw": 180,
+        "status": "Active",
+        "state": "CA",
+        "poi": "Antelope Sub",
+        "cod": "2027-09-30",
+        "geo_score": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.58,
+          33.21
+        ]
+      },
+      "properties": {
+        "id": "CA-004",
+        "name": "Salton Sea Solar",
+        "iso": "CAISO",
+        "fuel": "solar",
+        "mw": 320,
+        "status": "Withdrawn",
+        "state": "CA",
+        "poi": "Imperial Valley Sub",
+        "cod": "2028-12-01",
+        "geo_score": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.45,
+          36.12
+        ]
+      },
+      "properties": {
+        "id": "CA-005",
+        "name": "Owens Valley Wind",
+        "iso": "CAISO",
+        "fuel": "wind",
+        "mw": 95,
+        "status": "Active",
+        "state": "CA",
+        "poi": "Big Creek Sub",
+        "cod": "2030-03-01",
+        "geo_score": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.12,
+          40.44
+        ]
+      },
+      "properties": {
+        "id": "PJ-001",
+        "name": "Allegheny Ridge Wind",
+        "iso": "PJM",
+        "fuel": "wind",
+        "mw": 210,
+        "status": "Active",
+        "state": "PA",
+        "poi": "Black Lick Sub",
+        "cod": "2028-04-01",
+        "geo_score": 93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.45,
+          39.88
+        ]
+      },
+      "properties": {
+        "id": "PJ-002",
+        "name": "South Mountain Solar",
+        "iso": "PJM",
+        "fuel": "solar",
+        "mw": 125,
+        "status": "Active",
+        "state": "PA",
+        "poi": "Shippensburg Sub",
+        "cod": "2029-07-15",
+        "geo_score": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.85,
+          40.22
+        ]
+      },
+      "properties": {
+        "id": "PJ-003",
+        "name": "Pine Barrens Storage",
+        "iso": "PJM",
+        "fuel": "storage",
+        "mw": 80,
+        "status": "Active",
+        "state": "NJ",
+        "poi": "Chatsworth Sub",
+        "cod": "2027-11-01",
+        "geo_score": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.55,
+          41.1
+        ]
+      },
+      "properties": {
+        "id": "PJ-004",
+        "name": "Lake Erie Wind",
+        "iso": "PJM",
+        "fuel": "wind",
+        "mw": 400,
+        "status": "Withdrawn",
+        "state": "OH",
+        "poi": "Eastlake Sub",
+        "cod": "2030-06-01",
+        "geo_score": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.92,
+          41.75
+        ]
+      },
+      "properties": {
+        "id": "PJ-005",
+        "name": "Susquehanna Solar",
+        "iso": "PJM",
+        "fuel": "solar",
+        "mw": 175,
+        "status": "Active",
+        "state": "PA",
+        "poi": "Montour Sub",
+        "cod": "2028-09-01",
+        "geo_score": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.42,
+          41.88
+        ]
+      },
+      "properties": {
+        "id": "MI-001",
+        "name": "Prairie Wind Illinois",
+        "iso": "MISO",
+        "fuel": "wind",
+        "mw": 300,
+        "status": "Active",
+        "state": "IL",
+        "poi": "Pontiac Sub",
+        "cod": "2028-05-01",
+        "geo_score": 97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.12,
+          42.55
+        ]
+      },
+      "properties": {
+        "id": "MI-002",
+        "name": "Great Lakes Solar",
+        "iso": "MISO",
+        "fuel": "solar",
+        "mw": 140,
+        "status": "Active",
+        "state": "IN",
+        "poi": "Gary Sub",
+        "cod": "2029-03-15",
+        "geo_score": 89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.78,
+          44.92
+        ]
+      },
+      "properties": {
+        "id": "MI-003",
+        "name": "Chequamegon Wind",
+        "iso": "MISO",
+        "fuel": "wind",
+        "mw": 225,
+        "status": "Active",
+        "state": "WI",
+        "poi": "Medford Sub",
+        "cod": "2027-10-01",
+        "geo_score": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.85,
+          43.22
+        ]
+      },
+      "properties": {
+        "id": "MI-004",
+        "name": "Thumb Wind Farm",
+        "iso": "MISO",
+        "fuel": "wind",
+        "mw": 350,
+        "status": "Withdrawn",
+        "state": "MI",
+        "poi": "Bad Axe Sub",
+        "cod": "2031-01-01",
+        "geo_score": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.45,
+          45.58
+        ]
+      },
+      "properties": {
+        "id": "MI-005",
+        "name": "Northwoods Storage",
+        "iso": "MISO",
+        "fuel": "storage",
+        "mw": 60,
+        "status": "Active",
+        "state": "WI",
+        "poi": "Ashland Sub",
+        "cod": "2028-08-01",
+        "geo_score": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.45,
+          31.72
+        ]
+      },
+      "properties": {
+        "id": "ER-001",
+        "name": "Permian Basin Solar",
+        "iso": "ERCOT",
+        "fuel": "solar",
+        "mw": 480,
+        "status": "Active",
+        "state": "TX",
+        "poi": "Midland Sub",
+        "cod": "2027-07-01",
+        "geo_score": 98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.22,
+          32.45
+        ]
+      },
+      "properties": {
+        "id": "ER-002",
+        "name": "West Texas Wind",
+        "iso": "ERCOT",
+        "fuel": "wind",
+        "mw": 390,
+        "status": "Active",
+        "state": "TX",
+        "poi": "Sweetwater Sub",
+        "cod": "2028-02-01",
+        "geo_score": 96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.88,
+          29.45
+        ]
+      },
+      "properties": {
+        "id": "ER-003",
+        "name": "Gulf Coast Storage",
+        "iso": "ERCOT",
+        "fuel": "storage",
+        "mw": 200,
+        "status": "Active",
+        "state": "TX",
+        "poi": "Bay City Sub",
+        "cod": "2029-05-15",
+        "geo_score": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.75,
+          30.12
+        ]
+      },
+      "properties": {
+        "id": "ER-004",
+        "name": "Hill Country Wind",
+        "iso": "ERCOT",
+        "fuel": "wind",
+        "mw": 155,
+        "status": "Withdrawn",
+        "state": "TX",
+        "poi": "Fredericksburg Sub",
+        "cod": "2030-09-01",
+        "geo_score": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.42,
+          32.78
+        ]
+      },
+      "properties": {
+        "id": "ER-005",
+        "name": "East Texas Solar",
+        "iso": "ERCOT",
+        "fuel": "solar",
+        "mw": 270,
+        "status": "Active",
+        "state": "TX",
+        "poi": "Athens Sub",
+        "cod": "2028-11-01",
+        "geo_score": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.52,
+          41.72
+        ]
+      },
+      "properties": {
+        "id": "IS-001",
+        "name": "Block Island Offshore Wind",
+        "iso": "ISONE",
+        "fuel": "wind",
+        "mw": 30,
+        "status": "Active",
+        "state": "RI",
+        "poi": "Block Island Sub",
+        "cod": "2027-06-01",
+        "geo_score": 94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.88,
+          42.18
+        ]
+      },
+      "properties": {
+        "id": "IS-002",
+        "name": "Cape Cod Solar",
+        "iso": "ISONE",
+        "fuel": "solar",
+        "mw": 45,
+        "status": "Active",
+        "state": "MA",
+        "poi": "Barnstable Sub",
+        "cod": "2029-04-01",
+        "geo_score": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.88,
+          42.85
+        ]
+      },
+      "properties": {
+        "id": "IS-003",
+        "name": "Nashoba Storage",
+        "iso": "ISONE",
+        "fuel": "storage",
+        "mw": 25,
+        "status": "Active",
+        "state": "MA",
+        "poi": "Shirley Sub",
+        "cod": "2028-10-01",
+        "geo_score": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.15,
+          43.12
+        ]
+      },
+      "properties": {
+        "id": "IS-004",
+        "name": "Seacoast Wind NH",
+        "iso": "ISONE",
+        "fuel": "wind",
+        "mw": 75,
+        "status": "Withdrawn",
+        "state": "NH",
+        "poi": "Deerfield Sub",
+        "cod": "2030-01-01",
+        "geo_score": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.12,
+          41.22
+        ]
+      },
+      "properties": {
+        "id": "NY-001",
+        "name": "Hudson Valley Solar",
+        "iso": "NYISO",
+        "fuel": "solar",
+        "mw": 110,
+        "status": "Active",
+        "state": "NY",
+        "poi": "Pleasant Valley Sub",
+        "cod": "2028-07-01",
+        "geo_score": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.88,
+          42.45
+        ]
+      },
+      "properties": {
+        "id": "NY-002",
+        "name": "Finger Lakes Wind",
+        "iso": "NYISO",
+        "fuel": "wind",
+        "mw": 185,
+        "status": "Active",
+        "state": "NY",
+        "poi": "Cayuga Sub",
+        "cod": "2029-09-15",
+        "geo_score": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.78,
+          40.88
+        ]
+      },
+      "properties": {
+        "id": "NY-003",
+        "name": "Long Island Storage",
+        "iso": "NYISO",
+        "fuel": "storage",
+        "mw": 55,
+        "status": "Withdrawn",
+        "state": "NY",
+        "poi": "Greenlawn Sub",
+        "cod": "2030-04-01",
+        "geo_score": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42,
+          36.55
+        ]
+      },
+      "properties": {
+        "id": "SP-001",
+        "name": "Cherokee Wind Oklahoma",
+        "iso": "SPP",
+        "fuel": "wind",
+        "mw": 290,
+        "status": "Active",
+        "state": "OK",
+        "poi": "Alva Sub",
+        "cod": "2027-08-01",
+        "geo_score": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.12,
+          37.88
+        ]
+      },
+      "properties": {
+        "id": "SP-002",
+        "name": "Flint Hills Solar",
+        "iso": "SPP",
+        "fuel": "solar",
+        "mw": 200,
+        "status": "Active",
+        "state": "KS",
+        "poi": "El Dorado Sub",
+        "cod": "2028-03-01",
+        "geo_score": 89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.78,
+          39.22
+        ]
+      },
+      "properties": {
+        "id": "SP-003",
+        "name": "Tallgrass Storage",
+        "iso": "SPP",
+        "fuel": "storage",
+        "mw": 120,
+        "status": "Withdrawn",
+        "state": "KS",
+        "poi": "Emporia Sub",
+        "cod": "2029-11-01",
+        "geo_score": 82
+      }
+    }
+  ]
+}
