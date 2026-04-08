@@ -1,5 +1,5 @@
 'use client'
-import { MapFilters, FuelType, AppMeta } from '@/types'
+import { MapFilters, FuelType } from '@/types'
 import {
   CIRCUIT_STATE_COLORS,
   CIRCUIT_STATE_LABELS,
@@ -30,7 +30,6 @@ interface Props {
   setCodFilter: (v: MapFilters['codFilter']) => void
   stats: Stats
   currentZoom: number
-  meta: AppMeta | null
 }
 
 export default function Sidebar({
