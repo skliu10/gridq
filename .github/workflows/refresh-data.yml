@@ -1,0 +1,42 @@
+name: Refresh GridCapacity Data
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python dependencies
+        run: pip install gridstatus pandas rapidfuzz
+      - name: Run pipeline
+        run: python pipeline/run_all.py
+      - name: Commit updated data
+        run: |
+          git config user.name "GridCapacity Bot"
+          git config user.email "bot@gridcapacity.dev"
+          git add public/data/queue_projects.geojson public/data/queue_raw.json public/data/county_summary.json public/data/iso_summary.json public/data/meta.json
+          git diff --staged --quiet || git commit -m "chore: refresh grid data $(date -u +%Y-%m-%d)"
+          git push
+      - name: Trigger Vercel redeploy
+        if: success() && env.VERCEL_DEPLOY_HOOK != ''
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: curl -X POST "$VERCEL_DEPLOY_HOOK"
+      - name: Open issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Pipeline failed ' + new Date().toISOString().split('T')[0],
+              body: 'Weekly data refresh failed. Check the Actions log.',
+              labels: ['pipeline-failure']
+            })

@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GridCapacity
 
-## Getting Started
+US hosting capacity and interconnection queue map for energy developers.
 
-First, run the development server:
+## Quick start
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repo
+2. Install dependencies: `npm install`
+3. Download HIFLD electric substations GeoJSON from
+   https://hifld-geoplatform.opendata.arcgis.com/datasets/electric-substations
+   and save as `pipeline/hifld_substations.geojson`
+4. Download EIA RTO Regions GeoJSON from
+   https://atlas.eia.gov/maps/eia::rto-regions
+   and save as `public/data/iso_boundaries.geojson`
+5. Install Python deps: `pip install -r pipeline/requirements.txt`
+6. Run pipeline: `python pipeline/run_all.py`
+7. Start app: `npm run dev`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app ships with sample data and renders immediately without steps 3–6.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data sources
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Source | Data | Access |
+|---|---|---|
+| gridstatus (open source) | ISO interconnection queues | Free, no account |
+| HIFLD | Substation locations | Free, no account |
+| EIA Atlas | ISO/RTO territory boundaries | Free, no account |
+| OpenStreetMap | Base map tiles | Free, no account |
+| CA ICA portals (SCE/PG&E/SDG&E) | Circuit hosting capacity | Free, manual download |
 
-## Learn More
+## CA ICA data download
 
-To learn more about Next.js, take a look at the following resources:
+- SCE DERIM: https://sce.com/derim — export as GeoJSON, save as `pipeline/sce_ica_export.geojson`
+- PG&E GRIP: https://www.pge.com/en/about/doing-business-with-pge/interconnections/distributed-resource-planning-data-and-maps.html — save as `pipeline/pge_ica_export.geojson`
+- SDG&E: SDG&E data portal — save as `pipeline/sdge_ica_export.geojson`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Next.js app (reads static files) ← /public/data/ ← Python pipeline (runs weekly via GitHub Actions)
 
-## Deploy on Vercel
+Pipeline: gridstatus → queue_raw.json → geocode via HIFLD → queue_projects.geojson
+                     → county_summary.json + iso_summary.json
+CA ICA manual exports → ica_circuits.geojson
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Environment variables
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+No API tokens required. This project uses only free, open data sources.
+
+## GitHub Actions setup
+
+Add `VERCEL_DEPLOY_HOOK` as a repository secret to trigger redeployment after each data refresh.
