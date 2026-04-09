@@ -150,7 +150,7 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
         const geojson = topojson.feature(
           topo,
           topo.objects.counties
-        ) as GeoJSON.FeatureCollection
+        ) as unknown as GeoJSON.FeatureCollection
 
         const layer = L.geoJSON(geojson, {
           style: (feature) => {
@@ -186,7 +186,7 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
     circuits.clearLayers()
 
     icaCircuits.features.forEach(feat => {
-      const p = feat.properties as CircuitFeature
+      const p = feat.properties as unknown as CircuitFeature
       const color = getCircuitColor(p.net_mw, p.has_queue_data, filters.threshold)
       const weight = getCircuitWeight(p.voltage_kv)
       const isDashed = !p.net_mw || p.net_mw < 0.1
@@ -246,7 +246,7 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
         : null
 
       queueProjects.features.forEach(feat => {
-        const p = feat.properties as QueueProject
+        const p = feat.properties as unknown as QueueProject
         const coords = (feat.geometry as GeoJSON.Point).coordinates
 
         if (!filters.fuels.includes(p.fuel)) return

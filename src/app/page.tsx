@@ -5,8 +5,14 @@ import TopBar from '@/components/topbar/TopBar'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { useMapData } from '@/hooks/useMapData'
 import { useMapFilters } from '@/hooks/useMapFilters'
-import { getCircuitState } from '@/lib/leaflet-utils'
 import type { GridMapHandle } from '@/components/map/GridMap'
+
+function getCircuitState(net_mw: number, has_queue_data: boolean, threshold: number): string {
+  if (net_mw === undefined || net_mw === null) return 'no_data'
+  if (net_mw < 0.1) return 'constrained'
+  if (net_mw >= threshold) return has_queue_data ? 'open_contested' : 'open'
+  return has_queue_data ? 'tight_contested' : 'tight'
+}
 
 // Dynamic import to avoid SSR — Leaflet requires window
 const GridMap = dynamic(() => import('@/components/map/GridMap'), {
