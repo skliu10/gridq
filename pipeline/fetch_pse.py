@@ -32,12 +32,20 @@ def normalize_date(val) -> str | None:
     try:
         return pd.to_datetime(val, dayfirst=False).strftime('%Y-%m-%d')
     except Exception:
+        print(f'  WARNING: could not parse date: {val!r}')
         return None
 
 
 def safe_str(val) -> str:
-    s = str(val).strip() if val else ''
-    return '' if s in ('None', 'nan', 'N/A') else s
+    if val is None:
+        return ''
+    try:
+        if pd.isna(val):
+            return ''
+    except (TypeError, ValueError):
+        pass
+    s = str(val).strip()
+    return '' if s in ('None', 'nan', 'NaT', '<NA>', 'N/A') else s
 
 
 def fetch_pse() -> list[dict]:
@@ -70,15 +78,15 @@ def fetch_pse() -> list[dict]:
             continue
         data = dict(zip(headers, cells))
 
-        name = (data.get('Project Name') or data.get('Name') or '').strip()
-        mw_str = (data.get('Capacity (MW)') or data.get('MW') or data.get('Capacity') or '0').replace(',', '')
-        fuel_raw = (data.get('Fuel Type') or data.get('Fuel') or data.get('Generation Type') or '').strip()
-        county = (data.get('County') or '').strip()
-        state = (data.get('State') or 'WA').strip()
-        poi = (data.get('Point of Interconnection') or data.get('POI') or '').strip()
+        name = safe_str(data.get('Project Name') or data.get('Name'))
+        mw_str = (data.get('Capacity (MW)') or data.get('MW') or data.get('Capacity') or '').replace(',', '')
+        fuel_raw = safe_str(data.get('Fuel Type') or data.get('Fuel') or data.get('Generation Type'))
+        county = safe_str(data.get('County'))
+        state = safe_str(data.get('State') or 'WA')  # PSE serves Washington state only
+        poi = safe_str(data.get('Point of Interconnection') or data.get('POI'))
         queue_date = normalize_date(data.get('Queue Date') or data.get('Application Date'))
         in_service = normalize_date(data.get('In-Service Date') or data.get('Proposed In-Service Date'))
-        status = (data.get('Status') or '').strip()
+        status = safe_str(data.get('Status'))
 
         try:
             capacity_mw = float(mw_str)
@@ -86,7 +94,7 @@ def fetch_pse() -> list[dict]:
             capacity_mw = None
 
         projects.append({
-            'queue_id':        f'PSE-{i+1:04d}',
+            'queue_id':        f'PSE-{len(projects)+1:04d}',
             'project_name':    name,
             'iso':             'PSE',
             'fuel_normalized': PSE_FUEL_MAP.get(fuel_raw, 'other'),
