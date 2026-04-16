@@ -8,6 +8,8 @@ export const ISO_COLORS: Record<string, string> = {
   ISONE: '#0f7a5a',
   NYISO: '#4a4ab0',
   SPP:   '#2a7a2a',
+  BPA: '#7C3AED',
+  PSE: '#0EA5E9',
 }
 
 export const ISO_BOUNDS: Record<string, [[number, number], [number, number]]> = {
@@ -18,6 +20,8 @@ export const ISO_BOUNDS: Record<string, [[number, number], [number, number]]> = 
   ISONE: [[41.0, -73.7], [47.5, -66.9]],
   NYISO: [[40.4, -79.8], [45.1, -71.8]],
   SPP:   [[28.0, -103.0],[45.5, -88.0]],
+  BPA: [[41.9, -124.7], [49.1, -104.0]],
+  PSE: [[46.8, -122.5], [48.8, -120.3]],
 }
 
 export const FUEL_COLORS: Record<FuelType, string> = {
