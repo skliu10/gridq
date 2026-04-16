@@ -11,11 +11,14 @@ print(f"\n{'='*50}\nFetching ISO queues\n{'='*50}")
 result = subprocess.run(['python3', 'pipeline/fetch_queues.py'], capture_output=False, text=True)
 iso_ok = result.returncode == 0
 if not iso_ok:
-    print('WARNING: ISO fetch failed')
+    print('WARNING: ISO fetch failed — continuing with existing queue_raw.json data')
+# Geocoding and county summary run regardless so non-ISO data still gets processed
 
 # ── 2. Non-ISO queues ─────────────────────────────────────────────────────────
 print(f"\n{'='*50}\nFetching non-ISO queues\n{'='*50}")
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
+_pipeline_dir = os.path.dirname(os.path.abspath(__file__))
+if _pipeline_dir not in sys.path:
+    sys.path.insert(0, _pipeline_dir)
 from fetch_bpa import fetch_bpa
 from fetch_pse import fetch_pse
 from merge_non_iso import merge_into_queue
@@ -24,6 +27,8 @@ non_iso_projects = []
 for name, fetcher in [('BPA', fetch_bpa), ('PSE', fetch_pse)]:
     try:
         projects = fetcher()
+        if not projects:
+            print(f'WARNING: {name} returned 0 projects — stale data (if any) will be preserved')
         non_iso_projects.extend(projects)
     except Exception as e:
         print(f'WARNING: {name} fetch failed — {e}')

@@ -14,8 +14,15 @@ def merge_into_queue(new_projects: list[dict], queue_path: str = 'public/data/qu
 
     existing = []
     if os.path.exists(queue_path):
-        with open(queue_path) as f:
-            existing = json.load(f)
+        try:
+            with open(queue_path) as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                existing = data
+            else:
+                print(f'  WARNING: {queue_path} is not a list — starting fresh for non-ISO sources')
+        except (json.JSONDecodeError, OSError) as e:
+            print(f'  WARNING: could not read {queue_path}: {e} — starting fresh for non-ISO sources')
 
     # Remove old entries for these ISOs (full refresh per source)
     isos_in_new = {p['iso'] for p in new_projects}
@@ -23,6 +30,6 @@ def merge_into_queue(new_projects: list[dict], queue_path: str = 'public/data/qu
     merged = kept + new_projects
 
     with open(queue_path, 'w') as f:
-        json.dump(merged, f)
+        json.dump(merged, f, indent=2)
 
     print(f'  Merged {len(new_projects)} non-ISO projects ({", ".join(sorted(isos_in_new))}) → {len(merged)} total in {queue_path}')
