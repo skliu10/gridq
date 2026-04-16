@@ -7,6 +7,8 @@ Returns a list of project dicts matching the queue_raw.json schema.
 import requests
 import pandas as pd
 from io import BytesIO
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 BPA_URL = 'https://bpa.gov/-/media/Aep/transmission-media-documents/InterconnectionQueueOutput.xlsx'
 
@@ -28,24 +30,39 @@ def normalize_date(val) -> str | None:
     if val is None or (isinstance(val, float) and pd.isna(val)):
         return None
     try:
-        return pd.to_datetime(val).strftime('%Y-%m-%d')
+        return pd.to_datetime(val, dayfirst=False).strftime('%Y-%m-%d')
     except Exception:
+        print(f'  WARNING: could not parse date: {val!r}')
         return None
 
 
 def safe_str(val) -> str:
-    if val is None or (isinstance(val, float) and pd.isna(val)):
+    if val is None:
         return ''
+    try:
+        if pd.isna(val):
+            return ''
+    except (TypeError, ValueError):
+        pass
     s = str(val).strip()
-    return '' if s in ('None', 'nan', 'NaT') else s
+    return '' if s in ('None', 'nan', 'NaT', '<NA>') else s
 
 
 def fetch_bpa() -> list[dict]:
     print('Fetching BPA queue...')
-    resp = requests.get(BPA_URL, timeout=60)
+    session = requests.Session()
+    retry = Retry(total=3, backoff_factor=2, status_forcelist=[500, 502, 503, 504])
+    session.mount('https://', HTTPAdapter(max_retries=retry))
+    resp = session.get(BPA_URL, timeout=60)
     resp.raise_for_status()
 
     df = pd.read_excel(BytesIO(resp.content), sheet_name='Sheet1', header=4)
+
+    REQUIRED_COLUMNS = {'Request Number', 'MW Total', 'Fuel Source\n1', 'Status'}
+    missing = REQUIRED_COLUMNS - set(df.columns)
+    if missing:
+        raise ValueError(f'BPA sheet is missing expected columns: {missing}')
+
     print(f'  BPA: {len(df)} rows downloaded')
 
     projects = []
@@ -55,6 +72,7 @@ def fetch_bpa() -> list[dict]:
             continue
 
         connection_type = safe_str(row.get('Connection Type'))
+        # BPA Excel header contains a literal newline: "Fuel Source\n1" — pandas preserves it
         fuel_source = safe_str(row.get('Fuel Source\n1'))
 
         # Load connections override fuel type
@@ -65,9 +83,9 @@ def fetch_bpa() -> list[dict]:
 
         mw = row.get('MW Total')
         try:
-            capacity_mw = float(mw) if pd.notna(mw) else 0.0
+            capacity_mw = float(mw) if pd.notna(mw) else None
         except (ValueError, TypeError):
-            capacity_mw = 0.0
+            capacity_mw = None
 
         projects.append({
             'queue_id':        f'BPA-{queue_id}',
