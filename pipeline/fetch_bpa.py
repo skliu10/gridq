@@ -107,5 +107,5 @@ def fetch_bpa() -> list[dict]:
 
 if __name__ == '__main__':
     projects = fetch_bpa()
-    mw = sum(p['capacity_mw'] for p in projects)
+    mw = sum(p['capacity_mw'] for p in projects if p['capacity_mw'] is not None)
     print(f'Total BPA capacity: {mw/1000:.1f} GW across {len(projects)} projects')
