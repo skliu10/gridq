@@ -9,7 +9,6 @@ steps = [
   ('Fetching ISO queues',     ['python3', 'pipeline/fetch_queues.py']),
   ('Geocoding substations',   ['python3', 'pipeline/geocode_substations.py']),
   ('Building county summary', ['python3', 'pipeline/build_county_summary.py']),
-  ('Processing CA ICA',       ['python3', 'pipeline/fetch_ica_california.py']),
 ]
 
 results = {}
@@ -30,15 +29,12 @@ def safe_count(path, key='features'):
 
 q = safe_count('public/data/queue_raw.json')
 g = safe_count('public/data/queue_projects.geojson')
-c = safe_count('public/data/ica_circuits.geojson')
 
 meta = {
   'queue_fetched_at': datetime.now(timezone.utc).isoformat(),
-  'ica_fetched_at': datetime.now(timezone.utc).isoformat(),
   'queue_project_count': q,
   'geocoded_count': g,
   'geocoded_pct': round(100*g/q) if q else 0,
-  'circuit_count': c,
   'pipeline_results': results,
 }
 with open('public/data/meta.json','w') as f:
@@ -47,4 +43,3 @@ with open('public/data/meta.json','w') as f:
 print(f"\n{'='*50}\nPipeline complete")
 print(f"Queue projects: {q}")
 print(f"Geocoded: {g} ({meta['geocoded_pct']}%)")
-print(f"Circuits: {c}")
