@@ -48,9 +48,10 @@ export function useMapData(): MapData {
 
         let isoBoundaries: GeoJSONFeatureCollection | null = null
         try {
-          isoBoundaries = await fetch('/data/iso_boundaries.geojson').then(r => r.json())
+          const r = await fetch('/data/iso_boundaries.geojson')
+          if (r.ok) isoBoundaries = await r.json()
         } catch {
-          console.warn('iso_boundaries.geojson not found — download from EIA Atlas')
+          // optional file — state-polygon fallback is used when absent
         }
 
         setData({

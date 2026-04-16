@@ -61,10 +61,10 @@ export function getISOStyle(isoName: string): L.PathOptions {
   const color = ISO_COLORS[isoName] ?? '#888888'
   return {
     color,
-    weight: 1.5,
-    opacity: 0.35,
+    weight: 2,
+    opacity: 0.8,
     fillColor: color,
-    fillOpacity: 0.06,
+    fillOpacity: 0.12,
   }
 }
 

@@ -6,6 +6,7 @@ export type FuelType =
   | 'gas'
   | 'nuclear'
   | 'hydro'
+  | 'load'
   | 'other'
 
 export type CircuitState =
@@ -69,9 +70,7 @@ export interface AppMeta {
 }
 
 export interface MapFilters {
-  threshold: number
   minMW: number
-  showActive: boolean
   showWithdrawn: boolean
   fuels: FuelType[]
   showQueueDots: boolean

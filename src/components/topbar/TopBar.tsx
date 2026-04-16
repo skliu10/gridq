@@ -26,7 +26,7 @@ export default function TopBar({ onISOSelect, activeISO, meta }: Props) {
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
           <path d="M10 2L4 10h5l-1 6 6-8h-5l1-6z" fill="#1D9E75" stroke="#1D9E75" strokeWidth="0.5" strokeLinejoin="round"/>
         </svg>
-        <span className="text-[13px] font-medium text-gray-900">GridCapacity</span>
+        <span className="text-[13px] font-medium text-gray-900">GridQ</span>
       </div>
 
       {/* ISO pills */}

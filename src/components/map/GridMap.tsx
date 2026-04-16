@@ -4,18 +4,14 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet.markercluster/dist/MarkerCluster.css'
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
-import { MapFilters, CountySummary, CircuitFeature, QueueProject } from '@/types'
-import { ISO_BOUNDS } from '@/lib/constants'
+import { MapFilters, CountySummary, QueueProject } from '@/types'
+import { ISO_BOUNDS, STATE_FIPS_TO_ISO } from '@/lib/constants'
 import {
-  getCircuitColor,
-  getCircuitWeight,
-  getCircuitState,
   getCountyColor,
   getISOStyle,
   createQueueMarker,
 } from '@/lib/leaflet-utils'
 import { renderPopupContent } from '@/lib/render-popup'
-import CircuitPopup from '@/components/popups/CircuitPopup'
 import QueueProjectPopup from '@/components/popups/QueueProjectPopup'
 import CountyPopup from '@/components/popups/CountyPopup'
 import ISOPopup from '@/components/popups/ISOPopup'
@@ -28,15 +24,13 @@ export interface GridMapHandle {
 interface Props {
   filters: MapFilters
   queueProjects: GeoJSONFeatureCollection | null
-  icaCircuits: GeoJSONFeatureCollection | null
   countySummary: CountySummary[]
   isoBoundaries: GeoJSONFeatureCollection | null
   isoSummary: ISOSummary[]
-  onZoomChange?: (zoom: number) => void
 }
 
 const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
-  { filters, queueProjects, icaCircuits, countySummary, isoBoundaries, isoSummary, onZoomChange },
+  { filters, queueProjects, countySummary, isoBoundaries, isoSummary },
   ref
 ) {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -44,7 +38,6 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
   const layerRefs = useRef<{
     iso: L.LayerGroup
     county: L.LayerGroup
-    circuits: L.LayerGroup
     queueDots: L.LayerGroup
   } | null>(null)
 
@@ -66,13 +59,11 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
 
     const iso = L.layerGroup().addTo(map)
     const county = L.layerGroup().addTo(map)
-    const circuits = L.layerGroup().addTo(map)
     const queueDots = L.layerGroup().addTo(map)
-    layerRefs.current = { iso, county, circuits, queueDots }
+    layerRefs.current = { iso, county, queueDots }
 
     map.on('zoomend', () => {
       const z = map.getZoom()
-      onZoomChange?.(z)
       const countyOpacity = z >= 11 ? 0 : z >= 10 ? 0.4 : 1
       county.eachLayer(l => {
         if (l instanceof L.Path) l.setStyle({ fillOpacity: countyOpacity * 0.5 })
@@ -106,15 +97,47 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
     if (!filters.showISOBorders) return
 
     if (!isoBoundaries) {
-      Object.entries(ISO_BOUNDS).forEach(([name, bounds]) => {
-        const rect = L.rectangle(bounds, getISOStyle(name))
-        rect.bindTooltip(name, { permanent: true, direction: 'center', className: 'iso-label-tooltip' })
-        const summary = isoSummary.find(s => s.iso === name)
-        if (summary) {
-          rect.bindPopup(renderPopupContent(ISOPopup, { isoSummary: summary, isoName: name }))
-        }
-        iso.addLayer(rect)
-      })
+      // Build ISO boundaries from us-atlas state polygons
+      fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json')
+        .then(r => r.json())
+        .then(async (topo) => {
+          const topojson = await import('topojson-client')
+          const geojson = topojson.feature(topo, topo.objects.states) as unknown as GeoJSON.FeatureCollection
+
+          // Group state features by ISO
+          const isoFeatureMap: Record<string, GeoJSON.Feature[]> = {}
+          geojson.features.forEach(feat => {
+            const fips = String(feat.id ?? '').padStart(2, '0')
+            const isoName = STATE_FIPS_TO_ISO[fips]
+            if (!isoName) return
+            if (!isoFeatureMap[isoName]) isoFeatureMap[isoName] = []
+            isoFeatureMap[isoName].push(feat)
+          })
+
+          Object.entries(isoFeatureMap).forEach(([isoName, features]) => {
+            const summary = isoSummary.find(s => s.iso === isoName)
+            const layer = L.geoJSON(features, {
+              style: () => getISOStyle(isoName),
+              onEachFeature: (_feat, l) => {
+                if (summary) {
+                  l.bindPopup(renderPopupContent(ISOPopup, { isoSummary: summary, isoName }))
+                }
+              },
+            })
+            layer.bindTooltip(isoName, { sticky: true, className: 'iso-label-tooltip' })
+            iso.addLayer(layer)
+          })
+        })
+        .catch(() => {
+          // Last-resort fallback: labeled bounding rectangles
+          Object.entries(ISO_BOUNDS).forEach(([name, bounds]) => {
+            const rect = L.rectangle(bounds, getISOStyle(name))
+            rect.bindTooltip(name, { permanent: true, direction: 'center', className: 'iso-label-tooltip' })
+            const summary = isoSummary.find(s => s.iso === name)
+            if (summary) rect.bindPopup(renderPopupContent(ISOPopup, { isoSummary: summary, isoName: name }))
+            iso.addLayer(rect)
+          })
+        })
       return
     }
 
@@ -179,41 +202,6 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
       .catch(err => console.warn('Failed to load county TopoJSON:', err))
   }, [countySummary])
 
-  // ICA circuits layer
-  useEffect(() => {
-    if (!layerRefs.current || !icaCircuits) return
-    const { circuits } = layerRefs.current
-    circuits.clearLayers()
-
-    icaCircuits.features.forEach(feat => {
-      const p = feat.properties as unknown as CircuitFeature
-      const color = getCircuitColor(p.net_mw, p.has_queue_data, filters.threshold)
-      const weight = getCircuitWeight(p.voltage_kv)
-      const isDashed = !p.net_mw || p.net_mw < 0.1
-
-      const line = L.geoJSON(feat as GeoJSON.Feature, {
-        style: {
-          color,
-          weight,
-          opacity: 0.9,
-          dashArray: isDashed ? '6 4' : undefined,
-          lineCap: 'round',
-          lineJoin: 'round',
-        },
-      })
-
-      line.on('mouseover', () => {
-        line.setStyle({ weight: weight + 2, color: '#ffffff', opacity: 1 })
-        line.bindPopup(renderPopupContent(CircuitPopup, { ...p })).openPopup()
-      })
-      line.on('mouseout', () => {
-        line.setStyle({ weight, color, opacity: 0.9 })
-      })
-
-      circuits.addLayer(line)
-    })
-  }, [icaCircuits, filters.threshold])
-
   // Queue dots layer
   useEffect(() => {
     if (!layerRefs.current || !queueProjects) return
@@ -251,10 +239,8 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
 
         if (!filters.fuels.includes(p.fuel)) return
         if (p.mw < filters.minMW) return
-        const upper = (p.status ?? '').toUpperCase()
-        const isActive = upper === 'ACTIVE' || upper === 'IN SERVICE' || upper === 'OPERATIONAL'
-        if (filters.showActive && !filters.showWithdrawn && !isActive) return
-        if (!filters.showActive && filters.showWithdrawn && isActive) return
+        const isWithdrawn = (p.status ?? '').toUpperCase() === 'WITHDRAWN'
+        if (!filters.showWithdrawn && isWithdrawn) return
         if (cutoffDate && p.cod) {
           const cod = new Date(p.cod)
           if (!isNaN(cod.getTime()) && cod > cutoffDate) return
@@ -269,7 +255,7 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
 
       queueDots.addLayer(cluster)
     })
-  }, [queueProjects, filters.showQueueDots, filters.fuels, filters.minMW, filters.showActive, filters.showWithdrawn, filters.codFilter])
+  }, [queueProjects, filters.showQueueDots, filters.fuels, filters.minMW, filters.showWithdrawn, filters.codFilter])
 
   return (
     <div className="relative w-full h-full">
@@ -286,12 +272,14 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
         .leaflet-popup-content-wrapper {
           border-radius: 10px;
           padding: 0;
-          overflow: hidden;
+          overflow: visible;
           box-shadow: 0 2px 8px rgba(0,0,0,0.08);
           border: 1px solid #e5e7eb;
         }
         .leaflet-popup-content {
           margin: 0;
+          overflow: hidden;
+          border-radius: 10px;
         }
         .leaflet-popup-tip-container {
           display: none;

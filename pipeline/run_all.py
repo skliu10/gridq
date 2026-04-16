@@ -6,10 +6,10 @@ from datetime import datetime, timezone
 os.makedirs('public/data', exist_ok=True)
 
 steps = [
-  ('Fetching ISO queues',     ['python', 'pipeline/fetch_queues.py']),
-  ('Geocoding substations',   ['python', 'pipeline/geocode_substations.py']),
-  ('Building county summary', ['python', 'pipeline/build_county_summary.py']),
-  ('Processing CA ICA',       ['python', 'pipeline/fetch_ica_california.py']),
+  ('Fetching ISO queues',     ['python3', 'pipeline/fetch_queues.py']),
+  ('Geocoding substations',   ['python3', 'pipeline/geocode_substations.py']),
+  ('Building county summary', ['python3', 'pipeline/build_county_summary.py']),
+  ('Processing CA ICA',       ['python3', 'pipeline/fetch_ica_california.py']),
 ]
 
 results = {}

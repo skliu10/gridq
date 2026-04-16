@@ -1,18 +1,11 @@
 'use client'
-import { useRef, useState, useCallback, useMemo } from 'react'
+import React, { useRef, useCallback, useMemo } from 'react'
 import dynamic from 'next/dynamic'
 import TopBar from '@/components/topbar/TopBar'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { useMapData } from '@/hooks/useMapData'
 import { useMapFilters } from '@/hooks/useMapFilters'
 import type { GridMapHandle } from '@/components/map/GridMap'
-
-function getCircuitState(net_mw: number, has_queue_data: boolean, threshold: number): string {
-  if (net_mw === undefined || net_mw === null) return 'no_data'
-  if (net_mw < 0.1) return 'constrained'
-  if (net_mw >= threshold) return has_queue_data ? 'open_contested' : 'open'
-  return has_queue_data ? 'tight_contested' : 'tight'
-}
 
 // Dynamic import to avoid SSR — Leaflet requires window
 const GridMap = dynamic(() => import('@/components/map/GridMap'), {
@@ -26,17 +19,16 @@ const GridMap = dynamic(() => import('@/components/map/GridMap'), {
 
 export default function Home() {
   const mapRef = useRef<GridMapHandle>(null)
-  const [currentZoom, setCurrentZoom] = useState(4)
-  const [activeISO, setActiveISO] = useState<string | null>(null)
+  const [activeISO, setActiveISO] = React.useState<string | null>(null)
 
   const {
     queueProjects, countySummary, isoSummary,
-    icaCircuits, isoBoundaries, meta, loading
+    isoBoundaries, meta, loading
   } = useMapData()
 
   const {
-    filters, setThreshold, setMinMW, toggleFuel,
-    setShowActive, setShowWithdrawn, setShowQueueDots,
+    filters, setMinMW, toggleFuel,
+    setShowWithdrawn, setShowQueueDots,
     setShowISOBorders, setCodFilter,
   } = useMapFilters()
 
@@ -46,32 +38,37 @@ export default function Home() {
   }, [])
 
   const stats = useMemo(() => {
-    const counts = { open: 0, open_contested: 0, tight: 0, tight_contested: 0, constrained: 0 }
-    if (icaCircuits) {
-      icaCircuits.features.forEach(f => {
-        const p = f.properties as { net_mw: number; has_queue_data: boolean }
-        const state = getCircuitState(p.net_mw, p.has_queue_data, filters.threshold)
-        if (state in counts) counts[state as keyof typeof counts]++
-      })
-    }
+    const cutoffDate = filters.codFilter !== 'all'
+      ? new Date(new Date().setFullYear(
+          new Date().getFullYear() + (filters.codFilter === '2yr' ? 2 : 5)
+        ))
+      : null
+
     let totalQueueProjects = 0
     let totalQueueMW = 0
+    const byFuel: Record<string, { count: number; mw: number }> = {}
+
     if (queueProjects) {
       queueProjects.features.forEach(f => {
-        const p = f.properties as { mw: number; status: string; fuel: string }
-        const upper = (p.status ?? '').toUpperCase()
-        const isActive = upper === 'ACTIVE' || upper === 'IN SERVICE'
-        if (filters.showActive && isActive) {
-          totalQueueProjects++
-          totalQueueMW += p.mw ?? 0
+        const p = f.properties as { mw: number; status: string; fuel: string; cod: string }
+        if (!filters.fuels.includes(p.fuel as import('@/types').FuelType)) return
+        if ((p.mw ?? 0) < filters.minMW) return
+        if (cutoffDate && p.cod) {
+          const cod = new Date(p.cod)
+          if (!isNaN(cod.getTime()) && cod > cutoffDate) return
         }
-        if (filters.showWithdrawn && !isActive) {
-          totalQueueProjects++
-        }
+        const isWithdrawn = (p.status ?? '').toUpperCase() === 'WITHDRAWN'
+        if (!filters.showWithdrawn && isWithdrawn) return
+        totalQueueProjects++
+        totalQueueMW += p.mw ?? 0
+        const fuel = p.fuel || 'other'
+        if (!byFuel[fuel]) byFuel[fuel] = { count: 0, mw: 0 }
+        byFuel[fuel].count++
+        byFuel[fuel].mw += p.mw ?? 0
       })
     }
-    return { ...counts, totalQueueProjects, totalQueueMW }
-  }, [icaCircuits, queueProjects, filters.threshold, filters.showActive, filters.showWithdrawn])
+    return { totalQueueProjects, totalQueueMW, byFuel }
+  }, [queueProjects, filters.showWithdrawn, filters.fuels, filters.minMW, filters.codFilter])
 
   return (
     <div className="flex flex-col h-screen overflow-hidden">
@@ -83,16 +80,13 @@ export default function Home() {
       <div className="flex flex-1 min-h-0">
         <Sidebar
           filters={filters}
-          setThreshold={setThreshold}
           setMinMW={setMinMW}
           toggleFuel={toggleFuel}
-          setShowActive={setShowActive}
           setShowWithdrawn={setShowWithdrawn}
           setShowQueueDots={setShowQueueDots}
           setShowISOBorders={setShowISOBorders}
           setCodFilter={setCodFilter}
           stats={stats}
-          currentZoom={currentZoom}
         />
         {loading ? (
           <div className="flex-1 flex items-center justify-center bg-gray-50">
@@ -103,11 +97,9 @@ export default function Home() {
             ref={mapRef}
             filters={filters}
             queueProjects={queueProjects}
-            icaCircuits={icaCircuits}
             countySummary={countySummary}
             isoBoundaries={isoBoundaries}
             isoSummary={isoSummary}
-            onZoomChange={setCurrentZoom}
           />
         )}
       </div>

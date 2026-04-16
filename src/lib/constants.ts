@@ -28,17 +28,19 @@ export const FUEL_COLORS: Record<FuelType, string> = {
   gas:           '#EF4444',
   nuclear:       '#8B5CF6',
   hydro:         '#06B6D4',
+  load:          '#F97316',
   other:         '#6B7280',
 }
 
 export const FUEL_LABELS: Record<FuelType, string> = {
   solar:         'Solar',
-  storage:       'Battery storage',
+  storage:       'Battery',
   wind:          'Wind',
   offshore_wind: 'Offshore wind',
   gas:           'Gas',
   nuclear:       'Nuclear',
   hydro:         'Hydro',
+  load:          'Large load',
   other:         'Other',
 }
 
@@ -70,14 +72,31 @@ export const CIRCUIT_STATE_DESCRIPTIONS: Record<string, string> = {
 }
 
 export const DEFAULT_FILTERS: import('@/types').MapFilters = {
-  threshold: 2,
   minMW: 0,
-  showActive: true,
   showWithdrawn: false,
-  fuels: ['solar','storage','wind','offshore_wind','gas','nuclear','hydro','other'],
+  fuels: ['solar','storage','wind','offshore_wind','gas','nuclear','hydro','load','other'],
   showQueueDots: true,
   showISOBorders: true,
   codFilter: 'all',
+}
+
+// State FIPS → ISO mapping used to build approximate ISO boundaries from us-atlas states
+export const STATE_FIPS_TO_ISO: Record<string, string> = {
+  '06': 'CAISO',                                       // California
+  '48': 'ERCOT',                                       // Texas
+  '36': 'NYISO',                                       // New York
+  '09': 'ISONE', '23': 'ISONE', '25': 'ISONE',        // CT, ME, MA
+  '33': 'ISONE', '44': 'ISONE', '50': 'ISONE',        // NH, RI, VT
+  '10': 'PJM',   '11': 'PJM',   '18': 'PJM',          // DE, DC, IN
+  '21': 'PJM',   '24': 'PJM',   '26': 'PJM',          // KY, MD, MI
+  '34': 'PJM',   '37': 'PJM',   '39': 'PJM',          // NJ, NC, OH
+  '42': 'PJM',   '51': 'PJM',   '54': 'PJM',          // PA, VA, WV
+  '17': 'MISO',  '19': 'MISO',  '22': 'MISO',         // IL, IA, LA
+  '27': 'MISO',  '28': 'MISO',  '29': 'MISO',         // MN, MS, MO
+  '30': 'MISO',  '38': 'MISO',  '55': 'MISO',         // MT, ND, WI
+  '05': 'MISO',                                        // AR
+  '20': 'SPP',   '31': 'SPP',   '40': 'SPP',          // KS, NE, OK
+  '46': 'SPP',                                         // SD
 }
 
 export const COUNTY_COLOR_SCALE = [

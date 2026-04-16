@@ -1,5 +1,6 @@
 import { createElement } from 'react'
 import { createRoot } from 'react-dom/client'
+import { flushSync } from 'react-dom'
 import type { ComponentType } from 'react'
 
 export function renderPopupContent<P extends object>(
@@ -8,6 +9,8 @@ export function renderPopupContent<P extends object>(
 ): HTMLElement {
   const container = document.createElement('div')
   const root = createRoot(container)
-  root.render(createElement(Component, props))
+  flushSync(() => {
+    root.render(createElement(Component, props))
+  })
   return container
 }

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GridCapacity",
+  title: "GridQ",
   description: "US hosting capacity and interconnection queue map",
 };
 

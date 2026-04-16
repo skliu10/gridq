@@ -6,10 +6,6 @@ import { DEFAULT_FILTERS } from '@/lib/constants'
 export function useMapFilters() {
   const [filters, setFilters] = useState<MapFilters>(DEFAULT_FILTERS)
 
-  const setThreshold = useCallback((v: number) => {
-    setFilters(f => ({ ...f, threshold: v }))
-  }, [])
-
   const setMinMW = useCallback((v: number) => {
     setFilters(f => ({ ...f, minMW: v }))
   }, [])
@@ -23,16 +19,16 @@ export function useMapFilters() {
     }))
   }, [])
 
-  const setShowActive = useCallback((v: boolean) => {
-    setFilters(f => ({ ...f, showActive: v }))
-  }, [])
-
   const setShowWithdrawn = useCallback((v: boolean) => {
     setFilters(f => ({ ...f, showWithdrawn: v }))
   }, [])
 
   const setShowQueueDots = useCallback((v: boolean) => {
-    setFilters(f => ({ ...f, showQueueDots: v }))
+    setFilters(f => ({
+      ...f,
+      showQueueDots: v,
+      fuels: v ? DEFAULT_FILTERS.fuels : f.fuels,
+    }))
   }, [])
 
   const setShowISOBorders = useCallback((v: boolean) => {
@@ -45,10 +41,8 @@ export function useMapFilters() {
 
   return {
     filters,
-    setThreshold,
     setMinMW,
     toggleFuel,
-    setShowActive,
     setShowWithdrawn,
     setShowQueueDots,
     setShowISOBorders,
