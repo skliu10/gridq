@@ -7,13 +7,16 @@ on:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Install Python dependencies
-        run: pip install gridstatus pandas rapidfuzz requests
+        run: pip install -r pipeline/requirements.txt
       - name: Run pipeline
         run: python pipeline/run_all.py
       - name: Commit updated data
