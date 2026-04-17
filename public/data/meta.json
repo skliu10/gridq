@@ -1,14 +1,11 @@
 {
-  "queue_fetched_at": "2026-04-12T19:21:34.264871+00:00",
-  "ica_fetched_at": "2026-04-12T19:21:34.265062+00:00",
-  "queue_project_count": 14703,
-  "geocoded_count": 9131,
-  "geocoded_pct": 62,
-  "circuit_count": 0,
+  "queue_fetched_at": "2026-04-17T18:37:50.357014+00:00",
+  "queue_project_count": 14024,
+  "geocoded_count": 12548,
+  "geocoded_pct": 89,
   "pipeline_results": {
-    "Fetching ISO queues": true,
-    "Geocoding substations": true,
-    "Building county summary": true,
-    "Processing CA ICA": true
+    "iso_fetch": true,
+    "geocode": true,
+    "county_summary": true
   }
 }
