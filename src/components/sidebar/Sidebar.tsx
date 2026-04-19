@@ -118,8 +118,8 @@ export default function Sidebar({
 
         <div className="flex items-center justify-between">
           <div>
-            <span className="text-[11px] text-gray-600">Include withdrawn</span>
-            <p className="text-[10px] text-gray-400">Show projects that left the queue</p>
+            <span className="text-[11px] text-gray-600">Include inactive</span>
+            <p className="text-[10px] text-gray-400">Show withdrawn &amp; completed projects</p>
           </div>
           <button
             onClick={() => setShowWithdrawn(!filters.showWithdrawn)}

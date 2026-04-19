@@ -239,8 +239,9 @@ const GridMap = forwardRef<GridMapHandle, Props>(function GridMap(
 
         if (!filters.fuels.includes(p.fuel)) return
         if (p.mw < filters.minMW) return
-        const isWithdrawn = (p.status ?? '').toUpperCase() === 'WITHDRAWN'
-        if (!filters.showWithdrawn && isWithdrawn) return
+        const status = (p.status ?? '').toUpperCase()
+        const isInactive = status === 'WITHDRAWN' || status === 'COMPLETED' || status === 'DONE' || status === 'LEGACY: DONE'
+        if (!filters.showWithdrawn && isInactive) return
         if (cutoffDate && p.cod) {
           const cod = new Date(p.cod)
           if (!isNaN(cod.getTime()) && cod > cutoffDate) return
