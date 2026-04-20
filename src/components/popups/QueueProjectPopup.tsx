@@ -21,7 +21,8 @@ export default function QueueProjectPopup({ project }: Props) {
   const fuelColor = FUEL_COLORS[fuel] ?? FUEL_COLORS.other
   const fuelLabel = FUEL_LABELS[fuel] ?? fuel
   const upper = (status ?? '').toUpperCase()
-  const isActive = upper === 'ACTIVE' || upper === 'IN SERVICE' || upper === 'OPERATIONAL'
+  const isWithdrawnOrDone = upper === 'WITHDRAWN' || upper === 'COMPLETED' || upper === 'DONE'
+  const displayStatus = status || 'In Queue'
 
   return (
     <div className="min-w-[200px] p-3 text-sm bg-white">
@@ -50,12 +51,12 @@ export default function QueueProjectPopup({ project }: Props) {
       <div className="mb-2">
         <span
           className={`text-xs px-2 py-0.5 rounded-full font-medium ${
-            isActive
-              ? 'bg-green-100 text-green-800'
-              : 'bg-gray-100 text-gray-600'
+            isWithdrawnOrDone
+              ? 'bg-gray-100 text-gray-500'
+              : 'bg-green-100 text-green-800'
           }`}
         >
-          {status}
+          {displayStatus}
         </span>
       </div>
 
