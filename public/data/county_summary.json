@@ -5461,16 +5461,6 @@
   },
   {
     "state":"NE",
-    "county":"Orleans",
-    "total_mw":215.0,
-    "project_count":1,
-    "solar":215.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
     "county":"Perkins",
     "total_mw":120.0,
     "project_count":1,
@@ -6877,16 +6867,6 @@
     "solar":130.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Terry & Hockley",
-    "total_mw":352.5,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":352.5,
     "gas":0.0
   },
   {
