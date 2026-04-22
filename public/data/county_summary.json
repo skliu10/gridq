@@ -792,10 +792,10 @@
   {
     "state":"CA",
     "county":"KERN",
-    "total_mw":11991.98,
-    "project_count":50,
+    "total_mw":11691.98,
+    "project_count":48,
     "solar":8979.98,
-    "storage":1565.0,
+    "storage":1265.0,
     "wind":220.0,
     "gas":35.0
   },
@@ -2767,16 +2767,6 @@
     "solar":175.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Hodgeman and Ford",
-    "total_mw":1003.2,
-    "project_count":3,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":1003.2,
     "gas":0.0
   },
   {
@@ -5192,9 +5182,9 @@
   {
     "state":"ND",
     "county":"Cass",
-    "total_mw":1081.0,
-    "project_count":4,
-    "solar":200.0,
+    "total_mw":881.0,
+    "project_count":3,
+    "solar":0.0,
     "storage":200.0,
     "wind":200.0,
     "gas":0.0
