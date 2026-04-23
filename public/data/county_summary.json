@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":21030.9,
-    "project_count":59,
+    "total_mw":21230.9,
+    "project_count":60,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -203,6 +203,16 @@
     "state":"",
     "county":"Linn",
     "total_mw":400.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Midland",
+    "total_mw":50.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -412,9 +422,9 @@
   {
     "state":"AR",
     "county":"Craighead",
-    "total_mw":800.0,
-    "project_count":3,
-    "solar":550.0,
+    "total_mw":950.0,
+    "project_count":4,
+    "solar":700.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -1672,11 +1682,11 @@
   {
     "state":"IL",
     "county":"Coles",
-    "total_mw":687.0,
-    "project_count":3,
+    "total_mw":887.3,
+    "project_count":4,
     "solar":287.0,
     "storage":100.0,
-    "wind":0.0,
+    "wind":200.3,
     "gas":0.0
   },
   {
@@ -1877,6 +1887,16 @@
     "solar":180.0,
     "storage":500.0,
     "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"IL",
+    "county":"Macoupin",
+    "total_mw":305.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":305.0,
     "gas":0.0
   },
   {
@@ -2412,11 +2432,11 @@
   {
     "state":"IN",
     "county":"Newton",
-    "total_mw":450.0,
-    "project_count":3,
+    "total_mw":725.0,
+    "project_count":4,
     "solar":100.0,
     "storage":50.0,
-    "wind":0.0,
+    "wind":275.0,
     "gas":0.0
   },
   {
@@ -2492,12 +2512,12 @@
   {
     "state":"IN",
     "county":"Sullivan",
-    "total_mw":3700.0,
-    "project_count":13,
+    "total_mw":4350.0,
+    "project_count":14,
     "solar":600.0,
     "storage":300.0,
     "wind":0.0,
-    "gas":1440.0
+    "gas":2090.0
   },
   {
     "state":"IN",
@@ -2765,6 +2785,16 @@
     "total_mw":175.0,
     "project_count":1,
     "solar":175.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"KS",
+    "county":"Jackson",
+    "total_mw":300.0,
+    "project_count":1,
+    "solar":300.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3582,10 +3612,10 @@
   {
     "state":"MI",
     "county":"Allegan",
-    "total_mw":620.0,
-    "project_count":3,
+    "total_mw":819.9,
+    "project_count":4,
     "solar":0.0,
-    "storage":450.0,
+    "storage":649.9,
     "wind":0.0,
     "gas":0.0
   },
@@ -3712,10 +3742,10 @@
   {
     "state":"MI",
     "county":"Genesee",
-    "total_mw":1225.4,
-    "project_count":3,
+    "total_mw":1425.4,
+    "project_count":4,
     "solar":0.0,
-    "storage":250.0,
+    "storage":450.0,
     "wind":0.0,
     "gas":975.4
   },
@@ -3922,10 +3952,10 @@
   {
     "state":"MI",
     "county":"Montcalm",
-    "total_mw":522.0,
-    "project_count":4,
+    "total_mw":747.0,
+    "project_count":5,
     "solar":132.0,
-    "storage":150.0,
+    "storage":375.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4062,20 +4092,20 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":1056.8,
-    "project_count":7,
+    "total_mw":1232.3,
+    "project_count":8,
     "solar":565.0,
     "storage":450.0,
-    "wind":41.8,
+    "wind":217.3,
     "gas":0.0
   },
   {
     "state":"MI",
     "county":"Van Buren",
-    "total_mw":1355.0,
-    "project_count":4,
+    "total_mw":1555.0,
+    "project_count":5,
     "solar":420.0,
-    "storage":200.0,
+    "storage":400.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4282,11 +4312,11 @@
   {
     "state":"MN",
     "county":"Lyon",
-    "total_mw":685.0,
-    "project_count":3,
+    "total_mw":935.0,
+    "project_count":4,
     "solar":235.0,
     "storage":250.0,
-    "wind":200.0,
+    "wind":450.0,
     "gas":0.0
   },
   {
@@ -4415,16 +4445,6 @@
     "total_mw":150.0,
     "project_count":1,
     "solar":150.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MN",
-    "county":"Ramsey",
-    "total_mw":16.0,
-    "project_count":1,
-    "solar":0.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -4702,20 +4722,20 @@
   {
     "state":"MO",
     "county":"Jackson",
-    "total_mw":649.0,
-    "project_count":3,
+    "total_mw":799.0,
+    "project_count":4,
     "solar":0.0,
-    "storage":649.0,
+    "storage":799.0,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"MO",
     "county":"Jasper",
-    "total_mw":100.0,
-    "project_count":1,
+    "total_mw":200.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":100.0,
+    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4942,10 +4962,10 @@
   {
     "state":"MS",
     "county":"DeSoto",
-    "total_mw":250.0,
-    "project_count":1,
+    "total_mw":350.0,
+    "project_count":2,
     "solar":250.0,
-    "storage":0.0,
+    "storage":100.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4992,8 +5012,8 @@
   {
     "state":"MS",
     "county":"Madison",
-    "total_mw":657.0,
-    "project_count":4,
+    "total_mw":827.0,
+    "project_count":5,
     "solar":357.0,
     "storage":300.0,
     "wind":0.0,
@@ -5182,9 +5202,9 @@
   {
     "state":"ND",
     "county":"Cass",
-    "total_mw":881.0,
-    "project_count":3,
-    "solar":0.0,
+    "total_mw":1081.0,
+    "project_count":4,
+    "solar":200.0,
     "storage":200.0,
     "wind":200.0,
     "gas":0.0
@@ -5402,12 +5422,22 @@
   {
     "state":"NE",
     "county":"Gage",
-    "total_mw":753.0,
-    "project_count":4,
+    "total_mw":1231.0,
+    "project_count":5,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":753.0
+    "gas":1231.0
+  },
+  {
+    "state":"NE",
+    "county":"Gage ",
+    "total_mw":239.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":239.0
   },
   {
     "state":"NE",
@@ -5422,12 +5452,12 @@
   {
     "state":"NE",
     "county":"Lancaster",
-    "total_mw":1362.0,
-    "project_count":5,
+    "total_mw":2057.0,
+    "project_count":7,
     "solar":0.0,
     "storage":370.0,
     "wind":0.0,
-    "gas":992.0
+    "gas":1470.0
   },
   {
     "state":"NE",
@@ -6041,10 +6071,20 @@
   },
   {
     "state":"OK",
+    "county":"LeFlore",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":200.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"OK",
     "county":"Lincoln",
-    "total_mw":479.0,
-    "project_count":3,
-    "solar":80.0,
+    "total_mw":670.0,
+    "project_count":4,
+    "solar":271.0,
     "storage":199.0,
     "wind":200.0,
     "gas":0.0
