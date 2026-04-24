@@ -1,8 +1,8 @@
 [
   {
     "iso":"CAISO",
-    "total_mw":86322.2334,
-    "project_count":308
+    "total_mw":86147.2334,
+    "project_count":306
   },
   {
     "iso":"ERCOT",
@@ -16,8 +16,8 @@
   },
   {
     "iso":"MISO",
-    "total_mw":220342.0,
-    "project_count":1044
+    "total_mw":220102.0,
+    "project_count":1042
   },
   {
     "iso":"SPP",

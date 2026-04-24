@@ -712,9 +712,9 @@
   {
     "state":"AZ",
     "county":"MARICOPA",
-    "total_mw":1245.0,
-    "project_count":6,
-    "solar":1245.0,
+    "total_mw":1120.0,
+    "project_count":5,
+    "solar":1120.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -942,10 +942,10 @@
   {
     "state":"CA",
     "county":"SAN DIEGO",
-    "total_mw":3626.11,
-    "project_count":19,
+    "total_mw":3576.11,
+    "project_count":18,
     "solar":110.0,
-    "storage":2522.31,
+    "storage":2472.31,
     "wind":993.8,
     "gas":0.0
   },
@@ -2282,8 +2282,8 @@
   {
     "state":"IN",
     "county":"Gibson",
-    "total_mw":500.0,
-    "project_count":3,
+    "total_mw":400.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -3662,9 +3662,9 @@
   {
     "state":"MI",
     "county":"Calhoun",
-    "total_mw":1254.0,
-    "project_count":6,
-    "solar":954.0,
+    "total_mw":1114.0,
+    "project_count":5,
+    "solar":814.0,
     "storage":300.0,
     "wind":0.0,
     "gas":0.0
