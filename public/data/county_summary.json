@@ -3,7 +3,7 @@
     "state":"",
     "county":"",
     "total_mw":21230.9,
-    "project_count":60,
+    "project_count":62,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -4092,10 +4092,10 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":1232.3,
-    "project_count":8,
+    "total_mw":1082.3,
+    "project_count":7,
     "solar":565.0,
-    "storage":450.0,
+    "storage":300.0,
     "wind":217.3,
     "gas":0.0
   },
@@ -4182,9 +4182,9 @@
   {
     "state":"MN",
     "county":"Clay",
-    "total_mw":920.0,
-    "project_count":3,
-    "solar":920.0,
+    "total_mw":490.0,
+    "project_count":2,
+    "solar":490.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -8872,12 +8872,12 @@
   {
     "state":"WI",
     "county":"Fond du Lac",
-    "total_mw":100.0,
-    "project_count":1,
+    "total_mw":625.0,
+    "project_count":2,
     "solar":0.0,
     "storage":100.0,
     "wind":0.0,
-    "gas":0.0
+    "gas":525.0
   },
   {
     "state":"WI",
@@ -9032,9 +9032,9 @@
   {
     "state":"WI",
     "county":"Portage",
-    "total_mw":1597.09,
-    "project_count":5,
-    "solar":1197.09,
+    "total_mw":400.0,
+    "project_count":2,
+    "solar":0.0,
     "storage":50.0,
     "wind":0.0,
     "gas":350.0
