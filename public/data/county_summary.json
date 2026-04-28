@@ -932,10 +932,10 @@
   {
     "state":"CA",
     "county":"SAN BERNARDINO",
-    "total_mw":4255.0,
-    "project_count":17,
+    "total_mw":3455.0,
+    "project_count":15,
     "solar":1655.0,
-    "storage":2600.0,
+    "storage":1800.0,
     "wind":0.0,
     "gas":0.0
   },
