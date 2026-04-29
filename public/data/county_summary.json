@@ -2002,11 +2002,11 @@
   {
     "state":"IL",
     "county":"Peoria",
-    "total_mw":1600.0,
-    "project_count":6,
+    "total_mw":2100.0,
+    "project_count":7,
     "solar":0.0,
     "storage":600.0,
-    "wind":1000.0,
+    "wind":1500.0,
     "gas":0.0
   },
   {
@@ -3022,11 +3022,11 @@
   {
     "state":"KS",
     "county":"Stevens",
-    "total_mw":400.0,
-    "project_count":2,
+    "total_mw":250.0,
+    "project_count":1,
     "solar":250.0,
     "storage":0.0,
-    "wind":150.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -4142,10 +4142,10 @@
   {
     "state":"MN",
     "county":"Benton",
-    "total_mw":699.0,
-    "project_count":4,
+    "total_mw":449.0,
+    "project_count":3,
     "solar":100.0,
-    "storage":350.0,
+    "storage":100.0,
     "wind":249.0,
     "gas":0.0
   },
@@ -4542,9 +4542,9 @@
   {
     "state":"MN",
     "county":"Yellow Medicine",
-    "total_mw":368.0,
-    "project_count":3,
-    "solar":293.0,
+    "total_mw":228.0,
+    "project_count":2,
+    "solar":153.0,
     "storage":75.0,
     "wind":0.0,
     "gas":0.0
@@ -5540,6 +5540,16 @@
     "gas":0.0
   },
   {
+    "state":"NJ",
+    "county":"Rockland",
+    "total_mw":30.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
     "state":"NM",
     "county":"Chaves",
     "total_mw":1059.0,
@@ -5681,6 +5691,16 @@
   },
   {
     "state":"NY",
+    "county":"Albany",
+    "total_mw":475.0,
+    "project_count":7,
+    "solar":0.0,
+    "storage":120.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
     "county":"Albany\/Dutchess",
     "total_mw":0.0,
     "project_count":1,
@@ -5691,11 +5711,351 @@
   },
   {
     "state":"NY",
-    "county":"Franklin",
-    "total_mw":150.0,
+    "county":"Allegany",
+    "total_mw":193.5,
+    "project_count":2,
+    "solar":93.5,
+    "storage":100.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Bronx",
+    "total_mw":760.0,
+    "project_count":5,
+    "solar":0.0,
+    "storage":760.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Brooklyn",
+    "total_mw":190.0,
     "project_count":1,
     "solar":0.0,
+    "storage":190.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Broome",
+    "total_mw":400.0,
+    "project_count":2,
+    "solar":0.0,
     "storage":150.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Cattaraugus",
+    "total_mw":434.1,
+    "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":434.1,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Cayuga",
+    "total_mw":385.0,
+    "project_count":5,
+    "solar":238.0,
+    "storage":0.0,
+    "wind":97.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Chautauqua",
+    "total_mw":930.9,
+    "project_count":7,
+    "solar":90.0,
+    "storage":420.0,
+    "wind":150.9,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Chemung",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":100.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Chenango",
+    "total_mw":140.8,
+    "project_count":2,
+    "solar":0.0,
+    "storage":40.0,
+    "wind":100.8,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Clinton",
+    "total_mw":225.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":225.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Columbia",
+    "total_mw":310.0,
+    "project_count":2,
+    "solar":60.0,
+    "storage":250.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Cortland",
+    "total_mw":90.0,
+    "project_count":1,
+    "solar":90.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Delaware",
+    "total_mw":135.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":135.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Dutchess",
+    "total_mw":2004.0,
+    "project_count":7,
+    "solar":0.0,
+    "storage":854.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Erie",
+    "total_mw":470.0,
+    "project_count":3,
+    "solar":0.0,
+    "storage":170.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Essex",
+    "total_mw":70.0,
+    "project_count":2,
+    "solar":20.0,
+    "storage":50.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Franklin",
+    "total_mw":950.0,
+    "project_count":6,
+    "solar":650.0,
+    "storage":300.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Franklin and Clinton",
+    "total_mw":760.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":760.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Genesee",
+    "total_mw":1826.0,
+    "project_count":8,
+    "solar":930.0,
+    "storage":0.0,
+    "wind":126.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Greene",
+    "total_mw":130.0,
+    "project_count":3,
+    "solar":130.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Herkimer",
+    "total_mw":600.0,
+    "project_count":7,
+    "solar":100.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Jefferson",
+    "total_mw":529.0,
+    "project_count":6,
+    "solar":509.0,
+    "storage":20.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Kings",
+    "total_mw":2672.9,
+    "project_count":7,
+    "solar":0.0,
+    "storage":546.9,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Lewis",
+    "total_mw":125.0,
+    "project_count":1,
+    "solar":125.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Livingston",
+    "total_mw":347.5,
+    "project_count":4,
+    "solar":347.5,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Madison",
+    "total_mw":241.8,
+    "project_count":3,
+    "solar":140.0,
+    "storage":0.0,
+    "wind":101.8,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Monroe",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":100.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Montgomery",
+    "total_mw":1090.5,
+    "project_count":8,
+    "solar":540.5,
+    "storage":200.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"NIAGARA FALLS",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Nassau, Queens, Bronx, Westchester",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Nassu",
+    "total_mw":1321.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"New York",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"New York County",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Niagara",
+    "total_mw":2125.2,
+    "project_count":11,
+    "solar":225.0,
+    "storage":510.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Oneida",
+    "total_mw":86.0,
+    "project_count":2,
+    "solar":20.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5711,11 +6071,191 @@
   },
   {
     "state":"NY",
+    "county":"Onondaga",
+    "total_mw":1568.0,
+    "project_count":5,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":162.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Orange",
+    "total_mw":750.0,
+    "project_count":6,
+    "solar":20.0,
+    "storage":700.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Orleans",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":200.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Oswego",
+    "total_mw":44.9,
+    "project_count":3,
+    "solar":24.9,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Quebec - New York",
+    "total_mw":1000.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Quebec-NY",
+    "total_mw":250.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Queens",
+    "total_mw":331.2,
+    "project_count":7,
+    "solar":0.0,
+    "storage":331.2,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
     "county":"Rensselaer",
-    "total_mw":320.0,
+    "total_mw":660.0,
+    "project_count":5,
+    "solar":60.0,
+    "storage":600.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Richmond",
+    "total_mw":544.0,
+    "project_count":5,
+    "solar":0.0,
+    "storage":544.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Rockland",
+    "total_mw":72.3,
+    "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Saratoga",
+    "total_mw":40.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Schenectady",
+    "total_mw":20.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Schoharie",
+    "total_mw":220.0,
     "project_count":2,
     "solar":20.0,
-    "storage":300.0,
+    "storage":200.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Schuyler",
+    "total_mw":150.0,
+    "project_count":3,
+    "solar":50.0,
+    "storage":0.0,
+    "wind":100.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Seneca",
+    "total_mw":169.8,
+    "project_count":2,
+    "solar":169.8,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Seneca, Ontario",
+    "total_mw":120.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":120.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"St Lawrence",
+    "total_mw":1183.0,
+    "project_count":4,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"St-Lawrence",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":200.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"St. Lawrence",
+    "total_mw":4063.1,
+    "project_count":11,
+    "solar":232.1,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5723,6 +6263,156 @@
     "state":"NY",
     "county":"St. Lawrence-Lewis",
     "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"St; Lawrence",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Steuben",
+    "total_mw":867.6,
+    "project_count":6,
+    "solar":20.0,
+    "storage":279.9,
+    "wind":437.7,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Suffolk",
+    "total_mw":2712.6,
+    "project_count":22,
+    "solar":36.0,
+    "storage":1576.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Suffolk County & Mastic City",
+    "total_mw":75.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":75.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Sullivan",
+    "total_mw":300.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Tioga",
+    "total_mw":220.0,
+    "project_count":2,
+    "solar":20.0,
+    "storage":200.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Tompkins",
+    "total_mw":710.0,
+    "project_count":6,
+    "solar":220.0,
+    "storage":240.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Ulster",
+    "total_mw":694.0,
+    "project_count":6,
+    "solar":0.0,
+    "storage":694.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Washington",
+    "total_mw":140.0,
+    "project_count":3,
+    "solar":140.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Westchester",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Westmoreland",
+    "total_mw":20.0,
+    "project_count":1,
+    "solar":20.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Wyoming",
+    "total_mw":340.0,
+    "project_count":3,
+    "solar":40.0,
+    "storage":300.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Wyoming\/Livingston",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Yates",
+    "total_mw":260.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"niagara falls",
+    "total_mw":200.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -6417,6 +7107,26 @@
     "solar":0.0,
     "storage":0.0,
     "wind":402.04,
+    "gas":0.0
+  },
+  {
+    "state":"PA",
+    "county":"Clearfield",
+    "total_mw":1226.6,
+    "project_count":4,
+    "solar":826.6,
+    "storage":400.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"PA",
+    "county":"McKean",
+    "total_mw":650.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
