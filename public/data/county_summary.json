@@ -1611,6 +1611,16 @@
   },
   {
     "state":"IL",
+    "county":"",
+    "total_mw":225.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":225.0,
+    "gas":0.0
+  },
+  {
+    "state":"IL",
     "county":"Adams",
     "total_mw":815.0,
     "project_count":6,
@@ -1712,9 +1722,9 @@
   {
     "state":"IL",
     "county":"Edgar",
-    "total_mw":775.0,
-    "project_count":4,
-    "solar":200.0,
+    "total_mw":916.23,
+    "project_count":5,
+    "solar":341.23,
     "storage":400.0,
     "wind":0.0,
     "gas":0.0
@@ -1782,9 +1792,9 @@
   {
     "state":"IL",
     "county":"Hamilton",
-    "total_mw":399.99,
-    "project_count":2,
-    "solar":0.0,
+    "total_mw":539.99,
+    "project_count":3,
+    "solar":140.0,
     "storage":200.0,
     "wind":199.99,
     "gas":0.0
@@ -1952,9 +1962,9 @@
   {
     "state":"IL",
     "county":"Mercer",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":0.0,
+    "total_mw":445.64,
+    "project_count":2,
+    "solar":195.64,
     "storage":0.0,
     "wind":250.0,
     "gas":0.0
@@ -2062,9 +2072,9 @@
   {
     "state":"IL",
     "county":"Sangamon",
-    "total_mw":864.9,
-    "project_count":6,
-    "solar":150.0,
+    "total_mw":1084.9,
+    "project_count":7,
+    "solar":370.0,
     "storage":499.9,
     "wind":0.0,
     "gas":0.0
