@@ -1790,7 +1790,7 @@
     "poi_name": "Imperial Valley Substation 230 kV",
     "state": "CA",
     "county": "IMPERIAL",
-    "proposed_cod": "2029-11-18",
+    "proposed_cod": "2027-01-18",
     "queue_date": 1555311600000
   },
   {
@@ -146896,7 +146896,7 @@
     "poi_name": "Hosston 69kV",
     "state": "LA",
     "county": "Caddo Parish",
-    "proposed_cod": "2025-02-28",
+    "proposed_cod": "2025-07-18",
     "queue_date": "5/30/2017"
   },
   {
@@ -181324,19 +181324,6 @@
     "queue_date": "2001-05-04"
   },
   {
-    "queue_id": "BPA-G52",
-    "project_name": "Pierce County Project No 2",
-    "iso": "BPA",
-    "fuel_normalized": "gas",
-    "capacity_mw": 170.0,
-    "status": "WITHDRAWN",
-    "poi_name": "South Tacoma 230 kV Substation",
-    "state": "WA",
-    "county": "Pierce",
-    "proposed_cod": "2003-01-01",
-    "queue_date": "2001-05-03"
-  },
-  {
     "queue_id": "BPA-G51",
     "project_name": "Pierce County Project No 1",
     "iso": "BPA",
@@ -181350,17 +181337,17 @@
     "queue_date": "2001-05-03"
   },
   {
-    "queue_id": "BPA-G48",
-    "project_name": "",
+    "queue_id": "BPA-G52",
+    "project_name": "Pierce County Project No 2",
     "iso": "BPA",
-    "fuel_normalized": "wind",
-    "capacity_mw": 150.0,
+    "fuel_normalized": "gas",
+    "capacity_mw": 170.0,
     "status": "WITHDRAWN",
-    "poi_name": "230 kV Big Eddy-Midway/ 500 kV Hanford-John Day line",
+    "poi_name": "South Tacoma 230 kV Substation",
     "state": "WA",
-    "county": "Benton",
-    "proposed_cod": "2002-11-15",
-    "queue_date": "2001-04-23"
+    "county": "Pierce",
+    "proposed_cod": "2003-01-01",
+    "queue_date": "2001-05-03"
   },
   {
     "queue_id": "BPA-G48-01",
@@ -181372,6 +181359,19 @@
     "poi_name": "230 kV Big Eddy-Midway/ 500 kV Hanford-John Day line",
     "state": "WA",
     "county": "BentoN",
+    "proposed_cod": "2002-11-15",
+    "queue_date": "2001-04-23"
+  },
+  {
+    "queue_id": "BPA-G48",
+    "project_name": "",
+    "iso": "BPA",
+    "fuel_normalized": "wind",
+    "capacity_mw": 150.0,
+    "status": "WITHDRAWN",
+    "poi_name": "230 kV Big Eddy-Midway/ 500 kV Hanford-John Day line",
+    "state": "WA",
+    "county": "Benton",
     "proposed_cod": "2002-11-15",
     "queue_date": "2001-04-23"
   },
@@ -181454,8 +181454,8 @@
     "queue_date": "2001-04-16"
   },
   {
-    "queue_id": "BPA-G44",
-    "project_name": "100MW Longview 1",
+    "queue_id": "BPA-G45",
+    "project_name": "100MW Longview 2",
     "iso": "BPA",
     "fuel_normalized": "gas",
     "capacity_mw": 100.0,
@@ -181467,8 +181467,8 @@
     "queue_date": "2001-04-11"
   },
   {
-    "queue_id": "BPA-G45",
-    "project_name": "100MW Longview 2",
+    "queue_id": "BPA-G44",
+    "project_name": "100MW Longview 1",
     "iso": "BPA",
     "fuel_normalized": "gas",
     "capacity_mw": 100.0,
@@ -181649,19 +181649,6 @@
     "queue_date": "2001-03-05"
   },
   {
-    "queue_id": "BPA-G31",
-    "project_name": "Pacific Winds Inc",
-    "iso": "BPA",
-    "fuel_normalized": "wind",
-    "capacity_mw": 100.0,
-    "status": "WITHDRAWN",
-    "poi_name": "230 kV Franklin-McNary line near Horse Heaven Hills",
-    "state": "WA",
-    "county": "Benton",
-    "proposed_cod": "2002-11-15",
-    "queue_date": "2001-03-01"
-  },
-  {
     "queue_id": "BPA-G30",
     "project_name": "Pacific Winds Inc",
     "iso": "BPA",
@@ -181669,6 +181656,19 @@
     "capacity_mw": 100.0,
     "status": "WITHDRAWN",
     "poi_name": "230 kV Hanford-Mabton transmission line near Rattlesnake Hills",
+    "state": "WA",
+    "county": "Benton",
+    "proposed_cod": "2002-11-15",
+    "queue_date": "2001-03-01"
+  },
+  {
+    "queue_id": "BPA-G31",
+    "project_name": "Pacific Winds Inc",
+    "iso": "BPA",
+    "fuel_normalized": "wind",
+    "capacity_mw": 100.0,
+    "status": "WITHDRAWN",
+    "poi_name": "230 kV Franklin-McNary line near Horse Heaven Hills",
     "state": "WA",
     "county": "Benton",
     "proposed_cod": "2002-11-15",
@@ -181753,19 +181753,6 @@
     "queue_date": "2001-02-15"
   },
   {
-    "queue_id": "BPA-G24",
-    "project_name": "500MW Custer-[Intalco,Portal Way] 1",
-    "iso": "BPA",
-    "fuel_normalized": "gas",
-    "capacity_mw": 500.0,
-    "status": "WITHDRAWN",
-    "poi_name": "Custer-Intalco/Portal Way 230 kV transmission line",
-    "state": "WA",
-    "county": "Whatcom",
-    "proposed_cod": "2005-06-01",
-    "queue_date": "2001-02-15"
-  },
-  {
     "queue_id": "BPA-G25",
     "project_name": "500MW Custer-[Intalco,Portal Way] 2",
     "iso": "BPA",
@@ -181776,6 +181763,19 @@
     "state": "WA",
     "county": "Whatcom",
     "proposed_cod": "2004-06-01",
+    "queue_date": "2001-02-15"
+  },
+  {
+    "queue_id": "BPA-G24",
+    "project_name": "500MW Custer-[Intalco,Portal Way] 1",
+    "iso": "BPA",
+    "fuel_normalized": "gas",
+    "capacity_mw": 500.0,
+    "status": "WITHDRAWN",
+    "poi_name": "Custer-Intalco/Portal Way 230 kV transmission line",
+    "state": "WA",
+    "county": "Whatcom",
+    "proposed_cod": "2005-06-01",
     "queue_date": "2001-02-15"
   },
   {
