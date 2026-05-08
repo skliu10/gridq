@@ -1822,11 +1822,11 @@
   {
     "state":"IL",
     "county":"Iroquois",
-    "total_mw":1631.11,
-    "project_count":7,
+    "total_mw":1777.77,
+    "project_count":8,
     "solar":588.9,
     "storage":0.0,
-    "wind":642.21,
+    "wind":788.87,
     "gas":0.0
   },
   {
@@ -1836,16 +1836,6 @@
     "project_count":3,
     "solar":497.0,
     "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
-    "county":"Jefferson",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2312,9 +2302,9 @@
   {
     "state":"IN",
     "county":"Knox",
-    "total_mw":740.0,
-    "project_count":6,
-    "solar":140.0,
+    "total_mw":900.0,
+    "project_count":7,
+    "solar":300.0,
     "storage":300.0,
     "wind":300.0,
     "gas":0.0
@@ -2492,12 +2482,12 @@
   {
     "state":"IN",
     "county":"Sullivan",
-    "total_mw":4350.0,
-    "project_count":14,
+    "total_mw":3050.0,
+    "project_count":9,
     "solar":600.0,
     "storage":300.0,
     "wind":0.0,
-    "gas":2090.0
+    "gas":1590.0
   },
   {
     "state":"IN",
@@ -4052,10 +4042,10 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":906.8,
-    "project_count":6,
+    "total_mw":1056.8,
+    "project_count":7,
     "solar":565.0,
-    "storage":300.0,
+    "storage":450.0,
     "wind":41.8,
     "gas":0.0
   },
@@ -4712,9 +4702,9 @@
   {
     "state":"MO",
     "county":"Macon",
-    "total_mw":208.43,
-    "project_count":1,
-    "solar":208.43,
+    "total_mw":508.43,
+    "project_count":2,
+    "solar":508.43,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -8862,9 +8852,9 @@
   {
     "state":"WI",
     "county":"Jefferson",
-    "total_mw":71.0,
-    "project_count":1,
-    "solar":71.0,
+    "total_mw":180.0,
+    "project_count":2,
+    "solar":180.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
