@@ -512,12 +512,12 @@
   {
     "state":"AR",
     "county":"Hot Spring",
-    "total_mw":875.0,
-    "project_count":2,
+    "total_mw":105.0,
+    "project_count":1,
     "solar":105.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":770.0
+    "gas":0.0
   },
   {
     "state":"AR",
@@ -2712,9 +2712,9 @@
   {
     "state":"KS",
     "county":"Coffey",
-    "total_mw":750.0,
-    "project_count":2,
-    "solar":750.0,
+    "total_mw":250.0,
+    "project_count":1,
+    "solar":250.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -4846,16 +4846,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":100.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Pettis",
-    "total_mw":95.0,
-    "project_count":1,
-    "solar":95.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
