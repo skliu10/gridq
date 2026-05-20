@@ -2,7 +2,7 @@
   {
     "state":"",
     "county":"",
-    "total_mw":21255.9,
+    "total_mw":21925.9,
     "project_count":67,
     "solar":0.0,
     "storage":0.0,
@@ -522,12 +522,12 @@
   {
     "state":"AR",
     "county":"Hot Spring",
-    "total_mw":105.0,
-    "project_count":1,
+    "total_mw":875.0,
+    "project_count":2,
     "solar":105.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":0.0
+    "gas":770.0
   },
   {
     "state":"AR",
@@ -1442,10 +1442,10 @@
   {
     "state":"IA",
     "county":"Linn",
-    "total_mw":2316.0,
-    "project_count":10,
+    "total_mw":2121.0,
+    "project_count":9,
     "solar":460.0,
-    "storage":595.0,
+    "storage":400.0,
     "wind":0.0,
     "gas":0.0
   },
