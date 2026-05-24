@@ -122,8 +122,8 @@
   {
     "state":"",
     "county":"Grant",
-    "total_mw":25.0,
-    "project_count":1,
+    "total_mw":275.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -552,8 +552,8 @@
   {
     "state":"AR",
     "county":"Mississippi",
-    "total_mw":1505.0,
-    "project_count":6,
+    "total_mw":1420.0,
+    "project_count":5,
     "solar":1150.0,
     "storage":200.0,
     "wind":0.0,
@@ -1822,9 +1822,9 @@
   {
     "state":"IL",
     "county":"Fulton",
-    "total_mw":1550.6,
-    "project_count":4,
-    "solar":1000.6,
+    "total_mw":730.0,
+    "project_count":3,
+    "solar":180.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
@@ -2112,8 +2112,8 @@
   {
     "state":"IL",
     "county":"Rock Island",
-    "total_mw":880.0,
-    "project_count":4,
+    "total_mw":1008.0,
+    "project_count":5,
     "solar":0.0,
     "storage":580.0,
     "wind":300.0,
@@ -3171,16 +3171,6 @@
   },
   {
     "state":"LA",
-    "county":"St. Helena",
-    "total_mw":400.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"LA",
     "county":"St. James",
     "total_mw":135.0,
     "project_count":1,
@@ -3922,10 +3912,10 @@
   {
     "state":"MI",
     "county":"Van Buren",
-    "total_mw":1805.0,
-    "project_count":6,
+    "total_mw":1555.0,
+    "project_count":5,
     "solar":420.0,
-    "storage":650.0,
+    "storage":400.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3942,10 +3932,10 @@
   {
     "state":"MI",
     "county":"Wayne",
-    "total_mw":557.5,
-    "project_count":3,
+    "total_mw":757.5,
+    "project_count":4,
     "solar":0.0,
-    "storage":550.0,
+    "storage":750.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4282,11 +4272,11 @@
   {
     "state":"MN",
     "county":"Redwood",
-    "total_mw":1542.47,
-    "project_count":6,
+    "total_mw":1391.0,
+    "project_count":5,
     "solar":691.0,
     "storage":700.0,
-    "wind":151.47,
+    "wind":0.0,
     "gas":0.0
   },
   {
