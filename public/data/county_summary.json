@@ -922,9 +922,9 @@
   {
     "state":"CA",
     "county":"SAN BERNARDINO",
-    "total_mw":3455.0,
-    "project_count":15,
-    "solar":1655.0,
+    "total_mw":3205.0,
+    "project_count":13,
+    "solar":1405.0,
     "storage":1800.0,
     "wind":0.0,
     "gas":0.0
@@ -2811,16 +2811,6 @@
   },
   {
     "state":"KS",
-    "county":"Linn KS and Bates MO",
-    "total_mw":764.1,
-    "project_count":2,
-    "solar":510.3,
-    "storage":253.8,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
     "county":"Minneola",
     "total_mw":150.0,
     "project_count":1,
@@ -4551,16 +4541,6 @@
   },
   {
     "state":"MO",
-    "county":"Kay",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":300.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
     "county":"Macon",
     "total_mw":508.43,
     "project_count":2,
@@ -5578,16 +5558,6 @@
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Harrah",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":100.0
   },
   {
     "state":"OK",
