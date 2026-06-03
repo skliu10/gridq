@@ -552,9 +552,9 @@
   {
     "state":"AR",
     "county":"Mississippi",
-    "total_mw":1505.0,
-    "project_count":6,
-    "solar":1150.0,
+    "total_mw":1005.0,
+    "project_count":5,
+    "solar":650.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
@@ -1632,11 +1632,11 @@
   {
     "state":"IA",
     "county":"Winnebago",
-    "total_mw":300.0,
-    "project_count":2,
+    "total_mw":620.0,
+    "project_count":3,
     "solar":0.0,
     "storage":0.0,
-    "wind":300.0,
+    "wind":620.0,
     "gas":0.0
   },
   {
@@ -2056,16 +2056,6 @@
     "project_count":7,
     "solar":807.0,
     "storage":643.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
-    "county":"Piatt",
-    "total_mw":171.0,
-    "project_count":1,
-    "solar":171.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3682,9 +3672,9 @@
   {
     "state":"MI",
     "county":"Livingston",
-    "total_mw":2307.0,
-    "project_count":6,
-    "solar":445.0,
+    "total_mw":2417.0,
+    "project_count":7,
+    "solar":555.0,
     "storage":160.0,
     "wind":0.0,
     "gas":1452.0
@@ -3752,9 +3742,9 @@
   {
     "state":"MI",
     "county":"Montcalm",
-    "total_mw":747.0,
-    "project_count":5,
-    "solar":132.0,
+    "total_mw":615.0,
+    "project_count":4,
+    "solar":0.0,
     "storage":375.0,
     "wind":0.0,
     "gas":0.0
@@ -3882,9 +3872,9 @@
   {
     "state":"MI",
     "county":"St. Joseph",
-    "total_mw":196.0,
-    "project_count":1,
-    "solar":196.0,
+    "total_mw":346.0,
+    "project_count":2,
+    "solar":346.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3892,19 +3882,19 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":1232.3,
-    "project_count":8,
+    "total_mw":1082.3,
+    "project_count":7,
     "solar":565.0,
-    "storage":450.0,
+    "storage":300.0,
     "wind":217.3,
     "gas":0.0
   },
   {
     "state":"MI",
     "county":"Van Buren",
-    "total_mw":1605.0,
-    "project_count":5,
-    "solar":220.0,
+    "total_mw":1805.0,
+    "project_count":6,
+    "solar":420.0,
     "storage":650.0,
     "wind":0.0,
     "gas":0.0
@@ -3922,10 +3912,10 @@
   {
     "state":"MI",
     "county":"Wayne",
-    "total_mw":757.5,
-    "project_count":4,
+    "total_mw":557.5,
+    "project_count":3,
     "solar":0.0,
-    "storage":750.0,
+    "storage":550.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4816,6 +4806,16 @@
     "project_count":1,
     "solar":450.0,
     "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MS",
+    "county":"Scott",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":100.0,
     "wind":0.0,
     "gas":0.0
   },
