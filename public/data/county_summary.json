@@ -982,10 +982,10 @@
   {
     "state":"CA",
     "county":"SANTA CLARA",
-    "total_mw":1018.0,
-    "project_count":8,
+    "total_mw":943.0,
+    "project_count":7,
     "solar":0.0,
-    "storage":898.0,
+    "storage":823.0,
     "wind":0.0,
     "gas":0.0
   },
