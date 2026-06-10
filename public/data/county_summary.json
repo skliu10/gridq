@@ -3,7 +3,7 @@
     "state":"",
     "county":"",
     "total_mw":20625.9,
-    "project_count":73,
+    "project_count":72,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -552,8 +552,8 @@
   {
     "state":"AR",
     "county":"Mississippi",
-    "total_mw":1420.0,
-    "project_count":5,
+    "total_mw":1505.0,
+    "project_count":6,
     "solar":1150.0,
     "storage":200.0,
     "wind":0.0,
@@ -1932,18 +1932,18 @@
   {
     "state":"IN",
     "county":"Dubois",
-    "total_mw":210.0,
-    "project_count":2,
+    "total_mw":10.0,
+    "project_count":1,
     "solar":10.0,
-    "storage":200.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"IN",
     "county":"Gibson",
-    "total_mw":600.0,
-    "project_count":3,
+    "total_mw":350.0,
+    "project_count":2,
     "solar":0.0,
     "storage":200.0,
     "wind":0.0,
@@ -3192,10 +3192,10 @@
   {
     "state":"MI",
     "county":"Gratiot",
-    "total_mw":325.0,
-    "project_count":3,
+    "total_mw":225.0,
+    "project_count":2,
     "solar":125.0,
-    "storage":200.0,
+    "storage":100.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3542,10 +3542,10 @@
   {
     "state":"MI",
     "county":"Wayne",
-    "total_mw":557.5,
-    "project_count":3,
+    "total_mw":757.5,
+    "project_count":4,
     "solar":0.0,
-    "storage":550.0,
+    "storage":750.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3732,10 +3732,10 @@
   {
     "state":"MN",
     "county":"Lyon",
-    "total_mw":685.0,
-    "project_count":3,
+    "total_mw":935.0,
+    "project_count":4,
     "solar":235.0,
-    "storage":0.0,
+    "storage":250.0,
     "wind":450.0,
     "gas":0.0
   },
@@ -5438,16 +5438,6 @@
     "storage":0.0,
     "wind":203.04,
     "gas":0.0
-  },
-  {
-    "state":"RI",
-    "county":"Providence",
-    "total_mw":73.204,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":73.204
   },
   {
     "state":"RI",
