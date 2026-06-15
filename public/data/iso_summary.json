@@ -20,6 +20,11 @@
     "project_count":1070
   },
   {
+    "iso":"NYISO",
+    "total_mw":26430.3,
+    "project_count":192
+  },
+  {
     "iso":"SPP",
     "total_mw":59531.337,
     "project_count":240
