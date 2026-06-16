@@ -671,16 +671,6 @@
   },
   {
     "state":"AZ",
-    "county":"Coconino County",
-    "total_mw":500.0,
-    "project_count":1,
-    "solar":500.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"AZ",
     "county":"LA PAZ",
     "total_mw":7050.0,
     "project_count":5,
@@ -3452,12 +3442,12 @@
   {
     "state":"MI",
     "county":"Branch",
-    "total_mw":2125.0,
-    "project_count":6,
+    "total_mw":680.0,
+    "project_count":5,
     "solar":300.0,
     "storage":380.0,
     "wind":0.0,
-    "gas":1445.0
+    "gas":0.0
   },
   {
     "state":"MI",
@@ -3562,9 +3552,9 @@
   {
     "state":"MI",
     "county":"Grand Traverse",
-    "total_mw":300.0,
-    "project_count":2,
-    "solar":100.0,
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
@@ -3652,9 +3642,9 @@
   {
     "state":"MI",
     "county":"Lapeer",
-    "total_mw":600.0,
-    "project_count":3,
-    "solar":300.0,
+    "total_mw":400.0,
+    "project_count":2,
+    "solar":100.0,
     "storage":0.0,
     "wind":300.0,
     "gas":0.0
@@ -3712,9 +3702,9 @@
   {
     "state":"MI",
     "county":"Mason",
-    "total_mw":1258.0,
-    "project_count":7,
-    "solar":658.0,
+    "total_mw":1158.0,
+    "project_count":6,
+    "solar":558.0,
     "storage":600.0,
     "wind":0.0,
     "gas":0.0
@@ -3781,20 +3771,10 @@
   },
   {
     "state":"MI",
-    "county":"Ogemaw",
-    "total_mw":290.0,
-    "project_count":1,
-    "solar":290.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MI",
     "county":"Osceola",
-    "total_mw":160.0,
-    "project_count":2,
-    "solar":160.0,
+    "total_mw":50.0,
+    "project_count":1,
+    "solar":50.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3842,9 +3822,9 @@
   {
     "state":"MI",
     "county":"Sanilac",
-    "total_mw":1390.0,
-    "project_count":7,
-    "solar":920.0,
+    "total_mw":1190.0,
+    "project_count":6,
+    "solar":720.0,
     "storage":250.0,
     "wind":220.0,
     "gas":0.0
@@ -3882,11 +3862,11 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":1132.3,
-    "project_count":7,
+    "total_mw":956.8,
+    "project_count":6,
     "solar":465.0,
     "storage":450.0,
-    "wind":217.3,
+    "wind":41.8,
     "gas":0.0
   },
   {
@@ -4941,16 +4921,6 @@
   },
   {
     "state":"ND",
-    "county":"La Moure County",
-    "total_mw":20.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":20.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"ND",
     "county":"Mercer",
     "total_mw":212.0,
     "project_count":1,
@@ -5042,12 +5012,12 @@
   {
     "state":"NE",
     "county":"Cass",
-    "total_mw":1748.7,
-    "project_count":6,
+    "total_mw":966.0,
+    "project_count":3,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":1748.7
+    "gas":966.0
   },
   {
     "state":"NE",
@@ -5092,22 +5062,12 @@
   {
     "state":"NE",
     "county":"Gage",
-    "total_mw":1231.0,
-    "project_count":5,
+    "total_mw":753.0,
+    "project_count":4,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":1231.0
-  },
-  {
-    "state":"NE",
-    "county":"Gage ",
-    "total_mw":239.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":239.0
+    "gas":753.0
   },
   {
     "state":"NE",
@@ -5132,12 +5092,12 @@
   {
     "state":"NE",
     "county":"Lancaster",
-    "total_mw":2137.0,
-    "project_count":8,
+    "total_mw":1442.0,
+    "project_count":6,
     "solar":0.0,
     "storage":450.0,
     "wind":0.0,
-    "gas":1470.0
+    "gas":992.0
   },
   {
     "state":"NE",
@@ -5961,16 +5921,6 @@
   },
   {
     "state":"OK",
-    "county":"Blaine",
-    "total_mw":74.9,
-    "project_count":1,
-    "solar":0.0,
-    "storage":74.9,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
     "county":"Bryan",
     "total_mw":280.0,
     "project_count":2,
@@ -6066,16 +6016,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":102.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Garvin",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -6261,16 +6201,6 @@
   },
   {
     "state":"OK",
-    "county":"Okfuskee\/Okmulgee",
-    "total_mw":117.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":117.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
     "county":"Oklahoma ",
     "total_mw":1591.0,
     "project_count":5,
@@ -6392,9 +6322,9 @@
   {
     "state":"OK",
     "county":"Woods",
-    "total_mw":575.0,
-    "project_count":2,
-    "solar":575.0,
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":100.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -6621,16 +6551,6 @@
   },
   {
     "state":"TX",
-    "county":"Hale",
-    "total_mw":203.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":203.0
-  },
-  {
-    "state":"TX",
     "county":"Hansford County",
     "total_mw":67.2,
     "project_count":1,
@@ -6786,16 +6706,6 @@
     "project_count":1,
     "solar":130.0,
     "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Titus",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -8832,11 +8742,11 @@
   {
     "state":"WI",
     "county":"Marathon",
-    "total_mw":269.93,
-    "project_count":2,
+    "total_mw":169.93,
+    "project_count":1,
     "solar":169.93,
     "storage":0.0,
-    "wind":100.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
