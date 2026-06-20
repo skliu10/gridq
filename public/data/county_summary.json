@@ -892,11 +892,11 @@
   {
     "state":"CA",
     "county":"SAN DIEGO",
-    "total_mw":2256.41,
-    "project_count":11,
+    "total_mw":1856.41,
+    "project_count":10,
     "solar":110.0,
     "storage":1152.61,
-    "wind":993.8,
+    "wind":593.8,
     "gas":0.0
   },
   {
@@ -1210,6 +1210,46 @@
     "gas":0.0
   },
   {
+    "state":"CT",
+    "county":"Hartford",
+    "total_mw":281.128,
+    "project_count":4,
+    "solar":281.128,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CT",
+    "county":"Litchfield",
+    "total_mw":141.6,
+    "project_count":1,
+    "solar":0.0,
+    "storage":141.6,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CT",
+    "county":"New Haven",
+    "total_mw":205.32,
+    "project_count":2,
+    "solar":0.0,
+    "storage":205.32,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CT",
+    "county":"Windham",
+    "total_mw":50.159,
+    "project_count":1,
+    "solar":50.159,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
     "state":"IA",
     "county":"Adair",
     "total_mw":526.0,
@@ -1408,16 +1448,6 @@
     "storage":100.0,
     "wind":542.0,
     "gas":75.0
-  },
-  {
-    "state":"IA",
-    "county":"Mitchell",
-    "total_mw":202.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":202.0,
-    "wind":0.0,
-    "gas":0.0
   },
   {
     "state":"IA",
@@ -3145,6 +3175,186 @@
     "total_mw":200.0,
     "project_count":1,
     "solar":200.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Barnstable",
+    "total_mw":500.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":500.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Berkshire",
+    "total_mw":596.0,
+    "project_count":3,
+    "solar":0.0,
+    "storage":596.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Bristol",
+    "total_mw":1368.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":168.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Essex",
+    "total_mw":425.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":425.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Franklin",
+    "total_mw":6.7,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Hampden",
+    "total_mw":465.0,
+    "project_count":3,
+    "solar":0.0,
+    "storage":465.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Middlesex",
+    "total_mw":1349.248,
+    "project_count":5,
+    "solar":0.0,
+    "storage":1337.248,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Norfolk",
+    "total_mw":470.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":470.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Plymouth",
+    "total_mw":20.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Suffolk",
+    "total_mw":550.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":550.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MA",
+    "county":"Worcester",
+    "total_mw":683.95,
+    "project_count":3,
+    "solar":0.0,
+    "storage":683.95,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"ME",
+    "county":"Androscoggin",
+    "total_mw":39.8,
+    "project_count":2,
+    "solar":39.8,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"ME",
+    "county":"Cumberland",
+    "total_mw":17.1,
+    "project_count":1,
+    "solar":17.1,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"ME",
+    "county":"Hancock",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":100.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"ME",
+    "county":"Knox",
+    "total_mw":108.0,
+    "project_count":3,
+    "solar":108.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"ME",
+    "county":"Oxford",
+    "total_mw":18.3,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":18.3,
+    "gas":0.0
+  },
+  {
+    "state":"ME",
+    "county":"Somerset",
+    "total_mw":182.7,
+    "project_count":2,
+    "solar":182.7,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"ME",
+    "county":"York",
+    "total_mw":216.425,
+    "project_count":3,
+    "solar":216.425,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -4900,6 +5110,36 @@
     "gas":0.0
   },
   {
+    "state":"NH",
+    "county":"Rockingham",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":100.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NH",
+    "county":"Strafford",
+    "total_mw":20.0,
+    "project_count":1,
+    "solar":20.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NH",
+    "county":"Sullivan",
+    "total_mw":4.99,
+    "project_count":1,
+    "solar":4.99,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
     "state":"NM",
     "county":"Chaves",
     "total_mw":300.0,
@@ -4986,6 +5226,56 @@
     "project_count":7,
     "solar":1950.0,
     "storage":44.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Albany\/Dutchess",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Franklin",
+    "total_mw":150.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":150.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Onieda\/Albany",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"Rensselaer",
+    "total_mw":320.0,
+    "project_count":2,
+    "solar":20.0,
+    "storage":300.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NY",
+    "county":"St. Lawrence-Lewis",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5437,6 +5727,16 @@
     "solar":0.0,
     "storage":0.0,
     "wind":203.04,
+    "gas":0.0
+  },
+  {
+    "state":"RI",
+    "county":"Washington",
+    "total_mw":205.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":205.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -7596,6 +7896,56 @@
     "project_count":5,
     "solar":40.9,
     "storage":570.93,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"VT",
+    "county":"Addison",
+    "total_mw":50.0,
+    "project_count":1,
+    "solar":50.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"VT",
+    "county":"Bennington",
+    "total_mw":20.0,
+    "project_count":1,
+    "solar":20.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"VT",
+    "county":"Franklin",
+    "total_mw":19.3,
+    "project_count":1,
+    "solar":0.0,
+    "storage":19.3,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"VT",
+    "county":"Rutland",
+    "total_mw":20.0,
+    "project_count":1,
+    "solar":20.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"VT",
+    "county":"Windsor",
+    "total_mw":1019.3,
+    "project_count":2,
+    "solar":0.0,
+    "storage":19.3,
     "wind":0.0,
     "gas":0.0
   },
