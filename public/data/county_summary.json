@@ -402,9 +402,9 @@
   {
     "state":"AR",
     "county":"Craighead",
-    "total_mw":950.0,
-    "project_count":4,
-    "solar":700.0,
+    "total_mw":400.0,
+    "project_count":3,
+    "solar":150.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -1582,11 +1582,11 @@
   {
     "state":"IA",
     "county":"Winnebago",
-    "total_mw":620.0,
-    "project_count":3,
+    "total_mw":420.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
-    "wind":620.0,
+    "wind":420.0,
     "gas":0.0
   },
   {
@@ -3632,12 +3632,12 @@
   {
     "state":"MI",
     "county":"Livingston",
-    "total_mw":2417.0,
-    "project_count":7,
+    "total_mw":965.0,
+    "project_count":6,
     "solar":555.0,
     "storage":160.0,
     "wind":0.0,
-    "gas":1452.0
+    "gas":0.0
   },
   {
     "state":"MI",
@@ -3842,10 +3842,10 @@
   {
     "state":"MI",
     "county":"Van Buren",
-    "total_mw":1805.0,
-    "project_count":6,
+    "total_mw":1555.0,
+    "project_count":5,
     "solar":420.0,
-    "storage":650.0,
+    "storage":400.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -6035,16 +6035,6 @@
     "total_mw":300.0,
     "project_count":1,
     "solar":300.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Polk",
-    "total_mw":170.0,
-    "project_count":1,
-    "solar":170.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
