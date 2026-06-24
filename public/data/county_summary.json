@@ -281,6 +281,16 @@
   },
   {
     "state":"",
+    "county":"St. Charles",
+    "total_mw":2220.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Stoddard",
     "total_mw":0.0,
     "project_count":1,
@@ -1342,11 +1352,11 @@
   {
     "state":"IA",
     "county":"Franklin",
-    "total_mw":659.0,
-    "project_count":5,
+    "total_mw":560.0,
+    "project_count":3,
     "solar":0.0,
     "storage":200.0,
-    "wind":299.0,
+    "wind":200.0,
     "gas":160.0
   },
   {
@@ -2282,8 +2292,8 @@
   {
     "state":"IN",
     "county":"Gibson",
-    "total_mw":350.0,
-    "project_count":2,
+    "total_mw":600.0,
+    "project_count":3,
     "solar":0.0,
     "storage":200.0,
     "wind":0.0,
@@ -3852,10 +3862,10 @@
   {
     "state":"MI",
     "county":"Wayne",
-    "total_mw":757.5,
-    "project_count":4,
+    "total_mw":957.5,
+    "project_count":5,
     "solar":0.0,
-    "storage":750.0,
+    "storage":950.0,
     "wind":0.0,
     "gas":0.0
   },
