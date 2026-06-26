@@ -532,10 +532,10 @@
   {
     "state":"AR",
     "county":"Lonoke",
-    "total_mw":1087.5,
-    "project_count":4,
+    "total_mw":787.5,
+    "project_count":3,
     "solar":0.0,
-    "storage":300.0,
+    "storage":0.0,
     "wind":667.5,
     "gas":0.0
   },
@@ -1741,16 +1741,6 @@
   },
   {
     "state":"IL",
-    "county":"Effingham",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
     "county":"Fayette",
     "total_mw":819.8,
     "project_count":7,
@@ -1871,16 +1861,6 @@
   },
   {
     "state":"IL",
-    "county":"Logan",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
     "county":"Macon",
     "total_mw":880.0,
     "project_count":5,
@@ -1912,8 +1892,8 @@
   {
     "state":"IL",
     "county":"Marion",
-    "total_mw":450.0,
-    "project_count":3,
+    "total_mw":300.0,
+    "project_count":2,
     "solar":100.0,
     "storage":200.0,
     "wind":0.0,
@@ -2122,8 +2102,8 @@
   {
     "state":"IL",
     "county":"St. Clair",
-    "total_mw":495.0,
-    "project_count":3,
+    "total_mw":350.0,
+    "project_count":2,
     "solar":0.0,
     "storage":350.0,
     "wind":0.0,
