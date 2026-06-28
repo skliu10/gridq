@@ -572,8 +572,8 @@
   {
     "state":"AR",
     "county":"Phillips",
-    "total_mw":690.5,
-    "project_count":5,
+    "total_mw":590.5,
+    "project_count":4,
     "solar":297.5,
     "storage":0.0,
     "wind":193.0,
@@ -2032,10 +2032,10 @@
   {
     "state":"IL",
     "county":"Putnam",
-    "total_mw":622.9,
-    "project_count":5,
-    "solar":320.0,
-    "storage":110.0,
+    "total_mw":292.9,
+    "project_count":3,
+    "solar":100.0,
+    "storage":0.0,
     "wind":192.9,
     "gas":0.0
   },
@@ -2052,10 +2052,10 @@
   {
     "state":"IL",
     "county":"Rock Island",
-    "total_mw":1008.0,
-    "project_count":5,
+    "total_mw":928.0,
+    "project_count":4,
     "solar":0.0,
-    "storage":580.0,
+    "storage":500.0,
     "wind":300.0,
     "gas":0.0
   },
@@ -2175,16 +2175,6 @@
     "total_mw":150.0,
     "project_count":1,
     "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
-    "county":"Whiteside",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":300.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -2850,16 +2840,6 @@
     "gas":0.0
   },
   {
-    "state":"KY",
-    "county":"Ohio",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":100.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
     "state":"LA",
     "county":"Acadia",
     "total_mw":120.0,
@@ -3012,8 +2992,8 @@
   {
     "state":"LA",
     "county":"Morehouse",
-    "total_mw":1190.0,
-    "project_count":6,
+    "total_mw":1090.0,
+    "project_count":5,
     "solar":750.0,
     "storage":0.0,
     "wind":180.0,
@@ -4252,10 +4232,10 @@
   {
     "state":"MN",
     "county":"Yellow Medicine",
-    "total_mw":368.0,
-    "project_count":3,
-    "solar":293.0,
-    "storage":75.0,
+    "total_mw":140.0,
+    "project_count":1,
+    "solar":140.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4752,8 +4732,8 @@
   {
     "state":"MS",
     "county":"Sunflower",
-    "total_mw":807.0,
-    "project_count":5,
+    "total_mw":657.0,
+    "project_count":4,
     "solar":150.0,
     "storage":0.0,
     "wind":407.0,
@@ -8172,9 +8152,9 @@
   {
     "state":"WI",
     "county":"Wood",
-    "total_mw":250.3,
-    "project_count":2,
-    "solar":200.0,
+    "total_mw":50.3,
+    "project_count":1,
+    "solar":0.0,
     "storage":50.3,
     "wind":0.0,
     "gas":0.0
