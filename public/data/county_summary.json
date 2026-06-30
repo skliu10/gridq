@@ -1092,10 +1092,10 @@
   {
     "state":"CO",
     "county":"Fort Collins",
-    "total_mw":175.0,
-    "project_count":2,
+    "total_mw":125.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":175.0,
+    "storage":125.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5031,16 +5031,6 @@
   },
   {
     "state":"NE",
-    "county":"Perkins",
-    "total_mw":120.0,
-    "project_count":1,
-    "solar":120.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
     "county":"Scotts Bluff",
     "total_mw":225.0,
     "project_count":1,
@@ -5657,16 +5647,6 @@
     "solar":100.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Woodward",
-    "total_mw":203.04,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":203.04,
     "gas":0.0
   },
   {

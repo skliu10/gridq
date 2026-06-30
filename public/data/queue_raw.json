@@ -958,7 +958,7 @@
     "poi_name": "Roadway Substation 115kV bus",
     "state": "CA",
     "county": "SAN BERNARDINO",
-    "proposed_cod": "2026-11-01",
+    "proposed_cod": "2031-06-30",
     "queue_date": 1493622000000
   },
   {
@@ -132947,7 +132947,7 @@
     "poi_name": "New Beatrice Power Station 345 kV",
     "state": "NE",
     "county": "Gage ",
-    "proposed_cod": "2030-06-01",
+    "proposed_cod": "2033-06-01",
     "queue_date": "10/2/2023"
   },
   {
@@ -132960,7 +132960,7 @@
     "poi_name": "New Beatrice Power Station 345 kV",
     "state": "NE",
     "county": "Gage",
-    "proposed_cod": "2030-06-01",
+    "proposed_cod": "2033-06-01",
     "queue_date": "10/2/2023"
   },
   {
@@ -133545,7 +133545,7 @@
     "poi_name": "Paoli - Seminole 138 kV line tap",
     "state": "OK",
     "county": "Garvin",
-    "proposed_cod": "2028-06-01",
+    "proposed_cod": "2029-09-01",
     "queue_date": "10/2/2023"
   },
   {
@@ -133853,11 +133853,11 @@
     "iso": "SPP",
     "fuel_normalized": "solar",
     "capacity_mw": 120.0,
-    "status": "Active",
+    "status": "Completed",
     "poi_name": "Grant 115 kV Substation",
     "state": "NE",
     "county": "Perkins",
-    "proposed_cod": "2028-08-31",
+    "proposed_cod": "2029-11-01",
     "queue_date": "10/2/2023"
   },
   {
@@ -134520,7 +134520,7 @@
     "poi_name": "Degrasse 345 kV Substation",
     "state": "OK",
     "county": "Woods",
-    "proposed_cod": "2029-06-30",
+    "proposed_cod": "2029-03-01",
     "queue_date": "10/2/2023"
   },
   {
@@ -134702,7 +134702,7 @@
     "poi_name": "Pharaoh 138 kV Substation",
     "state": "OK",
     "county": "Okfuskee/Okmulgee",
-    "proposed_cod": "2028-12-31",
+    "proposed_cod": "2028-09-29",
     "queue_date": "10/2/2023"
   },
   {
@@ -140227,7 +140227,7 @@
     "poi_name": "Welsh 345kV Substation",
     "state": "TX",
     "county": "Titus",
-    "proposed_cod": "2028-05-31",
+    "proposed_cod": "2029-05-01",
     "queue_date": "4/30/2021"
   },
   {
@@ -140392,11 +140392,11 @@
     "iso": "SPP",
     "fuel_normalized": "wind",
     "capacity_mw": 203.04,
-    "status": "Active",
+    "status": "Completed",
     "poi_name": "Western Farmers 138kV Mooreland Substation",
     "state": "OK",
     "county": "Woodward",
-    "proposed_cod": "2026-12-01",
+    "proposed_cod": "2029-05-03",
     "queue_date": "5/14/2021"
   },
   {
@@ -163311,7 +163311,7 @@
     "iso": "SPP",
     "fuel_normalized": "storage",
     "capacity_mw": 50.0,
-    "status": "Active",
+    "status": "Withdrawn",
     "poi_name": "Ault-Carey 230",
     "state": "CO",
     "county": "Fort Collins",
@@ -167042,7 +167042,7 @@
     "iso": "BPA",
     "fuel_normalized": "solar",
     "capacity_mw": 264.2,
-    "status": "WITHDRAWN",
+    "status": "STUDY",
     "poi_name": "Six Mile Substation; Secondary: Boardman-Alkali No 1 115kV line",
     "state": "OR",
     "county": "Morrow",
@@ -174192,7 +174192,7 @@
     "iso": "BPA",
     "fuel_normalized": "load",
     "capacity_mw": 0.0,
-    "status": "STUDY",
+    "status": "WITHDRAWN",
     "poi_name": "BPA Lebanon Substation 115 kV",
     "state": "OR",
     "county": "Linn",
