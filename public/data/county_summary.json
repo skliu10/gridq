@@ -412,9 +412,9 @@
   {
     "state":"AR",
     "county":"Craighead",
-    "total_mw":400.0,
-    "project_count":3,
-    "solar":150.0,
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -461,16 +461,6 @@
   },
   {
     "state":"AR",
-    "county":"Franklin",
-    "total_mw":102.2,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":102.2
-  },
-  {
-    "state":"AR",
     "county":"Grant",
     "total_mw":640.0,
     "project_count":3,
@@ -502,9 +492,9 @@
   {
     "state":"AR",
     "county":"Jackson",
-    "total_mw":1200.0,
-    "project_count":4,
-    "solar":500.0,
+    "total_mw":700.0,
+    "project_count":3,
+    "solar":0.0,
     "storage":0.0,
     "wind":500.0,
     "gas":0.0
@@ -606,16 +596,6 @@
     "project_count":1,
     "solar":150.0,
     "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"AR",
-    "county":"Sebastian",
-    "total_mw":250.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":250.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -1045,176 +1025,6 @@
     "total_mw":80.0,
     "project_count":1,
     "solar":80.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Adams County,",
-    "total_mw":199.0,
-    "project_count":1,
-    "solar":199.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Cheyenne",
-    "total_mw":350.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":350.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Delta County,",
-    "total_mw":199.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":199.0
-  },
-  {
-    "state":"CO",
-    "county":"El Paso",
-    "total_mw":712.0,
-    "project_count":4,
-    "solar":100.0,
-    "storage":200.0,
-    "wind":0.0,
-    "gas":412.0
-  },
-  {
-    "state":"CO",
-    "county":"Fort Collins",
-    "total_mw":125.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":125.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Kit Carson County",
-    "total_mw":79.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":79.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Kit Carson County,",
-    "total_mw":724.0,
-    "project_count":4,
-    "solar":0.0,
-    "storage":300.0,
-    "wind":424.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Kit Carson,",
-    "total_mw":698.0,
-    "project_count":3,
-    "solar":300.0,
-    "storage":0.0,
-    "wind":398.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Lincoln",
-    "total_mw":500.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Lincoln County,",
-    "total_mw":199.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":199.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Loveland",
-    "total_mw":130.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":130.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Moffat County,",
-    "total_mw":199.5,
-    "project_count":1,
-    "solar":199.5,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Morgan County,",
-    "total_mw":399.8,
-    "project_count":2,
-    "solar":399.8,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Weld County",
-    "total_mw":80.0,
-    "project_count":1,
-    "solar":80.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Weld County,",
-    "total_mw":450.0,
-    "project_count":2,
-    "solar":450.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
-    "county":"Wellington",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":250.0
-  },
-  {
-    "state":"CO",
-    "county":"Yuma County,",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":0.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -2032,10 +1842,10 @@
   {
     "state":"IL",
     "county":"Putnam",
-    "total_mw":292.9,
-    "project_count":3,
-    "solar":100.0,
-    "storage":0.0,
+    "total_mw":622.9,
+    "project_count":5,
+    "solar":320.0,
+    "storage":110.0,
     "wind":192.9,
     "gas":0.0
   },
@@ -2052,10 +1862,10 @@
   {
     "state":"IL",
     "county":"Rock Island",
-    "total_mw":928.0,
-    "project_count":4,
+    "total_mw":1008.0,
+    "project_count":5,
     "solar":0.0,
-    "storage":500.0,
+    "storage":580.0,
     "wind":300.0,
     "gas":0.0
   },
@@ -2181,6 +1991,16 @@
   },
   {
     "state":"IL",
+    "county":"Whiteside",
+    "total_mw":300.0,
+    "project_count":1,
+    "solar":300.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"IL",
     "county":"Williamson",
     "total_mw":440.0,
     "project_count":2,
@@ -2262,10 +2082,10 @@
   {
     "state":"IN",
     "county":"Gibson",
-    "total_mw":600.0,
-    "project_count":3,
+    "total_mw":400.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":200.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2372,10 +2192,10 @@
   {
     "state":"IN",
     "county":"Marion",
-    "total_mw":280.0,
-    "project_count":2,
+    "total_mw":130.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":280.0,
+    "storage":130.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2481,16 +2301,6 @@
   },
   {
     "state":"IN",
-    "county":"Ripley",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":250.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IN",
     "county":"Starke",
     "total_mw":280.0,
     "project_count":2,
@@ -2570,236 +2380,6 @@
     "gas":0.0
   },
   {
-    "state":"KS",
-    "county":"Allen",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":300.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Aurora",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":300.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Bourbon",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Burbon",
-    "total_mw":130.0,
-    "project_count":1,
-    "solar":130.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Butler",
-    "total_mw":225.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":225.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Cloud",
-    "total_mw":380.0,
-    "project_count":1,
-    "solar":380.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Coffey",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":250.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Crawford",
-    "total_mw":199.8,
-    "project_count":1,
-    "solar":199.8,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Edwards",
-    "total_mw":145.0,
-    "project_count":1,
-    "solar":145.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Elk ",
-    "total_mw":400.0,
-    "project_count":1,
-    "solar":400.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Ellis",
-    "total_mw":175.0,
-    "project_count":1,
-    "solar":175.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Jackson",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":300.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Kearny",
-    "total_mw":300.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":300.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Kinsley",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":150.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Labette",
-    "total_mw":910.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":910.0
-  },
-  {
-    "state":"KS",
-    "county":"Lavenworth ",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":300.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Leavenworth",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Pottawatomie",
-    "total_mw":721.2,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":721.2
-  },
-  {
-    "state":"KS",
-    "county":"Sedgwick",
-    "total_mw":330.0,
-    "project_count":2,
-    "solar":330.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Shawnee",
-    "total_mw":270.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":270.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Stafford",
-    "total_mw":155.0,
-    "project_count":1,
-    "solar":155.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Wyandotte",
-    "total_mw":398.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":398.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Wyandotte ",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
     "state":"KY",
     "county":"Breckinridge",
     "total_mw":100.0,
@@ -2866,36 +2446,6 @@
     "project_count":3,
     "solar":340.0,
     "storage":200.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"LA",
-    "county":"Bossier",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":150.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"LA",
-    "county":"Bossier Parish",
-    "total_mw":1549.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":199.0,
-    "wind":0.0,
-    "gas":1350.0
-  },
-  {
-    "state":"LA",
-    "county":"Caddo Parish",
-    "total_mw":55.0,
-    "project_count":1,
-    "solar":55.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2972,9 +2522,9 @@
   {
     "state":"LA",
     "county":"Jefferson Davis",
-    "total_mw":890.0,
-    "project_count":5,
-    "solar":890.0,
+    "total_mw":450.0,
+    "project_count":3,
+    "solar":450.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3372,9 +2922,9 @@
   {
     "state":"MI",
     "county":"Branch",
-    "total_mw":680.0,
-    "project_count":5,
-    "solar":300.0,
+    "total_mw":480.0,
+    "project_count":4,
+    "solar":100.0,
     "storage":380.0,
     "wind":0.0,
     "gas":0.0
@@ -3417,16 +2967,6 @@
     "solar":145.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MI",
-    "county":"Clinton",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":300.0,
     "gas":0.0
   },
   {
@@ -3612,10 +3152,10 @@
   {
     "state":"MI",
     "county":"Macomb",
-    "total_mw":252.0,
-    "project_count":2,
+    "total_mw":152.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":252.0,
+    "storage":152.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3652,10 +3192,10 @@
   {
     "state":"MI",
     "county":"Monroe",
-    "total_mw":3943.0,
-    "project_count":7,
+    "total_mw":3743.0,
+    "project_count":6,
     "solar":385.0,
-    "storage":560.0,
+    "storage":360.0,
     "wind":0.0,
     "gas":2998.0
   },
@@ -4232,10 +3772,10 @@
   {
     "state":"MN",
     "county":"Yellow Medicine",
-    "total_mw":140.0,
-    "project_count":1,
-    "solar":140.0,
-    "storage":0.0,
+    "total_mw":368.0,
+    "project_count":3,
+    "solar":293.0,
+    "storage":75.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4251,31 +3791,11 @@
   },
   {
     "state":"MO",
-    "county":"Barton",
-    "total_mw":199.8,
-    "project_count":1,
-    "solar":199.8,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
     "county":"Bollinger",
     "total_mw":600.0,
     "project_count":3,
     "solar":0.0,
     "storage":150.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Buchan",
-    "total_mw":199.8,
-    "project_count":1,
-    "solar":0.0,
-    "storage":199.8,
     "wind":0.0,
     "gas":0.0
   },
@@ -4301,66 +3821,6 @@
   },
   {
     "state":"MO",
-    "county":"Cass",
-    "total_mw":280.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":280.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Chariton",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":150.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Clay",
-    "total_mw":650.0,
-    "project_count":3,
-    "solar":0.0,
-    "storage":650.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Clay ",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":100.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Clinton",
-    "total_mw":400.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":400.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Cooper",
-    "total_mw":120.0,
-    "project_count":1,
-    "solar":120.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
     "county":"Daviess",
     "total_mw":400.0,
     "project_count":2,
@@ -4381,51 +3841,11 @@
   },
   {
     "state":"MO",
-    "county":"Greene",
-    "total_mw":344.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":199.0,
-    "wind":0.0,
-    "gas":145.0
-  },
-  {
-    "state":"MO",
     "county":"Grundy",
     "total_mw":200.0,
     "project_count":1,
     "solar":200.0,
     "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Indepedence",
-    "total_mw":50.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":50.0
-  },
-  {
-    "state":"MO",
-    "county":"Jackson",
-    "total_mw":549.0,
-    "project_count":3,
-    "solar":0.0,
-    "storage":549.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Jasper",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":100.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4458,16 +3878,6 @@
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Missouri ",
-    "total_mw":1004.9,
-    "project_count":2,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":1004.9
   },
   {
     "state":"MO",
@@ -4555,16 +3965,6 @@
     "total_mw":300.0,
     "project_count":1,
     "solar":300.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Vernon",
-    "total_mw":175.0,
-    "project_count":1,
-    "solar":175.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -4841,16 +4241,6 @@
   },
   {
     "state":"ND",
-    "county":"Mercer",
-    "total_mw":212.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":212.0,
-    "gas":0.0
-  },
-  {
-    "state":"ND",
     "county":"Morton",
     "total_mw":450.0,
     "project_count":4,
@@ -4890,166 +4280,6 @@
     "gas":0.0
   },
   {
-    "state":"ND",
-    "county":"Ward",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"ND",
-    "county":"Williams",
-    "total_mw":1690.0,
-    "project_count":3,
-    "solar":0.0,
-    "storage":200.0,
-    "wind":0.0,
-    "gas":1490.0
-  },
-  {
-    "state":"NE",
-    "county":"Banner County",
-    "total_mw":130.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":130.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Burt",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Cass",
-    "total_mw":966.0,
-    "project_count":3,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":966.0
-  },
-  {
-    "state":"NE",
-    "county":"Dakota",
-    "total_mw":110.0,
-    "project_count":1,
-    "solar":110.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Dodge",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":150.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Douglas",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":250.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Fillmore",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Gage",
-    "total_mw":753.0,
-    "project_count":4,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":753.0
-  },
-  {
-    "state":"NE",
-    "county":"Greely County",
-    "total_mw":70.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":70.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Lancaster",
-    "total_mw":1442.0,
-    "project_count":6,
-    "solar":0.0,
-    "storage":450.0,
-    "wind":0.0,
-    "gas":992.0
-  },
-  {
-    "state":"NE",
-    "county":"Mercer",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":250.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Omaha",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":100.0
-  },
-  {
-    "state":"NE",
-    "county":"Scotts Bluff",
-    "total_mw":225.0,
-    "project_count":1,
-    "solar":225.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Wayne Co",
-    "total_mw":135.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":135.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
     "state":"NH",
     "county":"Rockingham",
     "total_mw":100.0,
@@ -5075,66 +4305,6 @@
     "total_mw":4.99,
     "project_count":1,
     "solar":4.99,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NM",
-    "county":"Chaves",
-    "total_mw":300.0,
-    "project_count":2,
-    "solar":225.0,
-    "storage":75.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NM",
-    "county":"Eddy",
-    "total_mw":115.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":115.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NM",
-    "county":"Hobbs",
-    "total_mw":74.99,
-    "project_count":1,
-    "solar":0.0,
-    "storage":74.99,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NM",
-    "county":"Lea",
-    "total_mw":545.0,
-    "project_count":3,
-    "solar":545.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NM",
-    "county":"Roosevelt",
-    "total_mw":1950.0,
-    "project_count":5,
-    "solar":1300.0,
-    "storage":0.0,
-    "wind":650.0,
-    "gas":0.0
-  },
-  {
-    "state":"NM",
-    "county":"San Juan County",
-    "total_mw":360.0,
-    "project_count":1,
-    "solar":360.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -5220,436 +4390,6 @@
     "gas":0.0
   },
   {
-    "state":"OK",
-    "county":"Anadarko",
-    "total_mw":690.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":690.0
-  },
-  {
-    "state":"OK",
-    "county":"Atoka",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":100.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Beckham",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Bryan",
-    "total_mw":280.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":280.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Caddo",
-    "total_mw":230.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":230.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Canadian",
-    "total_mw":800.0,
-    "project_count":3,
-    "solar":0.0,
-    "storage":200.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Choctaw",
-    "total_mw":581.8,
-    "project_count":3,
-    "solar":225.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":356.8
-  },
-  {
-    "state":"OK",
-    "county":"Cluster",
-    "total_mw":180.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":180.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Coal",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Creek",
-    "total_mw":1400.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":1400.0
-  },
-  {
-    "state":"OK",
-    "county":"Custer\/Wasita",
-    "total_mw":120.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":120.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Duncan",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Fort Gibson",
-    "total_mw":102.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":102.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Grady",
-    "total_mw":520.0,
-    "project_count":3,
-    "solar":520.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Hughes",
-    "total_mw":180.0,
-    "project_count":1,
-    "solar":180.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Johnston ",
-    "total_mw":350.0,
-    "project_count":1,
-    "solar":350.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Kay",
-    "total_mw":103.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":103.0
-  },
-  {
-    "state":"OK",
-    "county":"Konawa",
-    "total_mw":160.0,
-    "project_count":1,
-    "solar":160.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"La Flore",
-    "total_mw":136.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":136.0
-  },
-  {
-    "state":"OK",
-    "county":"LeFlore",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Lincoln",
-    "total_mw":471.0,
-    "project_count":3,
-    "solar":271.0,
-    "storage":0.0,
-    "wind":200.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Mayes",
-    "total_mw":500.0,
-    "project_count":1,
-    "solar":500.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Mayes County",
-    "total_mw":197.2,
-    "project_count":2,
-    "solar":0.0,
-    "storage":197.2,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"McClain",
-    "total_mw":496.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":496.0
-  },
-  {
-    "state":"OK",
-    "county":"McIntosh",
-    "total_mw":334.0,
-    "project_count":2,
-    "solar":334.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Murray ",
-    "total_mw":160.0,
-    "project_count":1,
-    "solar":160.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Muskogee",
-    "total_mw":390.0,
-    "project_count":1,
-    "solar":390.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Noble",
-    "total_mw":120.0,
-    "project_count":1,
-    "solar":120.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Nowata",
-    "total_mw":365.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":365.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Okfuskee",
-    "total_mw":241.4,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":241.4,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Oklahoma ",
-    "total_mw":1591.0,
-    "project_count":5,
-    "solar":0.0,
-    "storage":299.0,
-    "wind":0.0,
-    "gas":992.0
-  },
-  {
-    "state":"OK",
-    "county":"Oologah",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":100.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Payne",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":250.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Pittsburg",
-    "total_mw":90.824,
-    "project_count":1,
-    "solar":90.824,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Pittsburgh",
-    "total_mw":1045.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":1045.0
-  },
-  {
-    "state":"OK",
-    "county":"Rogers",
-    "total_mw":135.0,
-    "project_count":1,
-    "solar":135.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Seminole",
-    "total_mw":493.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":493.0
-  },
-  {
-    "state":"OK",
-    "county":"Sequoyah",
-    "total_mw":170.0,
-    "project_count":1,
-    "solar":170.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Sperry",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":200.0
-  },
-  {
-    "state":"OK",
-    "county":"Tulsa",
-    "total_mw":549.0,
-    "project_count":3,
-    "solar":0.0,
-    "storage":449.0,
-    "wind":0.0,
-    "gas":100.0
-  },
-  {
-    "state":"OK",
-    "county":"Wagoner",
-    "total_mw":199.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":199.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Washington",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":150.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Woods",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":100.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
     "state":"RI",
     "county":"Washington",
     "total_mw":205.0,
@@ -5665,16 +4405,6 @@
     "total_mw":980.0,
     "project_count":2,
     "solar":980.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"SD",
-    "county":"Brown",
-    "total_mw":270.0,
-    "project_count":1,
-    "solar":270.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -5741,56 +4471,6 @@
   },
   {
     "state":"TX",
-    "county":"Andrews",
-    "total_mw":350.0,
-    "project_count":1,
-    "solar":350.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Bailey",
-    "total_mw":400.5,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":400.5,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Bowie",
-    "total_mw":302.0,
-    "project_count":3,
-    "solar":302.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Cass",
-    "total_mw":75.0,
-    "project_count":1,
-    "solar":75.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Castro",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":300.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
     "county":"Chambers",
     "total_mw":100.0,
     "project_count":1,
@@ -5801,91 +4481,11 @@
   },
   {
     "state":"TX",
-    "county":"Cottle",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":250.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Dallam",
-    "total_mw":500.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":500.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Floyd",
-    "total_mw":500.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":500.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Franklin & Wood",
-    "total_mw":93.0,
-    "project_count":1,
-    "solar":93.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Hansford County",
-    "total_mw":67.2,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":67.2,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
     "county":"Hardin",
     "total_mw":200.0,
     "project_count":1,
     "solar":0.0,
     "storage":200.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Harrison",
-    "total_mw":2439.0,
-    "project_count":6,
-    "solar":355.0,
-    "storage":499.0,
-    "wind":0.0,
-    "gas":1585.0
-  },
-  {
-    "state":"TX",
-    "county":"Harrison and Panola",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Houston",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":250.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5911,16 +4511,6 @@
   },
   {
     "state":"TX",
-    "county":"Marion",
-    "total_mw":160.0,
-    "project_count":1,
-    "solar":160.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
     "county":"Montgomery",
     "total_mw":205.8,
     "project_count":1,
@@ -5928,16 +4518,6 @@
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Morris",
-    "total_mw":1214.6,
-    "project_count":2,
-    "solar":300.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":914.6
   },
   {
     "state":"TX",
@@ -5961,30 +4541,10 @@
   },
   {
     "state":"TX",
-    "county":"Sabine",
-    "total_mw":142.183,
-    "project_count":1,
-    "solar":142.183,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
     "county":"San Jacinto",
     "total_mw":150.0,
     "project_count":1,
     "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Swisher",
-    "total_mw":130.0,
-    "project_count":1,
-    "solar":130.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -5996,16 +4556,6 @@
     "project_count":2,
     "solar":100.0,
     "storage":150.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Yoakum",
-    "total_mw":1280.0,
-    "project_count":4,
-    "solar":980.0,
-    "storage":300.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -8136,26 +6686,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":50.3,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"WY",
-    "county":"Laramie County,",
-    "total_mw":330.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":330.0,
-    "gas":0.0
-  },
-  {
-    "state":"WY",
-    "county":"Platte County,",
-    "total_mw":800.0,
-    "project_count":1,
-    "solar":800.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   }
