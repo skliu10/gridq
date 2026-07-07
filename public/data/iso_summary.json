@@ -16,13 +16,8 @@
   },
   {
     "iso":"MISO",
-    "total_mw":199794.74,
-    "project_count":937
-  },
-  {
-    "iso":"NYISO",
-    "total_mw":26430.3,
-    "project_count":192
+    "total_mw":198719.74,
+    "project_count":931
   },
   {
     "iso":"SPP",
