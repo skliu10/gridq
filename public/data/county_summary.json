@@ -431,6 +431,16 @@
   },
   {
     "state":"AR",
+    "county":"Desha",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":100.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"AR",
     "county":"Drew",
     "total_mw":0.0,
     "project_count":1,
@@ -1582,8 +1592,8 @@
   {
     "state":"IL",
     "county":"Coles",
-    "total_mw":600.3,
-    "project_count":3,
+    "total_mw":300.3,
+    "project_count":2,
     "solar":0.0,
     "storage":100.0,
     "wind":200.3,
@@ -2107,6 +2117,16 @@
     "solar":0.0,
     "storage":0.0,
     "wind":180.0,
+    "gas":0.0
+  },
+  {
+    "state":"IN",
+    "county":"Daviess",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":200.0,
+    "storage":0.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -2742,9 +2762,9 @@
   {
     "state":"LA",
     "county":"East Feliciana",
-    "total_mw":377.0,
-    "project_count":2,
-    "solar":0.0,
+    "total_mw":477.0,
+    "project_count":3,
+    "solar":100.0,
     "storage":300.0,
     "wind":0.0,
     "gas":0.0
@@ -3112,8 +3132,8 @@
   {
     "state":"MI",
     "county":"Allegan",
-    "total_mw":619.9,
-    "project_count":3,
+    "total_mw":449.9,
+    "project_count":2,
     "solar":0.0,
     "storage":449.9,
     "wind":0.0,
@@ -3522,10 +3542,10 @@
   {
     "state":"MI",
     "county":"Van Buren",
-    "total_mw":1155.0,
-    "project_count":3,
+    "total_mw":1355.0,
+    "project_count":4,
     "solar":420.0,
-    "storage":0.0,
+    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3861,6 +3881,16 @@
   },
   {
     "state":"MN",
+    "county":"Polk",
+    "total_mw":150.0,
+    "project_count":1,
+    "solar":150.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MN",
     "county":"Redwood",
     "total_mw":1542.47,
     "project_count":6,
@@ -3912,10 +3942,10 @@
   {
     "state":"MN",
     "county":"Wabasha",
-    "total_mw":500.0,
-    "project_count":3,
+    "total_mw":300.0,
+    "project_count":2,
     "solar":50.0,
-    "storage":450.0,
+    "storage":250.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4382,9 +4412,9 @@
   {
     "state":"MS",
     "county":"Tunica",
-    "total_mw":176.6,
-    "project_count":1,
-    "solar":0.0,
+    "total_mw":336.6,
+    "project_count":2,
+    "solar":160.0,
     "storage":0.0,
     "wind":176.6,
     "gas":0.0
@@ -5555,6 +5585,16 @@
     "total_mw":175.0,
     "project_count":1,
     "solar":175.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"TX",
+    "county":"Orange",
+    "total_mw":300.0,
+    "project_count":1,
+    "solar":300.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
