@@ -1381,6 +1381,16 @@
   },
   {
     "state":"IA",
+    "county":"Mitchell",
+    "total_mw":180.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":180.0,
+    "gas":0.0
+  },
+  {
+    "state":"IA",
     "county":"Muscatine",
     "total_mw":179.4,
     "project_count":2,
@@ -1962,8 +1972,8 @@
   {
     "state":"IL",
     "county":"Sangamon",
-    "total_mw":619.9,
-    "project_count":4,
+    "total_mw":734.9,
+    "project_count":5,
     "solar":220.0,
     "storage":299.9,
     "wind":0.0,
@@ -2252,10 +2262,10 @@
   {
     "state":"IN",
     "county":"Lake",
-    "total_mw":500.0,
-    "project_count":2,
+    "total_mw":600.0,
+    "project_count":3,
     "solar":0.0,
-    "storage":500.0,
+    "storage":600.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3122,9 +3132,9 @@
   {
     "state":"MI",
     "county":"Alcona",
-    "total_mw":120.0,
-    "project_count":1,
-    "solar":120.0,
+    "total_mw":236.9,
+    "project_count":2,
+    "solar":236.9,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3132,8 +3142,8 @@
   {
     "state":"MI",
     "county":"Allegan",
-    "total_mw":449.9,
-    "project_count":2,
+    "total_mw":619.9,
+    "project_count":3,
     "solar":0.0,
     "storage":449.9,
     "wind":0.0,
@@ -3292,9 +3302,9 @@
   {
     "state":"MI",
     "county":"Ionia",
-    "total_mw":198.0,
-    "project_count":1,
-    "solar":0.0,
+    "total_mw":398.0,
+    "project_count":2,
+    "solar":200.0,
     "storage":0.0,
     "wind":198.0,
     "gas":0.0
@@ -3441,6 +3451,16 @@
   },
   {
     "state":"MI",
+    "county":"Ogemaw",
+    "total_mw":435.8,
+    "project_count":2,
+    "solar":435.8,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MI",
     "county":"Osceola",
     "total_mw":50.0,
     "project_count":1,
@@ -3532,11 +3552,11 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":831.8,
-    "project_count":5,
+    "total_mw":1007.3,
+    "project_count":6,
     "solar":340.0,
     "storage":450.0,
-    "wind":41.8,
+    "wind":217.3,
     "gas":0.0
   },
   {
@@ -3752,11 +3772,11 @@
   {
     "state":"MN",
     "county":"Lyon",
-    "total_mw":500.0,
-    "project_count":2,
+    "total_mw":700.0,
+    "project_count":3,
     "solar":0.0,
     "storage":250.0,
-    "wind":250.0,
+    "wind":450.0,
     "gas":0.0
   },
   {
@@ -3916,6 +3936,16 @@
     "project_count":1,
     "solar":0.0,
     "storage":72.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MN",
+    "county":"Roseau",
+    "total_mw":500.0,
+    "project_count":1,
+    "solar":500.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -7646,6 +7676,16 @@
     "project_count":2,
     "solar":180.0,
     "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"WI",
+    "county":"Juneau",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
