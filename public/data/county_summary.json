@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":19379.9,
-    "project_count":76,
+    "total_mw":20149.9,
+    "project_count":77,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -582,10 +582,10 @@
   {
     "state":"AR",
     "county":"Sebastian",
-    "total_mw":250.0,
-    "project_count":2,
+    "total_mw":50.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":250.0,
+    "storage":50.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -7775,6 +7775,16 @@
     "total_mw":416.5,
     "project_count":1,
     "solar":416.5,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"WI",
+    "county":"Sawyer",
+    "total_mw":243.6,
+    "project_count":1,
+    "solar":243.6,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
