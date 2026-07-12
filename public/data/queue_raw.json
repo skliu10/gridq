@@ -44014,7 +44014,7 @@
     "poi_name": "Hillsdale North",
     "state": "IN",
     "county": "Vermillion",
-    "proposed_cod": "2026-10-06",
+    "proposed_cod": "2027-11-19",
     "queue_date": "2024-08-29T04:00:00+00:00"
   },
   {
@@ -59120,7 +59120,7 @@
     "poi_name": "ROOSEVELT",
     "state": "MI",
     "county": "Ottawa",
-    "proposed_cod": "2026-05-31",
+    "proposed_cod": "2026-08-15",
     "queue_date": "2025-08-13T04:00:00+00:00"
   },
   {
@@ -61430,7 +61430,7 @@
     "iso": "MISO",
     "fuel_normalized": "other",
     "capacity_mw": 200.0,
-    "status": "Pending Revision Approval",
+    "status": "Active",
     "poi_name": "Taping 'Newport AB / NEWPORTSOLAR (338177)' to 'Cash / 5CASH (338171)' 161kV Line.",
     "state": "AR",
     "county": "Jackson",
@@ -62717,7 +62717,7 @@
     "iso": "MISO",
     "fuel_normalized": "gas",
     "capacity_mw": 243.1,
-    "status": "Pending Revision Approval",
+    "status": "Active",
     "poi_name": "Doc Bonin 69kV",
     "state": "LA",
     "county": "Lafayette",
@@ -74976,7 +74976,7 @@
     "iso": "MISO",
     "fuel_normalized": "storage",
     "capacity_mw": 150.0,
-    "status": "Active",
+    "status": "Pending Revision Approval",
     "poi_name": "ONALASKA",
     "state": "TX",
     "county": "Trinity",
@@ -164203,7 +164203,7 @@
     "queue_date": "2025-07-31"
   },
   {
-    "queue_id": "BPA-G1080",
+    "queue_id": "BPA-G1081",
     "project_name": "",
     "iso": "BPA",
     "fuel_normalized": "solar",
@@ -164216,7 +164216,7 @@
     "queue_date": "2025-07-22"
   },
   {
-    "queue_id": "BPA-G1081",
+    "queue_id": "BPA-G1080",
     "project_name": "",
     "iso": "BPA",
     "fuel_normalized": "solar",
