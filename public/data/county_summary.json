@@ -652,11 +652,11 @@
   {
     "state":"CA",
     "county":"ALAMEDA",
-    "total_mw":1411.5,
+    "total_mw":1471.5,
     "project_count":10,
     "solar":100.0,
     "storage":1145.7,
-    "wind":165.8,
+    "wind":225.8,
     "gas":0.0
   },
   {
@@ -2802,10 +2802,10 @@
   {
     "state":"LA",
     "county":"Iberville",
-    "total_mw":1785.0,
-    "project_count":3,
+    "total_mw":1610.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":175.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":1610.0
   },
