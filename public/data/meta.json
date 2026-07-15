@@ -1,7 +1,7 @@
 {
-  "queue_fetched_at": "2026-07-14T08:07:06.738056+00:00",
-  "queue_project_count": 14033,
-  "geocoded_count": 12644,
+  "queue_fetched_at": "2026-07-15T08:12:24.148188+00:00",
+  "queue_project_count": 14129,
+  "geocoded_count": 12692,
   "geocoded_pct": 90,
   "pipeline_results": {
     "iso_fetch": true,
