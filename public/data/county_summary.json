@@ -622,9 +622,9 @@
   {
     "state":"AZ",
     "county":"LA PAZ",
-    "total_mw":7050.0,
-    "project_count":5,
-    "solar":7050.0,
+    "total_mw":5050.0,
+    "project_count":4,
+    "solar":5050.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -652,10 +652,10 @@
   {
     "state":"CA",
     "county":"ALAMEDA",
-    "total_mw":1411.5,
-    "project_count":10,
+    "total_mw":1336.5,
+    "project_count":9,
     "solar":100.0,
-    "storage":1145.7,
+    "storage":1070.7,
     "wind":165.8,
     "gas":0.0
   },
@@ -862,10 +862,10 @@
   {
     "state":"CA",
     "county":"SAN DIEGO",
-    "total_mw":1856.41,
-    "project_count":10,
+    "total_mw":1556.41,
+    "project_count":9,
     "solar":110.0,
-    "storage":1152.61,
+    "storage":852.61,
     "wind":593.8,
     "gas":0.0
   },
@@ -996,16 +996,6 @@
     "project_count":4,
     "solar":0.0,
     "storage":1900.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CA",
-    "county":"YOLO",
-    "total_mw":80.0,
-    "project_count":1,
-    "solar":80.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2092,10 +2082,10 @@
   {
     "state":"IL",
     "county":"Williamson",
-    "total_mw":440.0,
-    "project_count":2,
+    "total_mw":250.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":190.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2682,9 +2672,9 @@
   {
     "state":"KY",
     "county":"Henderson",
-    "total_mw":800.0,
-    "project_count":3,
-    "solar":400.0,
+    "total_mw":400.0,
+    "project_count":2,
+    "solar":0.0,
     "storage":200.0,
     "wind":200.0,
     "gas":0.0
@@ -3342,11 +3332,11 @@
   {
     "state":"MI",
     "county":"Lapeer",
-    "total_mw":400.0,
-    "project_count":2,
+    "total_mw":100.0,
+    "project_count":1,
     "solar":100.0,
     "storage":0.0,
-    "wind":300.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -3402,10 +3392,10 @@
   {
     "state":"MI",
     "county":"Mason",
-    "total_mw":500.0,
-    "project_count":2,
+    "total_mw":600.0,
+    "project_count":3,
     "solar":0.0,
-    "storage":500.0,
+    "storage":600.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3542,11 +3532,11 @@
   {
     "state":"MI",
     "county":"Shiawassee",
-    "total_mw":800.0,
-    "project_count":4,
+    "total_mw":320.0,
+    "project_count":2,
     "solar":0.0,
     "storage":150.0,
-    "wind":480.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -3592,10 +3582,10 @@
   {
     "state":"MI",
     "county":"Washtenaw",
-    "total_mw":1989.0,
-    "project_count":5,
+    "total_mw":2139.0,
+    "project_count":6,
     "solar":325.0,
-    "storage":250.0,
+    "storage":400.0,
     "wind":0.0,
     "gas":1414.0
   },
@@ -4146,16 +4136,6 @@
     "project_count":2,
     "solar":200.0,
     "storage":200.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Gasconade",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":300.0,
     "wind":0.0,
     "gas":0.0
   },

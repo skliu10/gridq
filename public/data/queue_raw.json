@@ -672,7 +672,7 @@
     "poi_name": "Gates 230 kV",
     "state": "CA",
     "county": "KINGS",
-    "proposed_cod": "2026-06-30",
+    "proposed_cod": "2027-01-20",
     "queue_date": 1462172400000
   },
   {
@@ -1426,7 +1426,7 @@
     "poi_name": "Laguna Bell Substation 230kV",
     "state": "CA",
     "county": "LOS ANGELES",
-    "proposed_cod": "2026-06-01",
+    "proposed_cod": "2028-06-01",
     "queue_date": 1555311600000
   },
   {
@@ -1700,19 +1700,6 @@
     "state": "AZ",
     "county": "MARICOPA",
     "proposed_cod": "2030-04-01",
-    "queue_date": 1586934000000
-  },
-  {
-    "queue_id": 1687,
-    "project_name": "CONAWAY HYBRID POWER PLANT",
-    "iso": "CAISO",
-    "fuel_normalized": "solar",
-    "capacity_mw": 80.0,
-    "status": "ACTIVE",
-    "poi_name": "Woodland-Davis 115 kV Line",
-    "state": "CA",
-    "county": "YOLO",
-    "proposed_cod": "2023-01-01",
     "queue_date": 1586934000000
   },
   {
@@ -2327,19 +2314,6 @@
     "queue_date": 1618470000000
   },
   {
-    "queue_id": 1880,
-    "project_name": "PALMETTO ENERGY STORAGE",
-    "iso": "CAISO",
-    "fuel_normalized": "storage",
-    "capacity_mw": 75.0,
-    "status": "ACTIVE",
-    "poi_name": "Oakland C 115 kV ",
-    "state": "CA",
-    "county": "ALAMEDA",
-    "proposed_cod": "2030-07-22",
-    "queue_date": 1618470000000
-  },
-  {
     "queue_id": 1881,
     "project_name": "SPECTRUM ENERGY STORAGE",
     "iso": "CAISO",
@@ -2857,19 +2831,6 @@
     "state": "AZ",
     "county": "LA PAZ",
     "proposed_cod": "2029-03-26",
-    "queue_date": 1618470000000
-  },
-  {
-    "queue_id": 2023,
-    "project_name": "JOVE SOLAR",
-    "iso": "CAISO",
-    "fuel_normalized": "solar",
-    "capacity_mw": 2000.0,
-    "status": "ACTIVE",
-    "poi_name": "Cielo Azul Substation 500 kV",
-    "state": "AZ",
-    "county": "LA PAZ",
-    "proposed_cod": "2030-01-26",
     "queue_date": 1618470000000
   },
   {
@@ -3520,19 +3481,6 @@
     "state": "AZ",
     "county": "YUMA",
     "proposed_cod": "2029-06-30",
-    "queue_date": 1618470000000
-  },
-  {
-    "queue_id": 2157,
-    "project_name": "GNARLY OSAGE",
-    "iso": "CAISO",
-    "fuel_normalized": "storage",
-    "capacity_mw": 300.0,
-    "status": "ACTIVE",
-    "poi_name": "Encina Substation 138 kV",
-    "state": "CA",
-    "county": "SAN DIEGO",
-    "proposed_cod": "2027-08-07",
     "queue_date": 1618470000000
   },
   {
@@ -24934,6 +24882,19 @@
     "queue_date": 1586934000000
   },
   {
+    "queue_id": 1687,
+    "project_name": "CONAWAY HYBRID POWER PLANT",
+    "iso": "CAISO",
+    "fuel_normalized": "solar",
+    "capacity_mw": 80.0,
+    "status": "WITHDRAWN",
+    "poi_name": "Woodland-Davis 115 kV Line",
+    "state": "CA",
+    "county": "YOLO",
+    "proposed_cod": "2023-01-01",
+    "queue_date": 1586934000000
+  },
+  {
     "queue_id": 1688,
     "project_name": "CROSSROADS STORAGE",
     "iso": "CAISO",
@@ -26741,6 +26702,19 @@
     "queue_date": 1618470000000
   },
   {
+    "queue_id": 1880,
+    "project_name": "PALMETTO ENERGY STORAGE",
+    "iso": "CAISO",
+    "fuel_normalized": "storage",
+    "capacity_mw": 75.0,
+    "status": "WITHDRAWN",
+    "poi_name": "Oakland C 115 kV ",
+    "state": "CA",
+    "county": "ALAMEDA",
+    "proposed_cod": "2030-07-22",
+    "queue_date": 1618470000000
+  },
+  {
     "queue_id": 1882,
     "project_name": "LACUNA ENERGY STORAGE",
     "iso": "CAISO",
@@ -28067,6 +28041,19 @@
     "queue_date": 1618470000000
   },
   {
+    "queue_id": 2023,
+    "project_name": "JOVE SOLAR",
+    "iso": "CAISO",
+    "fuel_normalized": "solar",
+    "capacity_mw": 2000.0,
+    "status": "WITHDRAWN",
+    "poi_name": "Cielo Azul Substation 500 kV",
+    "state": "AZ",
+    "county": "LA PAZ",
+    "proposed_cod": "2030-01-26",
+    "queue_date": 1618470000000
+  },
+  {
     "queue_id": 2024,
     "project_name": "BRENDA RENEWABLE ENERGY COMPLEX",
     "iso": "CAISO",
@@ -29143,6 +29130,19 @@
     "state": "CA",
     "county": "ORANGE",
     "proposed_cod": "2028-09-09",
+    "queue_date": 1618470000000
+  },
+  {
+    "queue_id": 2157,
+    "project_name": "GNARLY OSAGE",
+    "iso": "CAISO",
+    "fuel_normalized": "storage",
+    "capacity_mw": 300.0,
+    "status": "WITHDRAWN",
+    "poi_name": "Encina Substation 138 kV",
+    "state": "CA",
+    "county": "SAN DIEGO",
+    "proposed_cod": "2027-08-07",
     "queue_date": 1618470000000
   },
   {
@@ -33857,7 +33857,7 @@
     "iso": "MISO",
     "fuel_normalized": "wind",
     "capacity_mw": 230.0,
-    "status": "Active",
+    "status": "Pending Revision Approval",
     "poi_name": "GOSS - THETFORD 345.0kV",
     "state": "MI",
     "county": "Shiawassee",
@@ -33883,7 +33883,7 @@
     "iso": "MISO",
     "fuel_normalized": "wind",
     "capacity_mw": 250.0,
-    "status": "Active",
+    "status": "Pending Revision Approval",
     "poi_name": "CORNELL - LAYTON 138.0kV",
     "state": "MI",
     "county": "Shiawassee",
@@ -33896,7 +33896,7 @@
     "iso": "MISO",
     "fuel_normalized": "wind",
     "capacity_mw": 300.0,
-    "status": "Active",
+    "status": "Pending Revision Approval",
     "poi_name": "BENNET - GREENWOOD 120.0kV",
     "state": "MI",
     "county": "Lapeer",
@@ -59597,7 +59597,7 @@
     "iso": "MISO",
     "fuel_normalized": "storage",
     "capacity_mw": 300.0,
-    "status": "Active",
+    "status": "Pending Revision Approval",
     "poi_name": "BLAND",
     "state": "MO",
     "county": "Gasconade",
@@ -60130,7 +60130,7 @@
     "iso": "MISO",
     "fuel_normalized": "storage",
     "capacity_mw": 150.0,
-    "status": "Pending Revision Approval",
+    "status": "Active",
     "poi_name": "VOYAGER",
     "state": "MI",
     "county": "Washtenaw",
@@ -64875,7 +64875,7 @@
     "iso": "MISO",
     "fuel_normalized": "solar",
     "capacity_mw": 400.0,
-    "status": "Active",
+    "status": "Pending Revision Approval",
     "poi_name": "AB Brown 345 - Reid EHV (BREC Terminal) 345.0kV",
     "state": "KY",
     "county": "Henderson",
@@ -65317,7 +65317,7 @@
     "iso": "MISO",
     "fuel_normalized": "storage",
     "capacity_mw": 100.0,
-    "status": "Pending Revision Approval",
+    "status": "Active",
     "poi_name": "PERE MARQUETTE - LINDEMAN 138.0kV",
     "state": "MI",
     "county": "Mason",
@@ -76055,7 +76055,7 @@
     "iso": "MISO",
     "fuel_normalized": "storage",
     "capacity_mw": 190.0,
-    "status": "Active",
+    "status": "Pending Revision Approval",
     "poi_name": "Ordill",
     "state": "IL",
     "county": "Williamson",
@@ -125996,6 +125996,19 @@
     "queue_date": "1/14/2026"
   },
   {
+    "queue_id": "GEN-2026-SR28",
+    "project_name": null,
+    "iso": "SPP",
+    "fuel_normalized": "storage",
+    "capacity_mw": 297.6,
+    "status": null,
+    "poi_name": "Clark County-Ironwood 345kV",
+    "state": "KS",
+    "county": "Dodge City",
+    "proposed_cod": "2029-01-30",
+    "queue_date": "6/4/2026"
+  },
+  {
     "queue_id": "GEN-2026-SR27",
     "project_name": null,
     "iso": "SPP",
@@ -140955,7 +140968,7 @@
     "poi_name": "Substation 1226 to Substation 1237, 161kV Tap",
     "state": "NE",
     "county": "Washington",
-    "proposed_cod": null,
+    "proposed_cod": "2030-02-15",
     "queue_date": "4/30/2020"
   },
   {
@@ -165365,7 +165378,7 @@
     "iso": "BPA",
     "fuel_normalized": "solar",
     "capacity_mw": 359.3,
-    "status": "RECEIVED",
+    "status": "STUDY",
     "poi_name": "Central Ferry Substation",
     "state": "WA",
     "county": "Columbia & Garfield",
@@ -182949,19 +182962,6 @@
     "queue_date": "2001-05-04"
   },
   {
-    "queue_id": "BPA-G51",
-    "project_name": "Pierce County Project No 1",
-    "iso": "BPA",
-    "fuel_normalized": "gas",
-    "capacity_mw": 170.0,
-    "status": "WITHDRAWN",
-    "poi_name": "South Tacoma 230 kV Substation",
-    "state": "WA",
-    "county": "Pierce",
-    "proposed_cod": "2003-01-01",
-    "queue_date": "2001-05-03"
-  },
-  {
     "queue_id": "BPA-G52",
     "project_name": "Pierce County Project No 2",
     "iso": "BPA",
@@ -182975,17 +182975,17 @@
     "queue_date": "2001-05-03"
   },
   {
-    "queue_id": "BPA-G48-01",
-    "project_name": "",
+    "queue_id": "BPA-G51",
+    "project_name": "Pierce County Project No 1",
     "iso": "BPA",
-    "fuel_normalized": "wind",
-    "capacity_mw": 249.0,
+    "fuel_normalized": "gas",
+    "capacity_mw": 170.0,
     "status": "WITHDRAWN",
-    "poi_name": "230 kV Big Eddy-Midway/ 500 kV Hanford-John Day line",
+    "poi_name": "South Tacoma 230 kV Substation",
     "state": "WA",
-    "county": "BentoN",
-    "proposed_cod": "2002-11-15",
-    "queue_date": "2001-04-23"
+    "county": "Pierce",
+    "proposed_cod": "2003-01-01",
+    "queue_date": "2001-05-03"
   },
   {
     "queue_id": "BPA-G48",
@@ -182997,6 +182997,19 @@
     "poi_name": "230 kV Big Eddy-Midway/ 500 kV Hanford-John Day line",
     "state": "WA",
     "county": "Benton",
+    "proposed_cod": "2002-11-15",
+    "queue_date": "2001-04-23"
+  },
+  {
+    "queue_id": "BPA-G48-01",
+    "project_name": "",
+    "iso": "BPA",
+    "fuel_normalized": "wind",
+    "capacity_mw": 249.0,
+    "status": "WITHDRAWN",
+    "poi_name": "230 kV Big Eddy-Midway/ 500 kV Hanford-John Day line",
+    "state": "WA",
+    "county": "BentoN",
     "proposed_cod": "2002-11-15",
     "queue_date": "2001-04-23"
   },
@@ -183079,8 +183092,8 @@
     "queue_date": "2001-04-16"
   },
   {
-    "queue_id": "BPA-G45",
-    "project_name": "100MW Longview 2",
+    "queue_id": "BPA-G44",
+    "project_name": "100MW Longview 1",
     "iso": "BPA",
     "fuel_normalized": "gas",
     "capacity_mw": 100.0,
@@ -183092,8 +183105,8 @@
     "queue_date": "2001-04-11"
   },
   {
-    "queue_id": "BPA-G44",
-    "project_name": "100MW Longview 1",
+    "queue_id": "BPA-G45",
+    "project_name": "100MW Longview 2",
     "iso": "BPA",
     "fuel_normalized": "gas",
     "capacity_mw": 100.0,
@@ -183274,19 +183287,6 @@
     "queue_date": "2001-03-05"
   },
   {
-    "queue_id": "BPA-G30",
-    "project_name": "Pacific Winds Inc",
-    "iso": "BPA",
-    "fuel_normalized": "wind",
-    "capacity_mw": 100.0,
-    "status": "WITHDRAWN",
-    "poi_name": "230 kV Hanford-Mabton transmission line near Rattlesnake Hills",
-    "state": "WA",
-    "county": "Benton",
-    "proposed_cod": "2002-11-15",
-    "queue_date": "2001-03-01"
-  },
-  {
     "queue_id": "BPA-G31",
     "project_name": "Pacific Winds Inc",
     "iso": "BPA",
@@ -183294,6 +183294,19 @@
     "capacity_mw": 100.0,
     "status": "WITHDRAWN",
     "poi_name": "230 kV Franklin-McNary line near Horse Heaven Hills",
+    "state": "WA",
+    "county": "Benton",
+    "proposed_cod": "2002-11-15",
+    "queue_date": "2001-03-01"
+  },
+  {
+    "queue_id": "BPA-G30",
+    "project_name": "Pacific Winds Inc",
+    "iso": "BPA",
+    "fuel_normalized": "wind",
+    "capacity_mw": 100.0,
+    "status": "WITHDRAWN",
+    "poi_name": "230 kV Hanford-Mabton transmission line near Rattlesnake Hills",
     "state": "WA",
     "county": "Benton",
     "proposed_cod": "2002-11-15",
@@ -183378,19 +183391,6 @@
     "queue_date": "2001-02-15"
   },
   {
-    "queue_id": "BPA-G25",
-    "project_name": "500MW Custer-[Intalco,Portal Way] 2",
-    "iso": "BPA",
-    "fuel_normalized": "gas",
-    "capacity_mw": 500.0,
-    "status": "WITHDRAWN",
-    "poi_name": "Custer-Inalco/Portal Way 230 kV transmission line",
-    "state": "WA",
-    "county": "Whatcom",
-    "proposed_cod": "2004-06-01",
-    "queue_date": "2001-02-15"
-  },
-  {
     "queue_id": "BPA-G24",
     "project_name": "500MW Custer-[Intalco,Portal Way] 1",
     "iso": "BPA",
@@ -183401,6 +183401,19 @@
     "state": "WA",
     "county": "Whatcom",
     "proposed_cod": "2005-06-01",
+    "queue_date": "2001-02-15"
+  },
+  {
+    "queue_id": "BPA-G25",
+    "project_name": "500MW Custer-[Intalco,Portal Way] 2",
+    "iso": "BPA",
+    "fuel_normalized": "gas",
+    "capacity_mw": 500.0,
+    "status": "WITHDRAWN",
+    "poi_name": "Custer-Inalco/Portal Way 230 kV transmission line",
+    "state": "WA",
+    "county": "Whatcom",
+    "proposed_cod": "2004-06-01",
     "queue_date": "2001-02-15"
   },
   {
