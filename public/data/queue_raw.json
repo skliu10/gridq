@@ -74404,7 +74404,7 @@
     "iso": "MISO",
     "fuel_normalized": "storage",
     "capacity_mw": 200.0,
-    "status": "Active",
+    "status": "Pending Transfer",
     "poi_name": "7ASTER - 7CMDR 345.0kV",
     "state": "IL",
     "county": "Perry",

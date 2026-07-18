@@ -1902,10 +1902,10 @@
   {
     "state":"IL",
     "county":"Perry",
-    "total_mw":1293.0,
-    "project_count":6,
+    "total_mw":1093.0,
+    "project_count":5,
     "solar":650.0,
-    "storage":643.0,
+    "storage":443.0,
     "wind":0.0,
     "gas":0.0
   },
