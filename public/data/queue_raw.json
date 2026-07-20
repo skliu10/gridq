@@ -172484,19 +172484,6 @@
     "queue_date": "2021-09-23"
   },
   {
-    "queue_id": "BPA-G0695",
-    "project_name": "",
-    "iso": "BPA",
-    "fuel_normalized": "storage",
-    "capacity_mw": 3939.1,
-    "status": "STUDY",
-    "poi_name": "Ponderosa Substation 500 kV",
-    "state": "OR",
-    "county": "Crook",
-    "proposed_cod": "2028-12-01",
-    "queue_date": "2021-09-22"
-  },
-  {
     "queue_id": "BPA-G0696",
     "project_name": "",
     "iso": "BPA",
@@ -172585,6 +172572,19 @@
     "state": "OR",
     "county": "Crook",
     "proposed_cod": "2025-12-01",
+    "queue_date": "2021-09-22"
+  },
+  {
+    "queue_id": "BPA-G0695",
+    "project_name": "",
+    "iso": "BPA",
+    "fuel_normalized": "storage",
+    "capacity_mw": 3939.1,
+    "status": "STUDY",
+    "poi_name": "Ponderosa Substation 500 kV",
+    "state": "OR",
+    "county": "Crook",
+    "proposed_cod": "2028-12-01",
     "queue_date": "2021-09-22"
   },
   {
@@ -174876,6 +174876,19 @@
     "queue_date": "2018-03-02"
   },
   {
+    "queue_id": "BPA-L0434",
+    "project_name": "John Day",
+    "iso": "BPA",
+    "fuel_normalized": "load",
+    "capacity_mw": 8.0,
+    "status": "WITHDRAWN",
+    "poi_name": "KPUD's John Day 13.8 kV Substation",
+    "state": "OR",
+    "county": "Wasco",
+    "proposed_cod": "2021-02-23",
+    "queue_date": "2018-02-23"
+  },
+  {
     "queue_id": "BPA-L0435",
     "project_name": "EE Clouse Substation",
     "iso": "BPA",
@@ -174898,19 +174911,6 @@
     "poi_name": "Harvalum Substation",
     "state": "WA",
     "county": "Klickitat",
-    "proposed_cod": "2021-02-23",
-    "queue_date": "2018-02-23"
-  },
-  {
-    "queue_id": "BPA-L0434",
-    "project_name": "John Day",
-    "iso": "BPA",
-    "fuel_normalized": "load",
-    "capacity_mw": 8.0,
-    "status": "WITHDRAWN",
-    "poi_name": "KPUD's John Day 13.8 kV Substation",
-    "state": "OR",
-    "county": "Wasco",
     "proposed_cod": "2021-02-23",
     "queue_date": "2018-02-23"
   },
