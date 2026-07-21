@@ -910,19 +910,6 @@
     "queue_date": 1493622000000
   },
   {
-    "queue_id": 1394,
-    "project_name": "DRIFTWOOD STELLA",
-    "iso": "CAISO",
-    "fuel_normalized": "solar",
-    "capacity_mw": 200.0,
-    "status": "ACTIVE",
-    "poi_name": "Midway 115 kV",
-    "state": "CA",
-    "county": "KERN",
-    "proposed_cod": "2026-11-01",
-    "queue_date": 1493622000000
-  },
-  {
     "queue_id": 1402,
     "project_name": "ATLAS COMPLEX",
     "iso": "CAISO",
@@ -1114,7 +1101,7 @@
     "poi_name": "Gates 500 kV",
     "state": "CA",
     "county": "FRESNO",
-    "proposed_cod": "2027-08-26",
+    "proposed_cod": "2026-10-01",
     "queue_date": 1523862000000
   },
   {
@@ -22214,6 +22201,19 @@
     "state": "CA",
     "county": "KERN",
     "proposed_cod": "2021-08-01",
+    "queue_date": 1493622000000
+  },
+  {
+    "queue_id": 1394,
+    "project_name": "DRIFTWOOD STELLA",
+    "iso": "CAISO",
+    "fuel_normalized": "solar",
+    "capacity_mw": 200.0,
+    "status": "WITHDRAWN",
+    "poi_name": "Midway 115 kV",
+    "state": "CA",
+    "county": "KERN",
+    "proposed_cod": "2026-11-01",
     "queue_date": 1493622000000
   },
   {
@@ -174876,19 +174876,6 @@
     "queue_date": "2018-03-02"
   },
   {
-    "queue_id": "BPA-L0434",
-    "project_name": "John Day",
-    "iso": "BPA",
-    "fuel_normalized": "load",
-    "capacity_mw": 8.0,
-    "status": "WITHDRAWN",
-    "poi_name": "KPUD's John Day 13.8 kV Substation",
-    "state": "OR",
-    "county": "Wasco",
-    "proposed_cod": "2021-02-23",
-    "queue_date": "2018-02-23"
-  },
-  {
     "queue_id": "BPA-L0435",
     "project_name": "EE Clouse Substation",
     "iso": "BPA",
@@ -174911,6 +174898,19 @@
     "poi_name": "Harvalum Substation",
     "state": "WA",
     "county": "Klickitat",
+    "proposed_cod": "2021-02-23",
+    "queue_date": "2018-02-23"
+  },
+  {
+    "queue_id": "BPA-L0434",
+    "project_name": "John Day",
+    "iso": "BPA",
+    "fuel_normalized": "load",
+    "capacity_mw": 8.0,
+    "status": "WITHDRAWN",
+    "poi_name": "KPUD's John Day 13.8 kV Substation",
+    "state": "OR",
+    "county": "Wasco",
     "proposed_cod": "2021-02-23",
     "queue_date": "2018-02-23"
   },
@@ -180401,6 +180401,19 @@
     "queue_date": "2008-01-09"
   },
   {
+    "queue_id": "BPA-G0303",
+    "project_name": "",
+    "iso": "BPA",
+    "fuel_normalized": "wind",
+    "capacity_mw": 104.0,
+    "status": "WITHDRAWN",
+    "poi_name": "At a point on BPA's Harney/Redmond transmission line close to Harney Electric Cooperative's interconnection to BPA",
+    "state": "OR",
+    "county": "Harney",
+    "proposed_cod": "2011-12-01",
+    "queue_date": "2008-01-08"
+  },
+  {
     "queue_id": "BPA-G0301",
     "project_name": "",
     "iso": "BPA",
@@ -180424,19 +180437,6 @@
     "state": "OR",
     "county": "Harney",
     "proposed_cod": "2010-12-01",
-    "queue_date": "2008-01-08"
-  },
-  {
-    "queue_id": "BPA-G0303",
-    "project_name": "",
-    "iso": "BPA",
-    "fuel_normalized": "wind",
-    "capacity_mw": 104.0,
-    "status": "WITHDRAWN",
-    "poi_name": "At a point on BPA's Harney/Redmond transmission line close to Harney Electric Cooperative's interconnection to BPA",
-    "state": "OR",
-    "county": "Harney",
-    "proposed_cod": "2011-12-01",
     "queue_date": "2008-01-08"
   },
   {

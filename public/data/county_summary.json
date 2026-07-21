@@ -722,9 +722,9 @@
   {
     "state":"CA",
     "county":"KERN",
-    "total_mw":11536.98,
-    "project_count":45,
-    "solar":8979.98,
+    "total_mw":11336.98,
+    "project_count":44,
+    "solar":8779.98,
     "storage":1110.0,
     "wind":220.0,
     "gas":35.0
