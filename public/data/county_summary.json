@@ -622,9 +622,9 @@
   {
     "state":"AZ",
     "county":"LA PAZ",
-    "total_mw":5050.0,
-    "project_count":4,
-    "solar":5050.0,
+    "total_mw":4550.0,
+    "project_count":3,
+    "solar":4550.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -722,9 +722,9 @@
   {
     "state":"CA",
     "county":"KERN",
-    "total_mw":11336.98,
-    "project_count":44,
-    "solar":8779.98,
+    "total_mw":11231.78,
+    "project_count":43,
+    "solar":8674.78,
     "storage":1110.0,
     "wind":220.0,
     "gas":35.0
