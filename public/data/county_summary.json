@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":20829.9,
-    "project_count":79,
+    "total_mw":21599.9,
+    "project_count":80,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -2291,16 +2291,6 @@
   },
   {
     "state":"IN",
-    "county":"Montgomery",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IN",
     "county":"Morgan",
     "total_mw":263.7,
     "project_count":1,
@@ -3292,10 +3282,10 @@
   {
     "state":"MI",
     "county":"Huron",
-    "total_mw":3113.0,
-    "project_count":14,
+    "total_mw":3363.0,
+    "project_count":15,
     "solar":150.0,
-    "storage":1650.0,
+    "storage":1900.0,
     "wind":1313.0,
     "gas":0.0
   },
@@ -3352,9 +3342,9 @@
   {
     "state":"MI",
     "county":"Livingston",
-    "total_mw":625.0,
-    "project_count":4,
-    "solar":375.0,
+    "total_mw":515.0,
+    "project_count":3,
+    "solar":265.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3612,10 +3602,10 @@
   {
     "state":"MN",
     "county":"Benton",
-    "total_mw":749.0,
-    "project_count":4,
+    "total_mw":599.0,
+    "project_count":3,
     "solar":0.0,
-    "storage":500.0,
+    "storage":350.0,
     "wind":249.0,
     "gas":0.0
   },
@@ -3642,9 +3632,9 @@
   {
     "state":"MN",
     "county":"Chisago",
-    "total_mw":300.0,
-    "project_count":2,
-    "solar":0.0,
+    "total_mw":450.0,
+    "project_count":3,
+    "solar":150.0,
     "storage":300.0,
     "wind":0.0,
     "gas":0.0
@@ -3867,6 +3857,16 @@
     "solar":100.0,
     "storage":0.0,
     "wind":630.0,
+    "gas":0.0
+  },
+  {
+    "state":"MN",
+    "county":"Newton",
+    "total_mw":150.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":150.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
