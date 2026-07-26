@@ -45583,7 +45583,7 @@
     "iso": "MISO",
     "fuel_normalized": "storage",
     "capacity_mw": 100.0,
-    "status": "Pending Transfer",
+    "status": "Active",
     "poi_name": "Rising",
     "state": "IL",
     "county": "Champaign",
@@ -56789,7 +56789,7 @@
     "iso": "MISO",
     "fuel_normalized": "storage",
     "capacity_mw": 100.0,
-    "status": "Pending Transfer",
+    "status": "Active",
     "poi_name": "Denmark",
     "state": "IA",
     "county": "Henry",
@@ -71080,7 +71080,7 @@
     "poi_name": "GERALD ANDRUS SES SWYD - TINNIN ROAD 230.0kV",
     "state": "MS",
     "county": "Washington",
-    "proposed_cod": "2027-06-01",
+    "proposed_cod": "2030-06-01",
     "queue_date": "2025-11-10T05:00:00+00:00"
   },
   {
@@ -75275,7 +75275,7 @@
     "iso": "MISO",
     "fuel_normalized": "gas",
     "capacity_mw": 650.0,
-    "status": "Pending Transfer",
+    "status": "Active",
     "poi_name": "Forest Junction",
     "state": "WI",
     "county": "Calumet",
@@ -93302,12 +93302,12 @@
   },
   {
     "queue_id": 502,
-    "project_name": "345 kV Tie - Phase 1",
+    "project_name": "345 kV Tie - Phase 2",
     "iso": "ISONE",
     "fuel_normalized": "other",
-    "capacity_mw": 200.0,
+    "capacity_mw": 0.0,
     "status": "Withdrawn",
-    "poi_name": "Houlton, ME to MEPCO 396 Line",
+    "poi_name": "Bridgewater, ME to MEPCO 396 Line",
     "state": "ME",
     "county": "Aroostook",
     "proposed_cod": "2016-12-01",
@@ -93315,12 +93315,12 @@
   },
   {
     "queue_id": 502,
-    "project_name": "345 kV Tie - Phase 2",
+    "project_name": "345 kV Tie - Phase 1",
     "iso": "ISONE",
     "fuel_normalized": "other",
-    "capacity_mw": 0.0,
+    "capacity_mw": 200.0,
     "status": "Withdrawn",
-    "poi_name": "Bridgewater, ME to MEPCO 396 Line",
+    "poi_name": "Houlton, ME to MEPCO 396 Line",
     "state": "ME",
     "county": "Aroostook",
     "proposed_cod": "2016-12-01",
@@ -94732,12 +94732,12 @@
   },
   {
     "queue_id": 394,
-    "project_name": "Bridgeport Fuel Cell 3",
+    "project_name": "Bridgeport Fuel Cell 2",
     "iso": "ISONE",
     "fuel_normalized": "gas",
-    "capacity_mw": 4.15,
+    "capacity_mw": 5.6,
     "status": "Completed",
-    "poi_name": "UI 13.8 kV New Congress II Substation",
+    "poi_name": "UI 13.8 kV New Congress I substation",
     "state": "CT",
     "county": "Fairfield",
     "proposed_cod": "2013-11-24",
@@ -94745,12 +94745,12 @@
   },
   {
     "queue_id": 394,
-    "project_name": "Bridgeport Fuel Cell 2",
+    "project_name": "Bridgeport Fuel Cell 3",
     "iso": "ISONE",
     "fuel_normalized": "gas",
-    "capacity_mw": 5.6,
+    "capacity_mw": 4.15,
     "status": "Completed",
-    "poi_name": "UI 13.8 kV New Congress I substation",
+    "poi_name": "UI 13.8 kV New Congress II Substation",
     "state": "CT",
     "county": "Fairfield",
     "proposed_cod": "2013-11-24",
@@ -94784,6 +94784,19 @@
   },
   {
     "queue_id": 391,
+    "project_name": "Weston Station AVR Replacement U2-4",
+    "iso": "ISONE",
+    "fuel_normalized": "hydro",
+    "capacity_mw": 0.0,
+    "status": "Completed",
+    "poi_name": "CMP 34.5 kV Weston Substation",
+    "state": "ME",
+    "county": "Somerset",
+    "proposed_cod": "2015-07-30",
+    "queue_date": "2/2/2012"
+  },
+  {
+    "queue_id": 391,
     "project_name": "Weston Station Uprate U4",
     "iso": "ISONE",
     "fuel_normalized": "hydro",
@@ -94806,19 +94819,6 @@
     "state": "ME",
     "county": "Somerset",
     "proposed_cod": "2013-12-14",
-    "queue_date": "2/2/2012"
-  },
-  {
-    "queue_id": 391,
-    "project_name": "Weston Station AVR Replacement U2-4",
-    "iso": "ISONE",
-    "fuel_normalized": "hydro",
-    "capacity_mw": 0.0,
-    "status": "Completed",
-    "poi_name": "CMP 34.5 kV Weston Substation",
-    "state": "ME",
-    "county": "Somerset",
-    "proposed_cod": "2015-07-30",
     "queue_date": "2/2/2012"
   },
   {
@@ -95070,19 +95070,6 @@
   },
   {
     "queue_id": 374,
-    "project_name": "Brayton Pt. 2 Exciter Replacement",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": 0.0,
-    "status": "Withdrawn",
-    "poi_name": "GRID 345 kV Brayton Pt Switchyard",
-    "state": "MA",
-    "county": "Bristol",
-    "proposed_cod": "2014-05-22",
-    "queue_date": "8/24/2011"
-  },
-  {
-    "queue_id": 374,
     "project_name": "Brayton Pt. 1 Exciter Replacement",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -95092,6 +95079,19 @@
     "state": "MA",
     "county": "Bristol",
     "proposed_cod": "2012-05-12",
+    "queue_date": "8/24/2011"
+  },
+  {
+    "queue_id": 374,
+    "project_name": "Brayton Pt. 2 Exciter Replacement",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": 0.0,
+    "status": "Withdrawn",
+    "poi_name": "GRID 345 kV Brayton Pt Switchyard",
+    "state": "MA",
+    "county": "Bristol",
+    "proposed_cod": "2014-05-22",
     "queue_date": "8/24/2011"
   },
   {
@@ -95109,19 +95109,6 @@
   },
   {
     "queue_id": 372,
-    "project_name": "Skelton Station Modernization Phase 1",
-    "iso": "ISONE",
-    "fuel_normalized": "hydro",
-    "capacity_mw": 1.083,
-    "status": "Completed",
-    "poi_name": "CMP 34.5 kV Louden substation",
-    "state": "ME",
-    "county": "York",
-    "proposed_cod": "2013-12-19",
-    "queue_date": "8/3/2011"
-  },
-  {
-    "queue_id": 372,
     "project_name": "Skelton Station Modernization Phase 2",
     "iso": "ISONE",
     "fuel_normalized": "hydro",
@@ -95131,6 +95118,19 @@
     "state": "ME",
     "county": "York",
     "proposed_cod": "2013-12-14",
+    "queue_date": "8/3/2011"
+  },
+  {
+    "queue_id": 372,
+    "project_name": "Skelton Station Modernization Phase 1",
+    "iso": "ISONE",
+    "fuel_normalized": "hydro",
+    "capacity_mw": 1.083,
+    "status": "Completed",
+    "poi_name": "CMP 34.5 kV Louden substation",
+    "state": "ME",
+    "county": "York",
+    "proposed_cod": "2013-12-19",
     "queue_date": "8/3/2011"
   },
   {
@@ -95213,19 +95213,6 @@
   },
   {
     "queue_id": 366,
-    "project_name": "Wyman Hydro Uprate U2",
-    "iso": "ISONE",
-    "fuel_normalized": "hydro",
-    "capacity_mw": 0.0,
-    "status": "Completed",
-    "poi_name": "CMP 115 kV Wyman",
-    "state": "ME",
-    "county": "Somerset",
-    "proposed_cod": "2015-03-23",
-    "queue_date": "5/23/2011"
-  },
-  {
-    "queue_id": 366,
     "project_name": "Wyman Hydro Uprate U1",
     "iso": "ISONE",
     "fuel_normalized": "hydro",
@@ -95235,6 +95222,19 @@
     "state": "ME",
     "county": "Somerset",
     "proposed_cod": "2016-03-24",
+    "queue_date": "5/23/2011"
+  },
+  {
+    "queue_id": 366,
+    "project_name": "Wyman Hydro Uprate U2",
+    "iso": "ISONE",
+    "fuel_normalized": "hydro",
+    "capacity_mw": 0.0,
+    "status": "Completed",
+    "poi_name": "CMP 115 kV Wyman",
+    "state": "ME",
+    "county": "Somerset",
+    "proposed_cod": "2015-03-23",
     "queue_date": "5/23/2011"
   },
   {
@@ -95317,15 +95317,15 @@
   },
   {
     "queue_id": 360,
-    "project_name": "Turners Falls Hydro CNR",
+    "project_name": "Indian River Power Supply CNR",
     "iso": "ISONE",
     "fuel_normalized": "hydro",
     "capacity_mw": 0.0,
     "status": "Completed",
-    "poi_name": "WMECO 13.8 kV",
+    "poi_name": "WMECO 23 kV circuit",
     "state": "MA",
-    "county": "Franklin",
-    "proposed_cod": "2012-05-29",
+    "county": "Hampden",
+    "proposed_cod": null,
     "queue_date": "3/14/2011"
   },
   {
@@ -95343,29 +95343,16 @@
   },
   {
     "queue_id": 360,
-    "project_name": "Indian River Power Supply CNR",
+    "project_name": "Turners Falls Hydro CNR",
     "iso": "ISONE",
     "fuel_normalized": "hydro",
     "capacity_mw": 0.0,
     "status": "Completed",
-    "poi_name": "WMECO 23 kV circuit",
+    "poi_name": "WMECO 13.8 kV",
     "state": "MA",
-    "county": "Hampden",
-    "proposed_cod": null,
+    "county": "Franklin",
+    "proposed_cod": "2012-05-29",
     "queue_date": "3/14/2011"
-  },
-  {
-    "queue_id": 359,
-    "project_name": "Bear Swamp AVR/PSS Unit 1",
-    "iso": "ISONE",
-    "fuel_normalized": "hydro",
-    "capacity_mw": 0.0,
-    "status": "Completed",
-    "poi_name": "Bear Swamp 230 kV substation",
-    "state": "MA",
-    "county": "Franklin and Bershire",
-    "proposed_cod": "2012-03-06",
-    "queue_date": "3/7/2011"
   },
   {
     "queue_id": 359,
@@ -95378,6 +95365,19 @@
     "state": "MA",
     "county": "Franklin and Berkshire",
     "proposed_cod": "2011-06-30",
+    "queue_date": "3/7/2011"
+  },
+  {
+    "queue_id": 359,
+    "project_name": "Bear Swamp AVR/PSS Unit 1",
+    "iso": "ISONE",
+    "fuel_normalized": "hydro",
+    "capacity_mw": 0.0,
+    "status": "Completed",
+    "poi_name": "Bear Swamp 230 kV substation",
+    "state": "MA",
+    "county": "Franklin and Bershire",
+    "proposed_cod": "2012-03-06",
     "queue_date": "3/7/2011"
   },
   {
@@ -95489,12 +95489,12 @@
     "project_name": "Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 14.9,
+    "capacity_mw": 9.9,
     "status": "Withdrawn",
     "poi_name": "NSTAR 115 kV Valley substation",
     "state": "MA",
-    "county": "Barnstable",
-    "proposed_cod": "2012-10-31",
+    "county": "Plymouth",
+    "proposed_cod": "2013-11-30",
     "queue_date": "12/21/2010"
   },
   {
@@ -95502,12 +95502,12 @@
     "project_name": "Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 9.9,
+    "capacity_mw": 14.9,
     "status": "Withdrawn",
     "poi_name": "NSTAR 115 kV Valley substation",
     "state": "MA",
-    "county": "Plymouth",
-    "proposed_cod": "2013-11-30",
+    "county": "Barnstable",
+    "proposed_cod": "2012-10-31",
     "queue_date": "12/21/2010"
   },
   {
@@ -95541,12 +95541,12 @@
     "project_name": "Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 96.9,
+    "capacity_mw": 92.25,
     "status": "Withdrawn",
-    "poi_name": "CMP Wyman substation",
+    "poi_name": "BHE Washington County 115 kV substation",
     "state": "ME",
-    "county": "Somerset",
-    "proposed_cod": "2016-10-01",
+    "county": "Washington",
+    "proposed_cod": "2015-10-01",
     "queue_date": "11/10/2010"
   },
   {
@@ -95554,12 +95554,12 @@
     "project_name": "Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 92.25,
+    "capacity_mw": 96.9,
     "status": "Withdrawn",
-    "poi_name": "BHE Washington County 115 kV substation",
+    "poi_name": "CMP Wyman substation",
     "state": "ME",
-    "county": "Washington",
-    "proposed_cod": "2015-10-01",
+    "county": "Somerset",
+    "proposed_cod": "2016-10-01",
     "queue_date": "11/10/2010"
   },
   {
@@ -95798,19 +95798,6 @@
   },
   {
     "queue_id": 331,
-    "project_name": "Kendall #3 Back Pressure Steam Turbine",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 7.5,
-    "status": "Completed",
-    "poi_name": "115 kV Line 875-539 to NSTAR 875 substation",
-    "state": "MA",
-    "county": "Middlesex",
-    "proposed_cod": "2016-05-31",
-    "queue_date": "5/13/2010"
-  },
-  {
-    "queue_id": 331,
     "project_name": "Waterbury Generation Increase",
     "iso": "ISONE",
     "fuel_normalized": "gas",
@@ -95820,6 +95807,19 @@
     "state": "CT",
     "county": "New Haven",
     "proposed_cod": "2010-09-30",
+    "queue_date": "5/13/2010"
+  },
+  {
+    "queue_id": 331,
+    "project_name": "Kendall #3 Back Pressure Steam Turbine",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 7.5,
+    "status": "Completed",
+    "poi_name": "115 kV Line 875-539 to NSTAR 875 substation",
+    "state": "MA",
+    "county": "Middlesex",
+    "proposed_cod": "2016-05-31",
     "queue_date": "5/13/2010"
   },
   {
@@ -95850,10 +95850,10 @@
   },
   {
     "queue_id": 328,
-    "project_name": "Douglas Woods Wind Unit 12",
+    "project_name": "Douglas Woods Wind Units 1-11",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 2.5,
+    "capacity_mw": 27.5,
     "status": "Withdrawn",
     "poi_name": "GRID 69 kV S19 at E. Webster Substation",
     "state": "MA",
@@ -95863,10 +95863,10 @@
   },
   {
     "queue_id": 328,
-    "project_name": "Douglas Woods Wind Units 1-11",
+    "project_name": "Douglas Woods Wind Unit 12",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 27.5,
+    "capacity_mw": 2.5,
     "status": "Withdrawn",
     "poi_name": "GRID 69 kV S19 at E. Webster Substation",
     "state": "MA",
@@ -95941,19 +95941,6 @@
   },
   {
     "queue_id": 323,
-    "project_name": "Spruce Mountain Wind Increase",
-    "iso": "ISONE",
-    "fuel_normalized": "wind",
-    "capacity_mw": 2.0,
-    "status": "Completed",
-    "poi_name": "CMP Woodstock substation",
-    "state": "ME",
-    "county": "Oxford",
-    "proposed_cod": "2011-11-30",
-    "queue_date": "1/21/2010"
-  },
-  {
-    "queue_id": 323,
     "project_name": "Wind Increase (see QP290)",
     "iso": "ISONE",
     "fuel_normalized": "wind",
@@ -95963,6 +95950,19 @@
     "state": "ME",
     "county": "Oxford",
     "proposed_cod": "2010-09-30",
+    "queue_date": "1/21/2010"
+  },
+  {
+    "queue_id": 323,
+    "project_name": "Spruce Mountain Wind Increase",
+    "iso": "ISONE",
+    "fuel_normalized": "wind",
+    "capacity_mw": 2.0,
+    "status": "Completed",
+    "poi_name": "CMP Woodstock substation",
+    "state": "ME",
+    "county": "Oxford",
+    "proposed_cod": "2011-11-30",
     "queue_date": "1/21/2010"
   },
   {
@@ -96032,19 +96032,6 @@
   },
   {
     "queue_id": 317,
-    "project_name": "Wind",
-    "iso": "ISONE",
-    "fuel_normalized": "wind",
-    "capacity_mw": 46.8,
-    "status": "Withdrawn",
-    "poi_name": "BHE Line 66",
-    "state": "ME",
-    "county": "Hancock",
-    "proposed_cod": "2013-10-01",
-    "queue_date": "11/4/2009"
-  },
-  {
-    "queue_id": 317,
     "project_name": "Bull Hill Wind Phase I",
     "iso": "ISONE",
     "fuel_normalized": "wind",
@@ -96054,6 +96041,19 @@
     "state": "ME",
     "county": "Hancock",
     "proposed_cod": "2012-10-04",
+    "queue_date": "11/4/2009"
+  },
+  {
+    "queue_id": 317,
+    "project_name": "Wind",
+    "iso": "ISONE",
+    "fuel_normalized": "wind",
+    "capacity_mw": 46.8,
+    "status": "Withdrawn",
+    "poi_name": "BHE Line 66",
+    "state": "ME",
+    "county": "Hancock",
+    "proposed_cod": "2013-10-01",
     "queue_date": "11/4/2009"
   },
   {
@@ -96084,15 +96084,15 @@
   },
   {
     "queue_id": 314,
-    "project_name": "400 MW 150 kV HVDC Line",
+    "project_name": "RNS Application",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "NYPA 230.115 kV substation in Plattsburg, NY to near VELCO 345 kV New Haven Substation",
-    "state": "VT",
-    "county": "Colchester",
-    "proposed_cod": "2018-06-01",
+    "poi_name": null,
+    "state": "ME",
+    "county": "Aroostook",
+    "proposed_cod": null,
     "queue_date": "10/16/2009"
   },
   {
@@ -96110,15 +96110,15 @@
   },
   {
     "queue_id": 314,
-    "project_name": "RNS Application",
+    "project_name": "400 MW 150 kV HVDC Line",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": null,
-    "state": "ME",
-    "county": "Aroostook",
-    "proposed_cod": null,
+    "poi_name": "NYPA 230.115 kV substation in Plattsburg, NY to near VELCO 345 kV New Haven Substation",
+    "state": "VT",
+    "county": "Colchester",
+    "proposed_cod": "2018-06-01",
     "queue_date": "10/16/2009"
   },
   {
@@ -96266,19 +96266,6 @@
   },
   {
     "queue_id": 305,
-    "project_name": "Internal Combustion",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 10.0,
-    "status": "Withdrawn",
-    "poi_name": "NSTAR 23 kV Edgartown0Vineyard Haven Rd Line",
-    "state": "MA",
-    "county": "Dukes",
-    "proposed_cod": "2013-04-30",
-    "queue_date": "7/10/2009"
-  },
-  {
-    "queue_id": 305,
     "project_name": "Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
@@ -96304,6 +96291,19 @@
     "queue_date": "7/10/2009"
   },
   {
+    "queue_id": 305,
+    "project_name": "Internal Combustion",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 10.0,
+    "status": "Withdrawn",
+    "poi_name": "NSTAR 23 kV Edgartown0Vineyard Haven Rd Line",
+    "state": "MA",
+    "county": "Dukes",
+    "proposed_cod": "2013-04-30",
+    "queue_date": "7/10/2009"
+  },
+  {
     "queue_id": 304,
     "project_name": "Biomass",
     "iso": "ISONE",
@@ -96321,19 +96321,6 @@
     "project_name": "Biomass",
     "iso": "ISONE",
     "fuel_normalized": "other",
-    "capacity_mw": 7.6,
-    "status": "Withdrawn",
-    "poi_name": "Rigby/Pleasant Hill 34.5 kV Line",
-    "state": "ME",
-    "county": "Cumberland",
-    "proposed_cod": "2010-02-16",
-    "queue_date": "6/23/2009"
-  },
-  {
-    "queue_id": 303,
-    "project_name": "Biomass",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
     "capacity_mw": 9.5,
     "status": "Withdrawn",
     "poi_name": "TBD",
@@ -96341,6 +96328,19 @@
     "county": "Androscoggin",
     "proposed_cod": null,
     "queue_date": "6/24/2009"
+  },
+  {
+    "queue_id": 303,
+    "project_name": "Biomass",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": 7.6,
+    "status": "Withdrawn",
+    "poi_name": "Rigby/Pleasant Hill 34.5 kV Line",
+    "state": "ME",
+    "county": "Cumberland",
+    "proposed_cod": "2010-02-16",
+    "queue_date": "6/23/2009"
   },
   {
     "queue_id": 302,
@@ -96422,19 +96422,6 @@
   },
   {
     "queue_id": 296,
-    "project_name": "Salem Harbor 2 Exciter Replacement",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": 0.0,
-    "status": "Completed",
-    "poi_name": "Salem Switchyard",
-    "state": "MA",
-    "county": "Essex",
-    "proposed_cod": "2009-11-15",
-    "queue_date": "3/20/2009"
-  },
-  {
-    "queue_id": 296,
     "project_name": "Wind Farm",
     "iso": "ISONE",
     "fuel_normalized": "wind",
@@ -96445,6 +96432,19 @@
     "county": "Chittenden",
     "proposed_cod": "2010-12-31",
     "queue_date": "2/23/2009"
+  },
+  {
+    "queue_id": 296,
+    "project_name": "Salem Harbor 2 Exciter Replacement",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": 0.0,
+    "status": "Completed",
+    "poi_name": "Salem Switchyard",
+    "state": "MA",
+    "county": "Essex",
+    "proposed_cod": "2009-11-15",
+    "queue_date": "3/20/2009"
   },
   {
     "queue_id": 296,
@@ -96487,9 +96487,9 @@
   },
   {
     "queue_id": 293,
-    "project_name": "Red Shield Acquisition - Biomass",
+    "project_name": "Red Shield Acquisition - Hydro",
     "iso": "ISONE",
-    "fuel_normalized": "other",
+    "fuel_normalized": "hydro",
     "capacity_mw": 0.0,
     "status": "Completed",
     "poi_name": "BHE's Line 5 - 46 kV",
@@ -96500,9 +96500,9 @@
   },
   {
     "queue_id": 293,
-    "project_name": "Red Shield Acquisition - Hydro",
+    "project_name": "Red Shield Acquisition - Biomass",
     "iso": "ISONE",
-    "fuel_normalized": "hydro",
+    "fuel_normalized": "other",
     "capacity_mw": 0.0,
     "status": "Completed",
     "poi_name": "BHE's Line 5 - 46 kV",
@@ -96578,19 +96578,6 @@
   },
   {
     "queue_id": 289,
-    "project_name": "Yale University - Sterling Power Plant",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 17.6,
-    "status": "Completed",
-    "poi_name": "UI's Water Street substation",
-    "state": "CT",
-    "county": "New Haven",
-    "proposed_cod": "2010-05-01",
-    "queue_date": "1/8/2009"
-  },
-  {
-    "queue_id": 289,
     "project_name": "Fuel Cell",
     "iso": "ISONE",
     "fuel_normalized": "gas",
@@ -96600,6 +96587,19 @@
     "state": "CT",
     "county": "New Haven",
     "proposed_cod": "2012-05-15",
+    "queue_date": "1/8/2009"
+  },
+  {
+    "queue_id": 289,
+    "project_name": "Yale University - Sterling Power Plant",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 17.6,
+    "status": "Completed",
+    "poi_name": "UI's Water Street substation",
+    "state": "CT",
+    "county": "New Haven",
+    "proposed_cod": "2010-05-01",
     "queue_date": "1/8/2009"
   },
   {
@@ -96760,19 +96760,6 @@
   },
   {
     "queue_id": 277,
-    "project_name": "Combined Cycle",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 695.0,
-    "status": "Withdrawn",
-    "poi_name": "CL&P 345 KV 321 line",
-    "state": "CT",
-    "county": "Fairfield",
-    "proposed_cod": "2013-01-15",
-    "queue_date": "9/12/2008"
-  },
-  {
-    "queue_id": 277,
     "project_name": "Combined Cycle (QP310 in NYISO Queue)",
     "iso": "ISONE",
     "fuel_normalized": "gas",
@@ -96783,6 +96770,19 @@
     "county": "Dutchess",
     "proposed_cod": "2017-07-01",
     "queue_date": "9/22/2008"
+  },
+  {
+    "queue_id": 277,
+    "project_name": "Combined Cycle",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 695.0,
+    "status": "Withdrawn",
+    "poi_name": "CL&P 345 KV 321 line",
+    "state": "CT",
+    "county": "Fairfield",
+    "proposed_cod": "2013-01-15",
+    "queue_date": "9/12/2008"
   },
   {
     "queue_id": 276,
@@ -96854,12 +96854,12 @@
     "project_name": "Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 0.0,
+    "capacity_mw": 64.0,
     "status": "Withdrawn",
-    "poi_name": "BHE Millinocket Substation",
+    "poi_name": "CMP Rumford or Bigelow Substation",
     "state": "ME",
-    "county": "Aroostoock",
-    "proposed_cod": "2011-05-01",
+    "county": "Franklin",
+    "proposed_cod": "2012-06-01",
     "queue_date": "8/1/2008"
   },
   {
@@ -96880,11 +96880,11 @@
     "project_name": "Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 64.0,
+    "capacity_mw": 85.0,
     "status": "Withdrawn",
-    "poi_name": "CMP Rumford or Bigelow Substation",
+    "poi_name": "CMP 115 KV LINE 222",
     "state": "ME",
-    "county": "Franklin",
+    "county": "Somerset",
     "proposed_cod": "2012-06-01",
     "queue_date": "8/1/2008"
   },
@@ -96903,19 +96903,6 @@
   },
   {
     "queue_id": 272,
-    "project_name": "Wind",
-    "iso": "ISONE",
-    "fuel_normalized": "wind",
-    "capacity_mw": 85.0,
-    "status": "Withdrawn",
-    "poi_name": "CMP 115 KV LINE 222",
-    "state": "ME",
-    "county": "Somerset",
-    "proposed_cod": "2012-06-01",
-    "queue_date": "8/1/2008"
-  },
-  {
-    "queue_id": 272,
     "project_name": "Oakfield II Wind - Keene Road",
     "iso": "ISONE",
     "fuel_normalized": "wind",
@@ -96925,6 +96912,19 @@
     "state": "ME",
     "county": "Aroostoock",
     "proposed_cod": "2015-07-29",
+    "queue_date": "8/1/2008"
+  },
+  {
+    "queue_id": 272,
+    "project_name": "Wind",
+    "iso": "ISONE",
+    "fuel_normalized": "wind",
+    "capacity_mw": 0.0,
+    "status": "Withdrawn",
+    "poi_name": "BHE Millinocket Substation",
+    "state": "ME",
+    "county": "Aroostoock",
+    "proposed_cod": "2011-05-01",
     "queue_date": "8/1/2008"
   },
   {
@@ -96939,19 +96939,6 @@
     "county": null,
     "proposed_cod": null,
     "queue_date": "7/30/2008"
-  },
-  {
-    "queue_id": 271,
-    "project_name": "MPS RNS Application",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": 0.0,
-    "status": "Withdrawn",
-    "poi_name": null,
-    "state": "ME",
-    "county": "Aroostoock",
-    "proposed_cod": null,
-    "queue_date": "8/1/2008"
   },
   {
     "queue_id": 271,
@@ -96978,6 +96965,19 @@
     "county": null,
     "proposed_cod": null,
     "queue_date": "7/30/2008"
+  },
+  {
+    "queue_id": 271,
+    "project_name": "MPS RNS Application",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": 0.0,
+    "status": "Withdrawn",
+    "poi_name": null,
+    "state": "ME",
+    "county": "Aroostoock",
+    "proposed_cod": null,
+    "queue_date": "8/1/2008"
   },
   {
     "queue_id": 270,
@@ -97127,9 +97127,9 @@
     "project_name": "Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 450.0,
+    "capacity_mw": 0.0,
     "status": "Withdrawn",
-    "poi_name": "Brayton Point 115 kV bus or Dexter 115 kV bus",
+    "poi_name": "Kent County 115 kV bus or Davisville 115 kV bus",
     "state": "RI",
     "county": null,
     "proposed_cod": "2012-06-30",
@@ -97140,26 +97140,13 @@
     "project_name": "Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 0.0,
+    "capacity_mw": 450.0,
     "status": "Withdrawn",
-    "poi_name": "Kent County 115 kV bus or Davisville 115 kV bus",
+    "poi_name": "Brayton Point 115 kV bus or Dexter 115 kV bus",
     "state": "RI",
     "county": null,
     "proposed_cod": "2012-06-30",
     "queue_date": "5/8/2008"
-  },
-  {
-    "queue_id": 259,
-    "project_name": "Combined Cycle",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 27.0,
-    "status": "Withdrawn",
-    "poi_name": "115 kV RISE Substation",
-    "state": "RI",
-    "county": "Providence",
-    "proposed_cod": "2012-06-01",
-    "queue_date": "5/7/2008"
   },
   {
     "queue_id": 259,
@@ -97172,6 +97159,19 @@
     "state": "MA",
     "county": "Norfolk",
     "proposed_cod": "2010-06-01",
+    "queue_date": "5/7/2008"
+  },
+  {
+    "queue_id": 259,
+    "project_name": "Combined Cycle",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 27.0,
+    "status": "Withdrawn",
+    "poi_name": "115 kV RISE Substation",
+    "state": "RI",
+    "county": "Providence",
+    "proposed_cod": "2012-06-01",
     "queue_date": "5/7/2008"
   },
   {
@@ -97189,19 +97189,6 @@
   },
   {
     "queue_id": 257,
-    "project_name": "Wind Project-Phase 4( MPS Queue # 8)",
-    "iso": "ISONE",
-    "fuel_normalized": "wind",
-    "capacity_mw": 250.0,
-    "status": "Withdrawn",
-    "poi_name": "Maine Public Service System, upgrades include tap",
-    "state": "ME",
-    "county": null,
-    "proposed_cod": null,
-    "queue_date": "4/14/2008"
-  },
-  {
-    "queue_id": 257,
     "project_name": "Wind Project-Phase 5( MPS Queue # 9)",
     "iso": "ISONE",
     "fuel_normalized": "wind",
@@ -97211,6 +97198,19 @@
     "state": "ME",
     "county": null,
     "proposed_cod": "2013-09-03",
+    "queue_date": "4/14/2008"
+  },
+  {
+    "queue_id": 257,
+    "project_name": "Wind Project-Phase 4( MPS Queue # 8)",
+    "iso": "ISONE",
+    "fuel_normalized": "wind",
+    "capacity_mw": 250.0,
+    "status": "Withdrawn",
+    "poi_name": "Maine Public Service System, upgrades include tap",
+    "state": "ME",
+    "county": null,
+    "proposed_cod": null,
     "queue_date": "4/14/2008"
   },
   {
@@ -97228,19 +97228,6 @@
   },
   {
     "queue_id": 255,
-    "project_name": "Wind",
-    "iso": "ISONE",
-    "fuel_normalized": "wind",
-    "capacity_mw": 50.0,
-    "status": "Withdrawn",
-    "poi_name": "115 kV Plymouth substation",
-    "state": "NH",
-    "county": "Grafton",
-    "proposed_cod": "2010-10-01",
-    "queue_date": "3/31/2008"
-  },
-  {
-    "queue_id": 255,
     "project_name": "Distribution Wind Alternative",
     "iso": "ISONE",
     "fuel_normalized": "wind",
@@ -97250,6 +97237,19 @@
     "state": "NH",
     "county": "Grafton",
     "proposed_cod": "2012-10-01",
+    "queue_date": "3/31/2008"
+  },
+  {
+    "queue_id": 255,
+    "project_name": "Wind",
+    "iso": "ISONE",
+    "fuel_normalized": "wind",
+    "capacity_mw": 50.0,
+    "status": "Withdrawn",
+    "poi_name": "115 kV Plymouth substation",
+    "state": "NH",
+    "county": "Grafton",
+    "proposed_cod": "2010-10-01",
     "queue_date": "3/31/2008"
   },
   {
@@ -97532,10 +97532,10 @@
     "fuel_normalized": "gas",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "CL&P Card Street substation",
+    "poi_name": "CL&P 46 kV circuit from Baldwin Substation",
     "state": "CT",
-    "county": "New London",
-    "proposed_cod": "2010-05-01",
+    "county": "New Haven",
+    "proposed_cod": "2010-01-01",
     "queue_date": "11/15/2007"
   },
   {
@@ -97545,10 +97545,10 @@
     "fuel_normalized": "gas",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "CL&P 46 kV circuit from Baldwin Substation",
+    "poi_name": "CL&P Card Street substation",
     "state": "CT",
-    "county": "New Haven",
-    "proposed_cod": "2010-01-01",
+    "county": "New London",
+    "proposed_cod": "2010-05-01",
     "queue_date": "11/15/2007"
   },
   {
@@ -97735,19 +97735,6 @@
   },
   {
     "queue_id": 224,
-    "project_name": "VPPSA Swanton Gas Turbine #2",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 21.0,
-    "status": "Completed",
-    "poi_name": "Swanton Village 46 kV System",
-    "state": "VT",
-    "county": "Franklin",
-    "proposed_cod": "2010-05-01",
-    "queue_date": "8/10/2007"
-  },
-  {
-    "queue_id": 224,
     "project_name": "VPPSA Swanton Gas Turbine #1",
     "iso": "ISONE",
     "fuel_normalized": "gas",
@@ -97757,6 +97744,19 @@
     "state": "VT",
     "county": "Franklin",
     "proposed_cod": "2009-12-16",
+    "queue_date": "8/10/2007"
+  },
+  {
+    "queue_id": 224,
+    "project_name": "VPPSA Swanton Gas Turbine #2",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 21.0,
+    "status": "Completed",
+    "poi_name": "Swanton Village 46 kV System",
+    "state": "VT",
+    "county": "Franklin",
+    "proposed_cod": "2010-05-01",
     "queue_date": "8/10/2007"
   },
   {
@@ -97878,19 +97878,6 @@
   },
   {
     "queue_id": 215,
-    "project_name": "Combined Cycle",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 578.0,
-    "status": "Withdrawn",
-    "poi_name": "NGRID 345 kV 344 Line",
-    "state": "MA",
-    "county": "Norfolk",
-    "proposed_cod": "2013-02-01",
-    "queue_date": "5/30/2007"
-  },
-  {
-    "queue_id": 215,
     "project_name": "Longfellow Wind",
     "iso": "ISONE",
     "fuel_normalized": "wind",
@@ -97903,13 +97890,26 @@
     "queue_date": "5/24/2007"
   },
   {
+    "queue_id": 215,
+    "project_name": "Combined Cycle",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 578.0,
+    "status": "Withdrawn",
+    "poi_name": "NGRID 345 kV 344 Line",
+    "state": "MA",
+    "county": "Norfolk",
+    "proposed_cod": "2013-02-01",
+    "queue_date": "5/30/2007"
+  },
+  {
     "queue_id": 214,
     "project_name": "Biomass Project",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "PSNH 34.5 kV circuit from Lost Nation or Whitefiel",
+    "poi_name": "PSNH 115 kV S136 line",
     "state": "NH",
     "county": "Coos",
     "proposed_cod": "2010-06-30",
@@ -97922,7 +97922,7 @@
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "PSNH 115 kV S136 line",
+    "poi_name": "PSNH 34.5 kV circuit from Lost Nation or Whitefiel",
     "state": "NH",
     "county": "Coos",
     "proposed_cod": "2010-06-30",
@@ -98190,16 +98190,16 @@
   },
   {
     "queue_id": 196,
-    "project_name": "Northfield Mt. Upgrade #2",
+    "project_name": "UMass Gas Turbine",
     "iso": "ISONE",
-    "fuel_normalized": "hydro",
-    "capacity_mw": 25.0,
+    "fuel_normalized": "gas",
+    "capacity_mw": 10.4,
     "status": "Completed",
-    "poi_name": "W. Mass Northfield 345 kV substation",
+    "poi_name": "WMECO Podick substation 13.8 kV feeders",
     "state": "MA",
-    "county": "Franklin",
-    "proposed_cod": "2012-06-01",
-    "queue_date": "1/16/2007"
+    "county": "Hampshire",
+    "proposed_cod": "2008-05-06",
+    "queue_date": "1/26/2007"
   },
   {
     "queue_id": 196,
@@ -98216,16 +98216,16 @@
   },
   {
     "queue_id": 196,
-    "project_name": "UMass Gas Turbine",
+    "project_name": "Northfield Mt. Upgrade #2",
     "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 10.4,
+    "fuel_normalized": "hydro",
+    "capacity_mw": 25.0,
     "status": "Completed",
-    "poi_name": "WMECO Podick substation 13.8 kV feeders",
+    "poi_name": "W. Mass Northfield 345 kV substation",
     "state": "MA",
-    "county": "Hampshire",
-    "proposed_cod": "2008-05-06",
-    "queue_date": "1/26/2007"
+    "county": "Franklin",
+    "proposed_cod": "2012-06-01",
+    "queue_date": "1/16/2007"
   },
   {
     "queue_id": 196,
@@ -98299,10 +98299,10 @@
     "fuel_normalized": "gas",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "CL&P Frostbridge Substation",
+    "poi_name": "CL&P Plumtree Substation",
     "state": "CT",
-    "county": "Litchfield",
-    "proposed_cod": "2010-04-01",
+    "county": "Fairfield",
+    "proposed_cod": "2013-04-01",
     "queue_date": "12/28/2006"
   },
   {
@@ -98312,10 +98312,10 @@
     "fuel_normalized": "gas",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "CL&P Plumtree Substation",
+    "poi_name": "CL&P Frostbridge Substation",
     "state": "CT",
-    "county": "Fairfield",
-    "proposed_cod": "2013-04-01",
+    "county": "Litchfield",
+    "proposed_cod": "2010-04-01",
     "queue_date": "12/28/2006"
   },
   {
@@ -98333,6 +98333,19 @@
   },
   {
     "queue_id": 191,
+    "project_name": "Gas Turbine",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "UI 115 kV line #8909",
+    "state": "CT",
+    "county": "Fairfield",
+    "proposed_cod": "2010-03-31",
+    "queue_date": "12/22/2006"
+  },
+  {
+    "queue_id": 191,
     "project_name": "Biomass Project",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -98345,16 +98358,29 @@
     "queue_date": "12/22/2006"
   },
   {
-    "queue_id": 191,
+    "queue_id": 190,
     "project_name": "Gas Turbine",
     "iso": "ISONE",
     "fuel_normalized": "gas",
-    "capacity_mw": null,
+    "capacity_mw": 156.0,
     "status": "Withdrawn",
-    "poi_name": "UI 115 kV line #8909",
+    "poi_name": "W Mass. Mt. Tom 115 kV Substation",
+    "state": "MA",
+    "county": "Hampden",
+    "proposed_cod": "2009-10-30",
+    "queue_date": "12/22/2006"
+  },
+  {
+    "queue_id": 190,
+    "project_name": "Gas Turbine",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 39.0,
+    "status": "Withdrawn",
+    "poi_name": "CL&P Tunnel 115 kV Substation",
     "state": "CT",
-    "county": "Fairfield",
-    "proposed_cod": "2010-03-31",
+    "county": "New London",
+    "proposed_cod": "2009-10-30",
     "queue_date": "12/22/2006"
   },
   {
@@ -98380,32 +98406,6 @@
     "poi_name": "CL&P Falls Village 69 kV Substation",
     "state": "CT",
     "county": "Litchfield",
-    "proposed_cod": "2009-10-30",
-    "queue_date": "12/22/2006"
-  },
-  {
-    "queue_id": 190,
-    "project_name": "Gas Turbine",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 39.0,
-    "status": "Withdrawn",
-    "poi_name": "CL&P Tunnel 115 kV Substation",
-    "state": "CT",
-    "county": "New London",
-    "proposed_cod": "2009-10-30",
-    "queue_date": "12/22/2006"
-  },
-  {
-    "queue_id": 190,
-    "project_name": "Gas Turbine",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 156.0,
-    "status": "Withdrawn",
-    "poi_name": "W Mass. Mt. Tom 115 kV Substation",
-    "state": "MA",
-    "county": "Hampden",
     "proposed_cod": "2009-10-30",
     "queue_date": "12/22/2006"
   },
@@ -98450,19 +98450,6 @@
   },
   {
     "queue_id": 186,
-    "project_name": "Gas Turbine",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": 78.0,
-    "status": "Withdrawn",
-    "poi_name": "CL&P Shepaug 115 kV substation",
-    "state": "CT",
-    "county": "New Haven",
-    "proposed_cod": "2011-10-30",
-    "queue_date": "12/1/2006"
-  },
-  {
-    "queue_id": 186,
     "project_name": "Hydro",
     "iso": "ISONE",
     "fuel_normalized": "hydro",
@@ -98475,17 +98462,17 @@
     "queue_date": "12/1/2006"
   },
   {
-    "queue_id": 185,
-    "project_name": "Stetson Wind Phase I",
+    "queue_id": 186,
+    "project_name": "Gas Turbine",
     "iso": "ISONE",
-    "fuel_normalized": "wind",
-    "capacity_mw": 60.0,
-    "status": "Completed",
-    "poi_name": "BHE Keene Road 115 kV substation",
-    "state": "ME",
-    "county": "Penobscot",
-    "proposed_cod": "2008-12-01",
-    "queue_date": "11/22/2006"
+    "fuel_normalized": "other",
+    "capacity_mw": 78.0,
+    "status": "Withdrawn",
+    "poi_name": "CL&P Shepaug 115 kV substation",
+    "state": "CT",
+    "county": "New Haven",
+    "proposed_cod": "2011-10-30",
+    "queue_date": "12/1/2006"
   },
   {
     "queue_id": 185,
@@ -98498,6 +98485,19 @@
     "state": "ME",
     "county": "Penobscot",
     "proposed_cod": "2011-05-01",
+    "queue_date": "11/22/2006"
+  },
+  {
+    "queue_id": 185,
+    "project_name": "Stetson Wind Phase I",
+    "iso": "ISONE",
+    "fuel_normalized": "wind",
+    "capacity_mw": 60.0,
+    "status": "Completed",
+    "poi_name": "BHE Keene Road 115 kV substation",
+    "state": "ME",
+    "county": "Penobscot",
+    "proposed_cod": "2008-12-01",
     "queue_date": "11/22/2006"
   },
   {
@@ -98559,7 +98559,7 @@
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "CL&P Killingly 115 kV Substation",
+    "poi_name": "CL&P Card 345 kV Substation",
     "state": "CT",
     "county": null,
     "proposed_cod": null,
@@ -98572,7 +98572,7 @@
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "CL&P Card 345 kV Substation",
+    "poi_name": "CL&P Killingly 115 kV Substation",
     "state": "CT",
     "county": null,
     "proposed_cod": null,
@@ -98710,19 +98710,6 @@
   },
   {
     "queue_id": 169,
-    "project_name": "Transmission Expansion",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "VELCO Coolidge Substation",
-    "state": "VT",
-    "county": null,
-    "proposed_cod": null,
-    "queue_date": "8/15/2006"
-  },
-  {
-    "queue_id": 169,
     "project_name": "Biomass",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -98735,8 +98722,21 @@
     "queue_date": "8/15/2006"
   },
   {
+    "queue_id": 169,
+    "project_name": "Transmission Expansion",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "VELCO Coolidge Substation",
+    "state": "VT",
+    "county": null,
+    "proposed_cod": null,
+    "queue_date": "8/15/2006"
+  },
+  {
     "queue_id": 168,
-    "project_name": "Wind Project-Phase 2( MPS Queue # 2&3)",
+    "project_name": "Wind Project-Phase 3( MPS Queue # 4)",
     "iso": "ISONE",
     "fuel_normalized": "wind",
     "capacity_mw": null,
@@ -98749,7 +98749,7 @@
   },
   {
     "queue_id": 168,
-    "project_name": "Wind Project-Phase 3( MPS Queue # 4)",
+    "project_name": "Wind Project-Phase 2( MPS Queue # 2&3)",
     "iso": "ISONE",
     "fuel_normalized": "wind",
     "capacity_mw": null,
@@ -98840,6 +98840,19 @@
   },
   {
     "queue_id": 161,
+    "project_name": "Combined Cycle",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 223.0,
+    "status": "Withdrawn",
+    "poi_name": "Montville Substation",
+    "state": "CT",
+    "county": "New London",
+    "proposed_cod": "2013-02-01",
+    "queue_date": "7/5/2006"
+  },
+  {
+    "queue_id": 161,
     "project_name": "Middletown 11",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -98849,19 +98862,6 @@
     "state": "CT",
     "county": "Middlesex",
     "proposed_cod": "2011-04-01",
-    "queue_date": "7/5/2006"
-  },
-  {
-    "queue_id": 161,
-    "project_name": "Devon Units 15, 16, 17, 18",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 196.8,
-    "status": "Completed",
-    "poi_name": "Devon Substation",
-    "state": "CT",
-    "county": "New Haven",
-    "proposed_cod": "2010-04-01",
     "queue_date": "7/5/2006"
   },
   {
@@ -98879,6 +98879,19 @@
   },
   {
     "queue_id": 161,
+    "project_name": "Devon Units 15, 16, 17, 18",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 196.8,
+    "status": "Completed",
+    "poi_name": "Devon Substation",
+    "state": "CT",
+    "county": "New Haven",
+    "proposed_cod": "2010-04-01",
+    "queue_date": "7/5/2006"
+  },
+  {
+    "queue_id": 161,
     "project_name": "Combustion Turbine",
     "iso": "ISONE",
     "fuel_normalized": "gas",
@@ -98891,19 +98904,6 @@
     "queue_date": "7/17/2006"
   },
   {
-    "queue_id": 161,
-    "project_name": "Combined Cycle",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 223.0,
-    "status": "Withdrawn",
-    "poi_name": "Montville Substation",
-    "state": "CT",
-    "county": "New London",
-    "proposed_cod": "2013-02-01",
-    "queue_date": "7/5/2006"
-  },
-  {
     "queue_id": 160,
     "project_name": "Gas Turbine",
     "iso": "ISONE",
@@ -98914,19 +98914,6 @@
     "state": "CT",
     "county": "Middlesex",
     "proposed_cod": "2011-04-30",
-    "queue_date": "6/30/2006"
-  },
-  {
-    "queue_id": 159,
-    "project_name": "Gas Turbine",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 325.0,
-    "status": "Withdrawn",
-    "poi_name": "UI 345 kV Singer Substation",
-    "state": "CT",
-    "county": "Fairfield",
-    "proposed_cod": "2010-06-30",
     "queue_date": "6/30/2006"
   },
   {
@@ -98953,6 +98940,19 @@
     "state": "CT",
     "county": "Fairfield",
     "proposed_cod": "2008-03-31",
+    "queue_date": "6/30/2006"
+  },
+  {
+    "queue_id": 159,
+    "project_name": "Gas Turbine",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 325.0,
+    "status": "Withdrawn",
+    "poi_name": "UI 345 kV Singer Substation",
+    "state": "CT",
+    "county": "Fairfield",
+    "proposed_cod": "2010-06-30",
     "queue_date": "6/30/2006"
   },
   {
@@ -99022,19 +99022,6 @@
   },
   {
     "queue_id": 155,
-    "project_name": "Gas Turbine",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": 160.0,
-    "status": "Withdrawn",
-    "poi_name": "NSTAR Mystic Substation",
-    "state": "MA",
-    "county": "Middlesex",
-    "proposed_cod": "2011-03-01",
-    "queue_date": "6/2/2006"
-  },
-  {
-    "queue_id": 155,
     "project_name": "Fairfield University",
     "iso": "ISONE",
     "fuel_normalized": "gas",
@@ -99044,6 +99031,19 @@
     "state": "CT",
     "county": "Fairfield",
     "proposed_cod": null,
+    "queue_date": "6/2/2006"
+  },
+  {
+    "queue_id": 155,
+    "project_name": "Gas Turbine",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": 160.0,
+    "status": "Withdrawn",
+    "poi_name": "NSTAR Mystic Substation",
+    "state": "MA",
+    "county": "Middlesex",
+    "proposed_cod": "2011-03-01",
     "queue_date": "6/2/2006"
   },
   {
@@ -99126,32 +99126,6 @@
   },
   {
     "queue_id": 148,
-    "project_name": "Comerford Unit #4",
-    "iso": "ISONE",
-    "fuel_normalized": "hydro",
-    "capacity_mw": 8.3,
-    "status": "Completed",
-    "poi_name": "NGRID Comerford Substation",
-    "state": "NH",
-    "county": "Grafton",
-    "proposed_cod": "2012-12-25",
-    "queue_date": "3/6/2006"
-  },
-  {
-    "queue_id": 148,
-    "project_name": "Comerford Unit #2",
-    "iso": "ISONE",
-    "fuel_normalized": "hydro",
-    "capacity_mw": 8.4,
-    "status": "Completed",
-    "poi_name": "NGRID Comerford Substation",
-    "state": "NH",
-    "county": "Grafton",
-    "proposed_cod": "2012-02-27",
-    "queue_date": "3/6/2006"
-  },
-  {
-    "queue_id": 148,
     "project_name": "Comerford Unit #3",
     "iso": "ISONE",
     "fuel_normalized": "hydro",
@@ -99174,6 +99148,32 @@
     "state": "NH",
     "county": "Grafton",
     "proposed_cod": "2009-11-30",
+    "queue_date": "3/6/2006"
+  },
+  {
+    "queue_id": 148,
+    "project_name": "Comerford Unit #4",
+    "iso": "ISONE",
+    "fuel_normalized": "hydro",
+    "capacity_mw": 8.3,
+    "status": "Completed",
+    "poi_name": "NGRID Comerford Substation",
+    "state": "NH",
+    "county": "Grafton",
+    "proposed_cod": "2012-12-25",
+    "queue_date": "3/6/2006"
+  },
+  {
+    "queue_id": 148,
+    "project_name": "Comerford Unit #2",
+    "iso": "ISONE",
+    "fuel_normalized": "hydro",
+    "capacity_mw": 8.4,
+    "status": "Completed",
+    "poi_name": "NGRID Comerford Substation",
+    "state": "NH",
+    "county": "Grafton",
+    "proposed_cod": "2012-02-27",
     "queue_date": "3/6/2006"
   },
   {
@@ -99298,12 +99298,12 @@
     "project_name": "Kibby Wind Project",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 65.0,
+    "capacity_mw": 65.5,
     "status": "Completed",
     "poi_name": "Bigelow Substation",
     "state": "ME",
     "county": "Franklin",
-    "proposed_cod": "2009-09-30",
+    "proposed_cod": "2010-09-15",
     "queue_date": "9/26/2005"
   },
   {
@@ -99311,12 +99311,12 @@
     "project_name": "Kibby Wind Project",
     "iso": "ISONE",
     "fuel_normalized": "wind",
-    "capacity_mw": 65.5,
+    "capacity_mw": 65.0,
     "status": "Completed",
     "poi_name": "Bigelow Substation",
     "state": "ME",
     "county": "Franklin",
-    "proposed_cod": "2010-09-15",
+    "proposed_cod": "2009-09-30",
     "queue_date": "9/26/2005"
   },
   {
@@ -99490,19 +99490,6 @@
   },
   {
     "queue_id": 125,
-    "project_name": "Norwalk Harbor Station Redevelopment",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": 322.5,
-    "status": "Withdrawn",
-    "poi_name": "Norwalk 345 kV Station",
-    "state": "CT",
-    "county": "Fairfield",
-    "proposed_cod": "2012-12-31",
-    "queue_date": "11/2/2004"
-  },
-  {
-    "queue_id": 125,
     "project_name": "Devon Station Redevelopment",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -99512,6 +99499,19 @@
     "state": "CT",
     "county": "New Haven",
     "proposed_cod": null,
+    "queue_date": "11/2/2004"
+  },
+  {
+    "queue_id": 125,
+    "project_name": "Norwalk Harbor Station Redevelopment",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": 322.5,
+    "status": "Withdrawn",
+    "poi_name": "Norwalk 345 kV Station",
+    "state": "CT",
+    "county": "Fairfield",
+    "proposed_cod": "2012-12-31",
     "queue_date": "11/2/2004"
   },
   {
@@ -99594,19 +99594,6 @@
   },
   {
     "queue_id": 118,
-    "project_name": "Bridgeport Harbor Units 5 & 6",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "Paquonnock 115 kV Substation",
-    "state": "CT",
-    "county": "Fairfield",
-    "proposed_cod": null,
-    "queue_date": "12/29/2003"
-  },
-  {
-    "queue_id": 118,
     "project_name": "New Haven Harbor Units 2 & 3",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -99615,6 +99602,19 @@
     "poi_name": "East Shore 115 kV Substation",
     "state": "CT",
     "county": "New Haven",
+    "proposed_cod": null,
+    "queue_date": "12/29/2003"
+  },
+  {
+    "queue_id": 118,
+    "project_name": "Bridgeport Harbor Units 5 & 6",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "Paquonnock 115 kV Substation",
+    "state": "CT",
+    "county": "Fairfield",
     "proposed_cod": null,
     "queue_date": "12/29/2003"
   },
@@ -99789,19 +99789,6 @@
   },
   {
     "queue_id": 105,
-    "project_name": "Evergreen Wind Power - Blueberry Barrens",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "Deblois 115 kV",
-    "state": "ME",
-    "county": "Washington",
-    "proposed_cod": null,
-    "queue_date": "3/10/2003"
-  },
-  {
-    "queue_id": 105,
     "project_name": "Evergreen Wind Power - Bagley Mountain",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -99810,6 +99797,19 @@
     "poi_name": "Chester 115 kV",
     "state": "ME",
     "county": "Penobscot",
+    "proposed_cod": null,
+    "queue_date": "3/10/2003"
+  },
+  {
+    "queue_id": 105,
+    "project_name": "Evergreen Wind Power - Blueberry Barrens",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "Deblois 115 kV",
+    "state": "ME",
+    "county": "Washington",
     "proposed_cod": null,
     "queue_date": "3/10/2003"
   },
@@ -99971,32 +99971,6 @@
   },
   {
     "queue_id": 93,
-    "project_name": "New York Interface LTF PtP Out Service",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "Increase Export Capability to New York",
-    "state": null,
-    "county": null,
-    "proposed_cod": null,
-    "queue_date": "7/6/2001"
-  },
-  {
-    "queue_id": 93,
-    "project_name": "New York Interface LTF PtP Out Service",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "Increase Export Capability to New York",
-    "state": null,
-    "county": null,
-    "proposed_cod": null,
-    "queue_date": "7/6/2001"
-  },
-  {
-    "queue_id": 93,
     "project_name": "HVDC Interconn. betw. Norwalk Stat, CT & Shore Rd",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -100004,6 +99978,32 @@
     "status": "Withdrawn",
     "poi_name": "Interconnection between Norwalk Stat, CT & Shore R",
     "state": "CT",
+    "county": null,
+    "proposed_cod": null,
+    "queue_date": "7/6/2001"
+  },
+  {
+    "queue_id": 93,
+    "project_name": "New York Interface LTF PtP Out Service",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "Increase Export Capability to New York",
+    "state": null,
+    "county": null,
+    "proposed_cod": null,
+    "queue_date": "7/6/2001"
+  },
+  {
+    "queue_id": 93,
+    "project_name": "New York Interface LTF PtP Out Service",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "Increase Export Capability to New York",
+    "state": null,
     "county": null,
     "proposed_cod": null,
     "queue_date": "7/6/2001"
@@ -100140,7 +100140,20 @@
   },
   {
     "queue_id": 84,
-    "project_name": "Phase I - Nantucket Sound Wind Project",
+    "project_name": "Phase 3 - Nantucket Shouls Wind",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "Near Barnstable 115kV Substation",
+    "state": "MA",
+    "county": "Barnstable",
+    "proposed_cod": null,
+    "queue_date": "3/13/2001"
+  },
+  {
+    "queue_id": 84,
+    "project_name": "Phase 1 - Nantucket Shouls Wind",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
@@ -100166,7 +100179,7 @@
   },
   {
     "queue_id": 84,
-    "project_name": "Phase 3 - Nantucket Shouls Wind",
+    "project_name": "Phase 2 - Nantucket Shouls Wind",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
@@ -100179,7 +100192,7 @@
   },
   {
     "queue_id": 84,
-    "project_name": "Phase 2 - Nantucket Shouls Wind",
+    "project_name": "Phase I - Nantucket Sound Wind Project",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
@@ -100204,17 +100217,17 @@
     "queue_date": "3/13/2001"
   },
   {
-    "queue_id": 84,
-    "project_name": "Phase 1 - Nantucket Shouls Wind",
+    "queue_id": 83,
+    "project_name": "Neptune Phase4 CT Import from NB or NS",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "Near Barnstable 115kV Substation",
-    "state": "MA",
-    "county": "Barnstable",
+    "poi_name": "Glenbrook 115 kV and E. Shore St. 115/345 kV (sep.",
+    "state": "CT",
+    "county": "Fairfield & New Haven",
     "proposed_cod": null,
-    "queue_date": "3/13/2001"
+    "queue_date": "3/12/2001"
   },
   {
     "queue_id": 83,
@@ -100231,14 +100244,14 @@
   },
   {
     "queue_id": 83,
-    "project_name": "Neptune Phase4 CT Import from NB or NS",
+    "project_name": "Neptune Phase7 Wyman Export to Boston, CT, NYC or",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "Glenbrook 115 kV and E. Shore St. 115/345 kV (sep.",
-    "state": "CT",
-    "county": "Fairfield & New Haven",
+    "poi_name": "Wyman 345 kV (Bi-Polar HVDC Terminal)",
+    "state": "ME",
+    "county": "Cumberland",
     "proposed_cod": null,
     "queue_date": "3/12/2001"
   },
@@ -100252,19 +100265,6 @@
     "poi_name": "Kingston St. 115/345 kV and K St. 115 kV Substatio",
     "state": "MA",
     "county": "Suffolk",
-    "proposed_cod": null,
-    "queue_date": "3/12/2001"
-  },
-  {
-    "queue_id": 83,
-    "project_name": "Neptune Phase7 Wyman Export to Boston, CT, NYC or",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "Wyman 345 kV (Bi-Polar HVDC Terminal)",
-    "state": "ME",
-    "county": "Cumberland",
     "proposed_cod": null,
     "queue_date": "3/12/2001"
   },
@@ -100387,6 +100387,19 @@
   },
   {
     "queue_id": 73,
+    "project_name": "Middletown B",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "Middletown Station",
+    "state": "CT",
+    "county": "Middlesex",
+    "proposed_cod": null,
+    "queue_date": "7/7/2000"
+  },
+  {
+    "queue_id": 73,
     "project_name": "Somerset Diversity",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -100400,14 +100413,14 @@
   },
   {
     "queue_id": 73,
-    "project_name": "Somerset A",
+    "project_name": "Devon A",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "Somerset 115 kV Station",
-    "state": "MA",
-    "county": "Bristol",
+    "poi_name": "Devon 115 kV Substation",
+    "state": "CT",
+    "county": "New Haven",
     "proposed_cod": null,
     "queue_date": "7/7/2000"
   },
@@ -100426,14 +100439,27 @@
   },
   {
     "queue_id": 73,
-    "project_name": "Devon A",
+    "project_name": "Somerset A",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "Devon 115 kV Substation",
+    "poi_name": "Somerset 115 kV Station",
+    "state": "MA",
+    "county": "Bristol",
+    "proposed_cod": null,
+    "queue_date": "7/7/2000"
+  },
+  {
+    "queue_id": 73,
+    "project_name": "Montville A",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "Montville Station",
     "state": "CT",
-    "county": "New Haven",
+    "county": "New London",
     "proposed_cod": null,
     "queue_date": "7/7/2000"
   },
@@ -100464,32 +100490,6 @@
     "queue_date": "7/7/2000"
   },
   {
-    "queue_id": 73,
-    "project_name": "Montville A",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "Montville Station",
-    "state": "CT",
-    "county": "New London",
-    "proposed_cod": null,
-    "queue_date": "7/7/2000"
-  },
-  {
-    "queue_id": 73,
-    "project_name": "Middletown B",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "Middletown Station",
-    "state": "CT",
-    "county": "Middlesex",
-    "proposed_cod": null,
-    "queue_date": "7/7/2000"
-  },
-  {
     "queue_id": 72,
     "project_name": "Tewksbury Power",
     "iso": "ISONE",
@@ -100504,19 +100504,6 @@
   },
   {
     "queue_id": 71,
-    "project_name": "New Haven Harbor",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "East Shore Substation",
-    "state": "CT",
-    "county": "New Haven",
-    "proposed_cod": null,
-    "queue_date": "5/22/2000"
-  },
-  {
-    "queue_id": 71,
     "project_name": "Bridgeport Harbor Station",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -100525,6 +100512,19 @@
     "poi_name": "Pequonnock 115 kV Substation",
     "state": "CT",
     "county": "Fairfield",
+    "proposed_cod": null,
+    "queue_date": "5/22/2000"
+  },
+  {
+    "queue_id": 71,
+    "project_name": "New Haven Harbor",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "East Shore Substation",
+    "state": "CT",
+    "county": "New Haven",
     "proposed_cod": null,
     "queue_date": "5/22/2000"
   },
@@ -100790,7 +100790,7 @@
   },
   {
     "queue_id": 52,
-    "project_name": "Haddam Station Phase II",
+    "project_name": "Haddam Station",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
@@ -100803,7 +100803,7 @@
   },
   {
     "queue_id": 52,
-    "project_name": "Haddam Station",
+    "project_name": "Haddam Station Phase II",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
@@ -101063,7 +101063,7 @@
   },
   {
     "queue_id": 35,
-    "project_name": "Wyman A",
+    "project_name": "Wyman B",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
@@ -101076,7 +101076,7 @@
   },
   {
     "queue_id": 35,
-    "project_name": "Wyman B",
+    "project_name": "Wyman A",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
@@ -101099,6 +101099,19 @@
     "county": "New London",
     "proposed_cod": null,
     "queue_date": "4/1/1998"
+  },
+  {
+    "queue_id": 33,
+    "project_name": "Sithe Mystic Station Expansion Unit 9",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": null,
+    "status": "Completed",
+    "poi_name": "Mystic 345 kV",
+    "state": "MA",
+    "county": "Suffolk",
+    "proposed_cod": null,
+    "queue_date": "3/31/1998"
   },
   {
     "queue_id": 33,
@@ -101128,6 +101141,19 @@
   },
   {
     "queue_id": 33,
+    "project_name": "Sithe Edgar Station Expansion (Fore River)",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": null,
+    "status": "Completed",
+    "poi_name": "Holbrook 345 kV",
+    "state": "MA",
+    "county": "Norfolk",
+    "proposed_cod": null,
+    "queue_date": "3/31/1998"
+  },
+  {
+    "queue_id": 33,
     "project_name": "Sithe Medway",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -101149,32 +101175,6 @@
     "poi_name": "Spring St. 115 kV Substation",
     "state": "ME",
     "county": "Cumberland",
-    "proposed_cod": null,
-    "queue_date": "3/31/1998"
-  },
-  {
-    "queue_id": 33,
-    "project_name": "Sithe Edgar Station Expansion (Fore River)",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": null,
-    "status": "Completed",
-    "poi_name": "Holbrook 345 kV",
-    "state": "MA",
-    "county": "Norfolk",
-    "proposed_cod": null,
-    "queue_date": "3/31/1998"
-  },
-  {
-    "queue_id": 33,
-    "project_name": "Sithe Mystic Station Expansion Unit 9",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": null,
-    "status": "Completed",
-    "poi_name": "Mystic 345 kV",
-    "state": "MA",
-    "county": "Suffolk",
     "proposed_cod": null,
     "queue_date": "3/31/1998"
   },
@@ -101206,19 +101206,6 @@
   },
   {
     "queue_id": 30,
-    "project_name": "Engage Energy LTF PtP",
-    "iso": "ISONE",
-    "fuel_normalized": "other",
-    "capacity_mw": null,
-    "status": "Withdrawn",
-    "poi_name": "Import from New Brunswick via MEPCO",
-    "state": null,
-    "county": null,
-    "proposed_cod": null,
-    "queue_date": "3/25/1998"
-  },
-  {
-    "queue_id": 30,
     "project_name": "Norwich Power Station",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -101227,6 +101214,19 @@
     "poi_name": "Bean Hill Substation",
     "state": "CT",
     "county": "New London",
+    "proposed_cod": null,
+    "queue_date": "3/25/1998"
+  },
+  {
+    "queue_id": 30,
+    "project_name": "Engage Energy LTF PtP",
+    "iso": "ISONE",
+    "fuel_normalized": "other",
+    "capacity_mw": null,
+    "status": "Withdrawn",
+    "poi_name": "Import from New Brunswick via MEPCO",
+    "state": null,
+    "county": null,
     "proposed_cod": null,
     "queue_date": "3/25/1998"
   },
@@ -101336,33 +101336,20 @@
   },
   {
     "queue_id": 21,
-    "project_name": "Wallingford Power Units 2&5",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": null,
-    "status": "Completed",
-    "poi_name": "Wallingford 115 kV Substation",
-    "state": "CT",
-    "county": "New Haven",
-    "proposed_cod": null,
-    "queue_date": "2/11/1998"
-  },
-  {
-    "queue_id": 21,
-    "project_name": "Wallingford Power Unit 4",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": null,
-    "status": "Completed",
-    "poi_name": "Wallingford 115 kV Substation",
-    "state": "CT",
-    "county": "New Haven",
-    "proposed_cod": null,
-    "queue_date": "2/11/1998"
-  },
-  {
-    "queue_id": 21,
     "project_name": "Wallingford Power Units 1&3",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": null,
+    "status": "Completed",
+    "poi_name": "Wallingford 115 kV Substation",
+    "state": "CT",
+    "county": "New Haven",
+    "proposed_cod": null,
+    "queue_date": "2/11/1998"
+  },
+  {
+    "queue_id": 21,
+    "project_name": "Wallingford Power Units 2&5",
     "iso": "ISONE",
     "fuel_normalized": "gas",
     "capacity_mw": null,
@@ -101383,6 +101370,19 @@
     "poi_name": "N. Litchfield 230 kV Station and Watts Brook 115 k",
     "state": "NH",
     "county": "Rockingham",
+    "proposed_cod": null,
+    "queue_date": "2/11/1998"
+  },
+  {
+    "queue_id": 21,
+    "project_name": "Wallingford Power Unit 4",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": null,
+    "status": "Completed",
+    "poi_name": "Wallingford 115 kV Substation",
+    "state": "CT",
+    "county": "New Haven",
     "proposed_cod": null,
     "queue_date": "2/11/1998"
   },
@@ -101414,14 +101414,14 @@
   },
   {
     "queue_id": 18,
-    "project_name": "Sprague Newington (Piscataqua Power)",
+    "project_name": "White Mountain Cogen.Center",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "Newington 345 kV Station",
+    "poi_name": "Lost Nation 115 kV Substation",
     "state": "NH",
-    "county": "Rockingham",
+    "county": "Coos",
     "proposed_cod": null,
     "queue_date": "1/13/1998"
   },
@@ -101440,16 +101440,29 @@
   },
   {
     "queue_id": 18,
-    "project_name": "White Mountain Cogen.Center",
+    "project_name": "Sprague Newington (Piscataqua Power)",
     "iso": "ISONE",
     "fuel_normalized": "other",
     "capacity_mw": null,
     "status": "Withdrawn",
-    "poi_name": "Lost Nation 115 kV Substation",
+    "poi_name": "Newington 345 kV Station",
     "state": "NH",
-    "county": "Coos",
+    "county": "Rockingham",
     "proposed_cod": null,
     "queue_date": "1/13/1998"
+  },
+  {
+    "queue_id": 17,
+    "project_name": "Lake Road Generating Unit 3",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": null,
+    "status": "Completed",
+    "poi_name": "Line 347",
+    "state": "CT",
+    "county": "Windham",
+    "proposed_cod": null,
+    "queue_date": "12/12/1997"
   },
   {
     "queue_id": 17,
@@ -101474,19 +101487,6 @@
     "poi_name": "Newington 345 kV Station",
     "state": "NH",
     "county": "Rockingham",
-    "proposed_cod": null,
-    "queue_date": "12/12/1997"
-  },
-  {
-    "queue_id": 17,
-    "project_name": "Lake Road Generating Unit 3",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": null,
-    "status": "Completed",
-    "poi_name": "Line 347",
-    "state": "CT",
-    "county": "Windham",
     "proposed_cod": null,
     "queue_date": "12/12/1997"
   },
@@ -101531,19 +101531,6 @@
   },
   {
     "queue_id": 13,
-    "project_name": "Milford Power Unit 1",
-    "iso": "ISONE",
-    "fuel_normalized": "gas",
-    "capacity_mw": null,
-    "status": "Completed",
-    "poi_name": "Devon 115 kV Substation",
-    "state": "CT",
-    "county": "New Haven",
-    "proposed_cod": null,
-    "queue_date": "8/22/1997"
-  },
-  {
-    "queue_id": 13,
     "project_name": "Summit Power",
     "iso": "ISONE",
     "fuel_normalized": "other",
@@ -101552,6 +101539,19 @@
     "poi_name": "1302 Line",
     "state": "MA",
     "county": "Hampden",
+    "proposed_cod": null,
+    "queue_date": "8/22/1997"
+  },
+  {
+    "queue_id": 13,
+    "project_name": "Milford Power Unit 1",
+    "iso": "ISONE",
+    "fuel_normalized": "gas",
+    "capacity_mw": null,
+    "status": "Completed",
+    "poi_name": "Devon 115 kV Substation",
+    "state": "CT",
+    "county": "New Haven",
     "proposed_cod": null,
     "queue_date": "8/22/1997"
   },
@@ -101622,7 +101622,7 @@
   },
   {
     "queue_id": 8,
-    "project_name": "ANP Blackstone Energy Project Unit 2",
+    "project_name": "ANP Blackstone Energy Project Unit 1",
     "iso": "ISONE",
     "fuel_normalized": "gas",
     "capacity_mw": null,
@@ -101635,7 +101635,7 @@
   },
   {
     "queue_id": 8,
-    "project_name": "ANP Blackstone Energy Project Unit 1",
+    "project_name": "ANP Blackstone Energy Project Unit 2",
     "iso": "ISONE",
     "fuel_normalized": "gas",
     "capacity_mw": null,
@@ -172523,6 +172523,19 @@
     "queue_date": "2021-09-23"
   },
   {
+    "queue_id": "BPA-G0695",
+    "project_name": "",
+    "iso": "BPA",
+    "fuel_normalized": "storage",
+    "capacity_mw": 3939.1,
+    "status": "STUDY",
+    "poi_name": "Ponderosa Substation 500 kV",
+    "state": "OR",
+    "county": "Crook",
+    "proposed_cod": "2028-12-01",
+    "queue_date": "2021-09-22"
+  },
+  {
     "queue_id": "BPA-G0696",
     "project_name": "",
     "iso": "BPA",
@@ -172611,19 +172624,6 @@
     "state": "OR",
     "county": "Crook",
     "proposed_cod": "2025-12-01",
-    "queue_date": "2021-09-22"
-  },
-  {
-    "queue_id": "BPA-G0695",
-    "project_name": "",
-    "iso": "BPA",
-    "fuel_normalized": "storage",
-    "capacity_mw": 3939.1,
-    "status": "STUDY",
-    "poi_name": "Ponderosa Substation 500 kV",
-    "state": "OR",
-    "county": "Crook",
-    "proposed_cod": "2028-12-01",
     "queue_date": "2021-09-22"
   },
   {
@@ -174915,19 +174915,6 @@
     "queue_date": "2018-03-02"
   },
   {
-    "queue_id": "BPA-L0434",
-    "project_name": "John Day",
-    "iso": "BPA",
-    "fuel_normalized": "load",
-    "capacity_mw": 8.0,
-    "status": "WITHDRAWN",
-    "poi_name": "KPUD's John Day 13.8 kV Substation",
-    "state": "OR",
-    "county": "Wasco",
-    "proposed_cod": "2021-02-23",
-    "queue_date": "2018-02-23"
-  },
-  {
     "queue_id": "BPA-L0435",
     "project_name": "EE Clouse Substation",
     "iso": "BPA",
@@ -174950,6 +174937,19 @@
     "poi_name": "Harvalum Substation",
     "state": "WA",
     "county": "Klickitat",
+    "proposed_cod": "2021-02-23",
+    "queue_date": "2018-02-23"
+  },
+  {
+    "queue_id": "BPA-L0434",
+    "project_name": "John Day",
+    "iso": "BPA",
+    "fuel_normalized": "load",
+    "capacity_mw": 8.0,
+    "status": "WITHDRAWN",
+    "poi_name": "KPUD's John Day 13.8 kV Substation",
+    "state": "OR",
+    "county": "Wasco",
     "proposed_cod": "2021-02-23",
     "queue_date": "2018-02-23"
   },
@@ -180440,19 +180440,6 @@
     "queue_date": "2008-01-09"
   },
   {
-    "queue_id": "BPA-G0303",
-    "project_name": "",
-    "iso": "BPA",
-    "fuel_normalized": "wind",
-    "capacity_mw": 104.0,
-    "status": "WITHDRAWN",
-    "poi_name": "At a point on BPA's Harney/Redmond transmission line close to Harney Electric Cooperative's interconnection to BPA",
-    "state": "OR",
-    "county": "Harney",
-    "proposed_cod": "2011-12-01",
-    "queue_date": "2008-01-08"
-  },
-  {
     "queue_id": "BPA-G0301",
     "project_name": "",
     "iso": "BPA",
@@ -180476,6 +180463,19 @@
     "state": "OR",
     "county": "Harney",
     "proposed_cod": "2010-12-01",
+    "queue_date": "2008-01-08"
+  },
+  {
+    "queue_id": "BPA-G0303",
+    "project_name": "",
+    "iso": "BPA",
+    "fuel_normalized": "wind",
+    "capacity_mw": 104.0,
+    "status": "WITHDRAWN",
+    "poi_name": "At a point on BPA's Harney/Redmond transmission line close to Harney Electric Cooperative's interconnection to BPA",
+    "state": "OR",
+    "county": "Harney",
+    "proposed_cod": "2011-12-01",
     "queue_date": "2008-01-08"
   },
   {

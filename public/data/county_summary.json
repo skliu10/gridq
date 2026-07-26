@@ -1071,6 +1071,16 @@
   },
   {
     "state":"IA",
+    "county":"Henry",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":100.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"IA",
     "county":"Howard",
     "total_mw":155.0,
     "project_count":1,
@@ -1322,10 +1332,10 @@
   {
     "state":"IL",
     "county":"Champaign",
-    "total_mw":823.38,
-    "project_count":5,
+    "total_mw":923.38,
+    "project_count":6,
     "solar":0.0,
-    "storage":400.0,
+    "storage":500.0,
     "wind":288.38,
     "gas":0.0
   },
@@ -7548,6 +7558,16 @@
     "storage":115.0,
     "wind":0.0,
     "gas":0.0
+  },
+  {
+    "state":"WI",
+    "county":"Calumet",
+    "total_mw":650.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":650.0
   },
   {
     "state":"WI",
