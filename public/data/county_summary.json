@@ -2582,10 +2582,10 @@
   {
     "state":"LA",
     "county":"East Baton Rouge",
-    "total_mw":198.8,
+    "total_mw":198.81,
     "project_count":2,
     "solar":160.0,
-    "storage":38.8,
+    "storage":38.81,
     "wind":0.0,
     "gas":0.0
   },
@@ -7752,9 +7752,9 @@
   {
     "state":"WI",
     "county":"Portage",
-    "total_mw":1597.4,
+    "total_mw":1597.43,
     "project_count":5,
-    "solar":1197.09,
+    "solar":1197.12,
     "storage":50.31,
     "wind":0.0,
     "gas":350.0
