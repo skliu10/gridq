@@ -282,11 +282,11 @@
   {
     "state":"AR",
     "county":"Lee",
-    "total_mw":340.0,
-    "project_count":1,
+    "total_mw":515.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
-    "wind":0.0,
+    "wind":175.0,
     "gas":0.0
   },
   {
@@ -1332,9 +1332,9 @@
   {
     "state":"IL",
     "county":"Champaign",
-    "total_mw":923.38,
-    "project_count":6,
-    "solar":0.0,
+    "total_mw":1114.68,
+    "project_count":7,
+    "solar":191.3,
     "storage":500.0,
     "wind":288.38,
     "gas":0.0
@@ -2071,6 +2071,16 @@
   },
   {
     "state":"IN",
+    "county":"Marion",
+    "total_mw":130.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":130.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"IN",
     "county":"Marshall",
     "total_mw":200.0,
     "project_count":1,
@@ -2158,6 +2168,16 @@
     "storage":300.0,
     "wind":0.0,
     "gas":2090.0
+  },
+  {
+    "state":"IN",
+    "county":"Tippecanoe",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":100.0,
+    "wind":0.0,
+    "gas":0.0
   },
   {
     "state":"IN",
@@ -2652,9 +2672,9 @@
   {
     "state":"LA",
     "county":"Morehouse",
-    "total_mw":680.0,
-    "project_count":3,
-    "solar":500.0,
+    "total_mw":930.0,
+    "project_count":4,
+    "solar":750.0,
     "storage":0.0,
     "wind":180.0,
     "gas":0.0
@@ -2662,10 +2682,10 @@
   {
     "state":"LA",
     "county":"Orleans",
-    "total_mw":0.0,
-    "project_count":1,
+    "total_mw":40.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":0.0,
+    "storage":40.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3212,9 +3232,9 @@
   {
     "state":"MI",
     "county":"Livingston",
-    "total_mw":515.0,
-    "project_count":3,
-    "solar":265.0,
+    "total_mw":695.0,
+    "project_count":4,
+    "solar":445.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3272,9 +3292,9 @@
   {
     "state":"MI",
     "county":"Monroe",
-    "total_mw":3558.0,
-    "project_count":4,
-    "solar":200.0,
+    "total_mw":3743.0,
+    "project_count":6,
+    "solar":385.0,
     "storage":360.0,
     "wind":0.0,
     "gas":2998.0
@@ -3422,9 +3442,9 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":1007.3,
-    "project_count":6,
-    "solar":340.0,
+    "total_mw":1132.3,
+    "project_count":7,
+    "solar":465.0,
     "storage":450.0,
     "wind":217.3,
     "gas":0.0
@@ -4315,6 +4335,16 @@
     "total_mw":75.0,
     "project_count":1,
     "solar":75.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MS",
+    "county":"Leflore",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":200.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
