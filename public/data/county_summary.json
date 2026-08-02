@@ -2032,8 +2032,8 @@
   {
     "state":"IN",
     "county":"Gibson",
-    "total_mw":400.0,
-    "project_count":2,
+    "total_mw":250.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -4512,10 +4512,10 @@
   {
     "state":"MS",
     "county":"Madison",
-    "total_mw":370.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":200.0,
+    "total_mw":827.0,
+    "project_count":5,
+    "solar":357.0,
+    "storage":300.0,
     "wind":0.0,
     "gas":0.0
   },
