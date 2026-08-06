@@ -202,8 +202,8 @@
   {
     "state":"AR",
     "county":"Crittenden",
-    "total_mw":1680.0,
-    "project_count":6,
+    "total_mw":1830.0,
+    "project_count":7,
     "solar":1100.0,
     "storage":180.0,
     "wind":0.0,
@@ -3822,10 +3822,10 @@
   {
     "state":"MN",
     "county":"Jackson",
-    "total_mw":200.0,
-    "project_count":1,
+    "total_mw":350.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":0.0,
+    "storage":150.0,
     "wind":200.0,
     "gas":0.0
   },
