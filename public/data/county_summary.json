@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":21599.9,
-    "project_count":64,
+    "total_mw":22249.9,
+    "project_count":67,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1602,9 +1602,9 @@
   {
     "state":"IL",
     "county":"Johnson",
-    "total_mw":650.0,
-    "project_count":4,
-    "solar":450.0,
+    "total_mw":800.0,
+    "project_count":5,
+    "solar":600.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
