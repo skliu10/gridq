@@ -2522,9 +2522,9 @@
   {
     "state":"KS",
     "county":"Sedgwick",
-    "total_mw":330.0,
-    "project_count":2,
-    "solar":330.0,
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":200.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -5176,16 +5176,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":180.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Coal",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
