@@ -1811,6 +1811,16 @@
   },
   {
     "state":"IL",
+    "county":"Randolph",
+    "total_mw":250.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"IL",
     "county":"Rock Island",
     "total_mw":1008.0,
     "project_count":5,
@@ -2331,16 +2341,6 @@
   },
   {
     "state":"KS",
-    "county":"Allen",
-    "total_mw":300.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":300.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
     "county":"Aurora",
     "total_mw":300.0,
     "project_count":1,
@@ -2385,16 +2385,6 @@
     "total_mw":380.0,
     "project_count":1,
     "solar":380.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Coffey",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":250.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -4121,16 +4111,6 @@
   },
   {
     "state":"MO",
-    "county":"Barton",
-    "total_mw":199.8,
-    "project_count":1,
-    "solar":199.8,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
     "county":"Bollinger",
     "total_mw":600.0,
     "project_count":3,
@@ -4811,16 +4791,6 @@
   },
   {
     "state":"NE",
-    "county":"Dakota",
-    "total_mw":110.0,
-    "project_count":1,
-    "solar":110.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
     "county":"Dodge",
     "total_mw":150.0,
     "project_count":1,
@@ -4836,16 +4806,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":250.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NE",
-    "county":"Fillmore",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4872,22 +4832,12 @@
   {
     "state":"NE",
     "county":"Lancaster",
-    "total_mw":1362.0,
-    "project_count":5,
+    "total_mw":992.0,
+    "project_count":3,
     "solar":0.0,
-    "storage":370.0,
-    "wind":0.0,
-    "gas":992.0
-  },
-  {
-    "state":"NE",
-    "county":"Mercer",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":250.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":0.0
+    "gas":992.0
   },
   {
     "state":"NE",
@@ -4898,16 +4848,6 @@
     "storage":0.0,
     "wind":0.0,
     "gas":100.0
-  },
-  {
-    "state":"NE",
-    "county":"Scotts Bluff",
-    "total_mw":225.0,
-    "project_count":1,
-    "solar":225.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
   },
   {
     "state":"NE",
