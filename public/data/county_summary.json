@@ -3,7 +3,7 @@
     "state":"",
     "county":"",
     "total_mw":22249.9,
-    "project_count":67,
+    "project_count":68,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -562,10 +562,10 @@
   {
     "state":"CA",
     "county":"LOS ANGELES",
-    "total_mw":7436.0,
-    "project_count":22,
+    "total_mw":7186.0,
+    "project_count":21,
     "solar":2270.0,
-    "storage":4700.0,
+    "storage":4450.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -1392,10 +1392,10 @@
   {
     "state":"IL",
     "county":"Clark",
-    "total_mw":500.0,
-    "project_count":3,
+    "total_mw":350.0,
+    "project_count":2,
     "solar":200.0,
-    "storage":300.0,
+    "storage":150.0,
     "wind":0.0,
     "gas":0.0
   },
