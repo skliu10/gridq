@@ -21,6 +21,16 @@
   },
   {
     "state":"",
+    "county":"Coles",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Grant",
     "total_mw":250.0,
     "project_count":1,
@@ -62,6 +72,16 @@
   {
     "state":"",
     "county":"MIssissippi",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Marion",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -1932,10 +1952,10 @@
   {
     "state":"IL",
     "county":"Washington",
-    "total_mw":650.0,
-    "project_count":2,
+    "total_mw":835.0,
+    "project_count":3,
     "solar":0.0,
-    "storage":150.0,
+    "storage":335.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3032,10 +3052,10 @@
   {
     "state":"MA",
     "county":"Worcester",
-    "total_mw":683.95,
-    "project_count":3,
+    "total_mw":383.95,
+    "project_count":2,
     "solar":0.0,
-    "storage":683.95,
+    "storage":383.95,
     "wind":0.0,
     "gas":0.0
   },
@@ -3212,9 +3232,9 @@
   {
     "state":"MI",
     "county":"Delta",
-    "total_mw":55.0,
-    "project_count":1,
-    "solar":0.0,
+    "total_mw":205.0,
+    "project_count":2,
+    "solar":150.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -4172,10 +4192,10 @@
   {
     "state":"MO",
     "county":"Clay",
-    "total_mw":650.0,
-    "project_count":3,
+    "total_mw":450.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":650.0,
+    "storage":450.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5162,9 +5182,9 @@
   {
     "state":"OK",
     "county":"Grady",
-    "total_mw":520.0,
-    "project_count":3,
-    "solar":520.0,
+    "total_mw":320.0,
+    "project_count":2,
+    "solar":320.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
