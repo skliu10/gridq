@@ -101,6 +101,16 @@
   },
   {
     "state":"",
+    "county":"Morehouse Parish",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Pike",
     "total_mw":400.0,
     "project_count":1,
@@ -1422,10 +1432,10 @@
   {
     "state":"IL",
     "county":"Clay",
-    "total_mw":500.0,
-    "project_count":3,
+    "total_mw":700.0,
+    "project_count":4,
     "solar":400.0,
-    "storage":100.0,
+    "storage":300.0,
     "wind":0.0,
     "gas":0.0
   },
