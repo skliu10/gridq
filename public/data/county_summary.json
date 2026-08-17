@@ -432,10 +432,10 @@
   {
     "state":"AR",
     "county":"Union",
-    "total_mw":770.0,
-    "project_count":1,
+    "total_mw":870.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":0.0,
+    "storage":100.0,
     "wind":0.0,
     "gas":770.0
   },
@@ -2952,10 +2952,10 @@
   {
     "state":"LA",
     "county":"Washington",
-    "total_mw":150.0,
-    "project_count":1,
+    "total_mw":250.0,
+    "project_count":2,
     "solar":150.0,
-    "storage":0.0,
+    "storage":100.0,
     "wind":0.0,
     "gas":0.0
   },
