@@ -652,10 +652,10 @@
   {
     "state":"CA",
     "county":"RIVERSIDE",
-    "total_mw":6712.0,
-    "project_count":18,
+    "total_mw":6032.0,
+    "project_count":17,
     "solar":3797.0,
-    "storage":2765.0,
+    "storage":2085.0,
     "wind":150.0,
     "gas":0.0
   },
