@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":22585.9,
-    "project_count":68,
+    "total_mw":24900.9,
+    "project_count":70,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -53,6 +53,16 @@
     "state":"",
     "county":"Linn",
     "total_mw":400.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Macon",
+    "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -3332,10 +3342,10 @@
   {
     "state":"MI",
     "county":"Kalamazoo",
-    "total_mw":220.0,
-    "project_count":1,
+    "total_mw":420.0,
+    "project_count":2,
     "solar":220.0,
-    "storage":0.0,
+    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -7758,16 +7768,6 @@
     "storage":115.0,
     "wind":0.0,
     "gas":0.0
-  },
-  {
-    "state":"WI",
-    "county":"Calumet",
-    "total_mw":650.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":650.0
   },
   {
     "state":"WI",
