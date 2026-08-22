@@ -1442,8 +1442,8 @@
   {
     "state":"IL",
     "county":"Coles",
-    "total_mw":399.3,
-    "project_count":3,
+    "total_mw":699.3,
+    "project_count":4,
     "solar":0.0,
     "storage":100.0,
     "wind":200.3,
