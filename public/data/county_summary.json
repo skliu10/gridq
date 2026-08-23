@@ -8012,12 +8012,12 @@
   {
     "state":"WI",
     "county":"Walworth",
-    "total_mw":1624.0,
-    "project_count":4,
+    "total_mw":1374.0,
+    "project_count":3,
     "solar":100.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":1524.0
+    "gas":1274.0
   },
   {
     "state":"WI",
