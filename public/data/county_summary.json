@@ -3,7 +3,7 @@
     "state":"",
     "county":"",
     "total_mw":24900.9,
-    "project_count":70,
+    "project_count":72,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -2556,16 +2556,6 @@
     "project_count":2,
     "solar":0.0,
     "storage":398.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Wyandotte ",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
