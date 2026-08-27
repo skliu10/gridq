@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":24900.9,
-    "project_count":72,
+    "total_mw":25768.2,
+    "project_count":74,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -43,6 +43,16 @@
     "state":"",
     "county":"Isabella County",
     "total_mw":90.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Liberty",
+    "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -372,8 +382,8 @@
   {
     "state":"AR",
     "county":"Phillips",
-    "total_mw":890.5,
-    "project_count":6,
+    "total_mw":790.5,
+    "project_count":5,
     "solar":297.5,
     "storage":0.0,
     "wind":193.0,
@@ -522,9 +532,9 @@
   {
     "state":"CA",
     "county":"IMPERIAL",
-    "total_mw":2650.44,
-    "project_count":6,
-    "solar":2260.0,
+    "total_mw":2290.44,
+    "project_count":5,
+    "solar":1900.0,
     "storage":125.0,
     "wind":265.44,
     "gas":0.0
@@ -1511,16 +1521,6 @@
   },
   {
     "state":"IL",
-    "county":"Effingham",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
     "county":"Fayette",
     "total_mw":729.8,
     "project_count":6,
@@ -1637,16 +1637,6 @@
     "solar":250.0,
     "storage":100.0,
     "wind":200.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
-    "county":"Logan",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
     "gas":0.0
   },
   {
@@ -1842,11 +1832,11 @@
   {
     "state":"IL",
     "county":"Rock Island",
-    "total_mw":1008.0,
-    "project_count":5,
+    "total_mw":708.0,
+    "project_count":4,
     "solar":0.0,
     "storage":580.0,
-    "wind":300.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -1892,8 +1882,8 @@
   {
     "state":"IL",
     "county":"St. Clair",
-    "total_mw":495.0,
-    "project_count":3,
+    "total_mw":350.0,
+    "project_count":2,
     "solar":0.0,
     "storage":350.0,
     "wind":0.0,
@@ -8002,12 +7992,12 @@
   {
     "state":"WI",
     "county":"Walworth",
-    "total_mw":1374.0,
-    "project_count":3,
+    "total_mw":1624.0,
+    "project_count":4,
     "solar":100.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":1274.0
+    "gas":1524.0
   },
   {
     "state":"WI",
