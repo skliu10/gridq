@@ -3,7 +3,7 @@
     "state":"",
     "county":"",
     "total_mw":25768.2,
-    "project_count":74,
+    "project_count":77,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -12,8 +12,8 @@
   {
     "state":"",
     "county":"Clinton",
-    "total_mw":150.0,
-    "project_count":1,
+    "total_mw":350.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -124,6 +124,16 @@
     "county":"Story",
     "total_mw":300.0,
     "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Union",
+    "total_mw":100.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1712,11 +1722,11 @@
   {
     "state":"IL",
     "county":"McLean",
-    "total_mw":1298.0,
-    "project_count":6,
+    "total_mw":1188.0,
+    "project_count":5,
     "solar":0.0,
     "storage":250.0,
-    "wind":1048.0,
+    "wind":938.0,
     "gas":0.0
   },
   {
@@ -3361,10 +3371,20 @@
   },
   {
     "state":"MI",
+    "county":"Lenawee County",
+    "total_mw":75.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MI",
     "county":"Livingston",
-    "total_mw":855.0,
-    "project_count":5,
-    "solar":445.0,
+    "total_mw":690.0,
+    "project_count":4,
+    "solar":280.0,
     "storage":160.0,
     "wind":0.0,
     "gas":0.0
