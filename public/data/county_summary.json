@@ -3,7 +3,7 @@
     "state":"",
     "county":"",
     "total_mw":25768.2,
-    "project_count":77,
+    "project_count":78,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -460,6 +460,386 @@
     "gas":0.0
   },
   {
+    "state":"AZ",
+    "county":"LA PAZ",
+    "total_mw":4550.0,
+    "project_count":3,
+    "solar":4550.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"AZ",
+    "county":"MARICOPA",
+    "total_mw":1120.0,
+    "project_count":5,
+    "solar":1120.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"AZ",
+    "county":"YUMA",
+    "total_mw":1750.0,
+    "project_count":6,
+    "solar":1750.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"ALAMEDA",
+    "total_mw":1336.5,
+    "project_count":9,
+    "solar":100.0,
+    "storage":1070.7,
+    "wind":165.8,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"CALAVERAS",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":100.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"COLUSA",
+    "total_mw":230.0,
+    "project_count":2,
+    "solar":80.0,
+    "storage":150.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"CONTRA COSTA",
+    "total_mw":1550.0,
+    "project_count":5,
+    "solar":0.0,
+    "storage":1550.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"FRESNO",
+    "total_mw":4883.28,
+    "project_count":26,
+    "solar":3615.0,
+    "storage":1075.11,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"IMPERIAL",
+    "total_mw":2290.44,
+    "project_count":5,
+    "solar":1900.0,
+    "storage":125.0,
+    "wind":265.44,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"INYO",
+    "total_mw":750.0,
+    "project_count":2,
+    "solar":750.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"KERN",
+    "total_mw":11171.78,
+    "project_count":42,
+    "solar":8614.78,
+    "storage":1110.0,
+    "wind":220.0,
+    "gas":35.0
+  },
+  {
+    "state":"CA",
+    "county":"KINGS",
+    "total_mw":2479.1,
+    "project_count":8,
+    "solar":2479.1,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"L.A",
+    "total_mw":250.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":250.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"LAKE",
+    "total_mw":52.01,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"LOS ANGELES",
+    "total_mw":7186.0,
+    "project_count":21,
+    "solar":2270.0,
+    "storage":4450.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"MADERA",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":200.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"MERCED",
+    "total_mw":2455.0,
+    "project_count":10,
+    "solar":2075.0,
+    "storage":200.0,
+    "wind":180.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"MONTEREY",
+    "total_mw":2370.0,
+    "project_count":3,
+    "solar":0.0,
+    "storage":870.0,
+    "wind":1500.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"NAPA",
+    "total_mw":24.5,
+    "project_count":1,
+    "solar":24.5,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"ORANGE",
+    "total_mw":400.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":400.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"RIVERSIDE",
+    "total_mw":6032.0,
+    "project_count":17,
+    "solar":3797.0,
+    "storage":2085.0,
+    "wind":150.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SACRAMENTO",
+    "total_mw":49.9,
+    "project_count":1,
+    "solar":0.0,
+    "storage":49.9,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SAN BENITO",
+    "total_mw":110.0,
+    "project_count":1,
+    "solar":110.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SAN BERNARDINO",
+    "total_mw":3205.0,
+    "project_count":13,
+    "solar":1405.0,
+    "storage":1800.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SAN DIEGO",
+    "total_mw":1556.41,
+    "project_count":9,
+    "solar":110.0,
+    "storage":852.61,
+    "wind":593.8,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SAN FRANCISCO",
+    "total_mw":250.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":250.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SAN JOAQUIN",
+    "total_mw":2075.2,
+    "project_count":9,
+    "solar":350.0,
+    "storage":1160.2,
+    "wind":0.0,
+    "gas":20.0
+  },
+  {
+    "state":"CA",
+    "county":"SAN LUIS OBISPO",
+    "total_mw":1040.0,
+    "project_count":2,
+    "solar":40.0,
+    "storage":0.0,
+    "wind":1000.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SAN MATEO",
+    "total_mw":250.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":250.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SANTA CLARA",
+    "total_mw":943.0,
+    "project_count":7,
+    "solar":0.0,
+    "storage":823.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SANTA CRUZ",
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":200.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SOLANO",
+    "total_mw":1406.8,
+    "project_count":7,
+    "solar":0.0,
+    "storage":1200.0,
+    "wind":206.8,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SONOMA",
+    "total_mw":173.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":120.0,
+    "wind":0.0,
+    "gas":53.0
+  },
+  {
+    "state":"CA",
+    "county":"STANISLAUS",
+    "total_mw":420.0,
+    "project_count":3,
+    "solar":20.0,
+    "storage":400.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"SUTTER",
+    "total_mw":49.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":49.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"TEHAMA",
+    "total_mw":5.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"TULARE",
+    "total_mw":1210.0,
+    "project_count":5,
+    "solar":1060.0,
+    "storage":150.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"CA",
+    "county":"VENTURA",
+    "total_mw":1900.0,
+    "project_count":4,
+    "solar":0.0,
+    "storage":1900.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
     "state":"CO",
     "county":"Adams County,",
     "total_mw":199.0,
@@ -491,21 +871,11 @@
   },
   {
     "state":"CO",
-    "county":"Kit Carson County",
-    "total_mw":79.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":79.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"CO",
     "county":"Kit Carson County,",
-    "total_mw":724.0,
-    "project_count":4,
+    "total_mw":424.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":300.0,
+    "storage":0.0,
     "wind":424.0,
     "gas":0.0
   },
@@ -1601,16 +1971,6 @@
   },
   {
     "state":"IN",
-    "county":"",
-    "total_mw":198.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":198.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IN",
     "county":"Benton",
     "total_mw":200.0,
     "project_count":2,
@@ -2612,10 +2972,10 @@
   {
     "state":"MA",
     "county":"Middlesex",
-    "total_mw":1349.248,
-    "project_count":5,
+    "total_mw":1224.248,
+    "project_count":4,
     "solar":0.0,
-    "storage":1337.248,
+    "storage":1212.248,
     "wind":0.0,
     "gas":0.0
   },
@@ -4270,6 +4630,26 @@
     "gas":0.0
   },
   {
+    "state":"MX",
+    "county":"MUNICIPALITY OF TECATE",
+    "total_mw":972.82,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":972.82,
+    "gas":0.0
+  },
+  {
+    "state":"MX",
+    "county":"TECATE",
+    "total_mw":300.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":300.0,
+    "gas":0.0
+  },
+  {
     "state":"ND",
     "county":"Cass",
     "total_mw":1081.0,
@@ -4566,6 +4946,36 @@
     "project_count":1,
     "solar":360.0,
     "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NV",
+    "county":"CLARK",
+    "total_mw":4696.5934,
+    "project_count":14,
+    "solar":3770.0,
+    "storage":926.5934,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NV",
+    "county":"CLARK\/NYE",
+    "total_mw":700.0,
+    "project_count":2,
+    "solar":700.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NV",
+    "county":"NYE",
+    "total_mw":1994.0,
+    "project_count":7,
+    "solar":1950.0,
+    "storage":44.0,
     "wind":0.0,
     "gas":0.0
   },
