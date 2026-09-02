@@ -6,8 +6,8 @@
   },
   {
     "iso":"ERCOT",
-    "total_mw":308186.28,
-    "project_count":1234
+    "total_mw":301059.16,
+    "project_count":1198
   },
   {
     "iso":"ISONE",
@@ -16,8 +16,8 @@
   },
   {
     "iso":"MISO",
-    "total_mw":222953.87,
-    "project_count":1034
+    "total_mw":223403.87,
+    "project_count":1037
   },
   {
     "iso":"SPP",
