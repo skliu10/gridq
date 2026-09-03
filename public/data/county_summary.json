@@ -72,7 +72,7 @@
   {
     "state":"",
     "county":"Linn",
-    "total_mw":400.0,
+    "total_mw":500.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -144,6 +144,16 @@
     "county":"Story",
     "total_mw":300.0,
     "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Tazewell",
+    "total_mw":250.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -3382,9 +3392,9 @@
   {
     "state":"MI",
     "county":"Livingston",
-    "total_mw":510.0,
-    "project_count":3,
-    "solar":100.0,
+    "total_mw":690.0,
+    "project_count":4,
+    "solar":280.0,
     "storage":160.0,
     "wind":0.0,
     "gas":0.0
@@ -3562,9 +3572,9 @@
   {
     "state":"MI",
     "county":"Shiawassee",
-    "total_mw":320.0,
-    "project_count":2,
-    "solar":0.0,
+    "total_mw":440.0,
+    "project_count":3,
+    "solar":120.0,
     "storage":150.0,
     "wind":0.0,
     "gas":0.0
@@ -7738,6 +7748,16 @@
     "storage":115.0,
     "wind":0.0,
     "gas":0.0
+  },
+  {
+    "state":"WI",
+    "county":"Calumet",
+    "total_mw":650.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":650.0
   },
   {
     "state":"WI",
