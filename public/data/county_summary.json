@@ -1751,16 +1751,6 @@
   },
   {
     "state":"IL",
-    "county":"Menard",
-    "total_mw":220.0,
-    "project_count":1,
-    "solar":220.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
     "county":"Mercer",
     "total_mw":445.64,
     "project_count":2,
@@ -1802,9 +1792,9 @@
   {
     "state":"IL",
     "county":"Perry",
-    "total_mw":1250.0,
-    "project_count":6,
-    "solar":807.0,
+    "total_mw":750.0,
+    "project_count":5,
+    "solar":307.0,
     "storage":443.0,
     "wind":0.0,
     "gas":0.0
