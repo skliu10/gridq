@@ -3162,8 +3162,8 @@
   {
     "state":"MI",
     "county":"Bay",
-    "total_mw":704.0,
-    "project_count":5,
+    "total_mw":539.0,
+    "project_count":4,
     "solar":235.0,
     "storage":0.0,
     "wind":304.0,
@@ -3232,9 +3232,9 @@
   {
     "state":"MI",
     "county":"Eaton",
-    "total_mw":928.0,
-    "project_count":4,
-    "solar":178.0,
+    "total_mw":750.0,
+    "project_count":3,
+    "solar":0.0,
     "storage":750.0,
     "wind":0.0,
     "gas":0.0
@@ -3362,9 +3362,9 @@
   {
     "state":"MI",
     "county":"Lenawee",
-    "total_mw":1315.0,
-    "project_count":7,
-    "solar":340.0,
+    "total_mw":1125.0,
+    "project_count":6,
+    "solar":150.0,
     "storage":400.0,
     "wind":575.0,
     "gas":0.0
@@ -3482,9 +3482,9 @@
   {
     "state":"MI",
     "county":"Oceana",
-    "total_mw":370.0,
-    "project_count":3,
-    "solar":130.0,
+    "total_mw":260.0,
+    "project_count":2,
+    "solar":20.0,
     "storage":240.0,
     "wind":0.0,
     "gas":0.0
@@ -3592,9 +3592,9 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":1132.3,
-    "project_count":7,
-    "solar":465.0,
+    "total_mw":972.3,
+    "project_count":6,
+    "solar":305.0,
     "storage":450.0,
     "wind":217.3,
     "gas":0.0
@@ -4828,16 +4828,6 @@
     "storage":0.0,
     "wind":0.0,
     "gas":753.0
-  },
-  {
-    "state":"NE",
-    "county":"Greely County",
-    "total_mw":70.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":70.0,
-    "wind":0.0,
-    "gas":0.0
   },
   {
     "state":"NE",
