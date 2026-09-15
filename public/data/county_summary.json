@@ -2,7 +2,7 @@
   {
     "state":"",
     "county":"",
-    "total_mw":29318.2,
+    "total_mw":29038.2,
     "project_count":92,
     "solar":0.0,
     "storage":0.0,
@@ -732,10 +732,10 @@
   {
     "state":"CA",
     "county":"SAN DIEGO",
-    "total_mw":1556.41,
-    "project_count":9,
+    "total_mw":1486.81,
+    "project_count":8,
     "solar":110.0,
-    "storage":852.61,
+    "storage":783.01,
     "wind":593.8,
     "gas":0.0
   },
@@ -881,21 +881,11 @@
   },
   {
     "state":"CO",
-    "county":"Delta County,",
-    "total_mw":199.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":199.0
-  },
-  {
-    "state":"CO",
     "county":"El Paso",
-    "total_mw":712.0,
-    "project_count":4,
+    "total_mw":612.0,
+    "project_count":3,
     "solar":100.0,
-    "storage":200.0,
+    "storage":100.0,
     "wind":0.0,
     "gas":412.0
   },
@@ -3222,10 +3212,10 @@
   {
     "state":"MI",
     "county":"Eaton",
-    "total_mw":750.0,
-    "project_count":3,
+    "total_mw":350.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":750.0,
+    "storage":350.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3582,8 +3572,8 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":972.3,
-    "project_count":6,
+    "total_mw":1072.6,
+    "project_count":7,
     "solar":305.0,
     "storage":450.0,
     "wind":217.3,
