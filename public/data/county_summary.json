@@ -192,9 +192,9 @@
   {
     "state":"AR",
     "county":"Arkansas",
-    "total_mw":495.0,
-    "project_count":3,
-    "solar":295.0,
+    "total_mw":665.0,
+    "project_count":4,
+    "solar":465.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -485,6 +485,16 @@
     "total_mw":100.0,
     "project_count":1,
     "solar":100.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"AR",
+    "county":"Woodruff",
+    "total_mw":130.0,
+    "project_count":1,
+    "solar":130.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -1412,10 +1422,10 @@
   {
     "state":"IL",
     "county":"Adams",
-    "total_mw":665.0,
-    "project_count":5,
+    "total_mw":815.0,
+    "project_count":6,
     "solar":315.0,
-    "storage":200.0,
+    "storage":350.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5061,16 +5071,6 @@
   },
   {
     "state":"OK",
-    "county":"Caddo",
-    "total_mw":230.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":230.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
     "county":"Canadian",
     "total_mw":800.0,
     "project_count":3,
@@ -5582,9 +5582,9 @@
   {
     "state":"TX",
     "county":"Bowie",
-    "total_mw":302.0,
-    "project_count":3,
-    "solar":302.0,
+    "total_mw":250.0,
+    "project_count":2,
+    "solar":250.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -5752,12 +5752,12 @@
   {
     "state":"TX",
     "county":"Morris",
-    "total_mw":1214.6,
-    "project_count":2,
+    "total_mw":300.0,
+    "project_count":1,
     "solar":300.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":914.6
+    "gas":0.0
   },
   {
     "state":"TX",
@@ -5832,9 +5832,9 @@
   {
     "state":"TX",
     "county":"Yoakum",
-    "total_mw":980.0,
-    "project_count":3,
-    "solar":980.0,
+    "total_mw":580.0,
+    "project_count":2,
+    "solar":580.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
