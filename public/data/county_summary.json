@@ -7651,31 +7651,11 @@
   },
   {
     "state":"VT",
-    "county":"Franklin",
-    "total_mw":19.3,
-    "project_count":1,
-    "solar":0.0,
-    "storage":19.3,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"VT",
     "county":"Rutland",
     "total_mw":20.0,
     "project_count":1,
     "solar":20.0,
     "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"VT",
-    "county":"Windsor",
-    "total_mw":19.3,
-    "project_count":1,
-    "solar":0.0,
-    "storage":19.3,
     "wind":0.0,
     "gas":0.0
   },
