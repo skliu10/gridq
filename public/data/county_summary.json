@@ -642,10 +642,10 @@
   {
     "state":"CA",
     "county":"LOS ANGELES",
-    "total_mw":7186.0,
-    "project_count":21,
+    "total_mw":6886.0,
+    "project_count":20,
     "solar":2270.0,
-    "storage":4450.0,
+    "storage":4150.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3942,10 +3942,10 @@
   {
     "state":"MN",
     "county":"Olmsted",
-    "total_mw":930.0,
-    "project_count":5,
+    "total_mw":1130.0,
+    "project_count":6,
     "solar":580.0,
-    "storage":350.0,
+    "storage":550.0,
     "wind":0.0,
     "gas":0.0
   },
