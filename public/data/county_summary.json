@@ -792,10 +792,10 @@
   {
     "state":"CA",
     "county":"SANTA CLARA",
-    "total_mw":943.0,
-    "project_count":7,
+    "total_mw":823.0,
+    "project_count":6,
     "solar":0.0,
-    "storage":823.0,
+    "storage":703.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4846,16 +4846,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":135.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"NH",
-    "county":"Rockingham",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":100.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },

@@ -962,19 +962,6 @@
     "queue_date":1493622000000
   },
   {
-    "queue_id":1442,
-    "project_name":"AJO POWER BANK",
-    "iso":"CAISO",
-    "fuel_normalized":"storage",
-    "capacity_mw":120.0,
-    "status":"ACTIVE",
-    "poi_name":"Llagas-Gilroy Foods 115 kV line",
-    "state":"CA",
-    "county":"SANTA CLARA",
-    "proposed_cod":"2031-03-01",
-    "queue_date":1523862000000
-  },
-  {
     "queue_id":1444,
     "project_name":"SALOON ENERGY STORAGE",
     "iso":"CAISO",
@@ -22592,6 +22579,19 @@
     "county":"KERN",
     "proposed_cod":"2020-12-15",
     "queue_date":1526540400000
+  },
+  {
+    "queue_id":1442,
+    "project_name":"AJO POWER BANK",
+    "iso":"CAISO",
+    "fuel_normalized":"storage",
+    "capacity_mw":120.0,
+    "status":"WITHDRAWN",
+    "poi_name":"Llagas-Gilroy Foods 115 kV line",
+    "state":"CA",
+    "county":"SANTA CLARA",
+    "proposed_cod":"2031-03-01",
+    "queue_date":1523862000000
   },
   {
     "queue_id":1445,
@@ -81866,7 +81866,7 @@
     "iso":"ISONE",
     "fuel_normalized":"solar",
     "capacity_mw":100.0,
-    "status":"Active",
+    "status":"Withdrawn",
     "poi_name":"A tap at existing 115 kV line between Eversource 115kV Scobie Pond - Pulpit Rock Line A184 115kV. * The new tap will be located at approx. 42.9292184N, -71.2567898W and along a ~6 mile segment of Line A184 (approx. 4.9 miles northeast of Scobie Pond and approx. 1.1 miles southwest of Pulpit Rock).",
     "state":"NH",
     "county":"Rockingham",
