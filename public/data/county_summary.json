@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":29038.2,
-    "project_count":92,
+    "total_mw":29788.2,
+    "project_count":96,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -142,8 +142,8 @@
   {
     "state":"",
     "county":"Story",
-    "total_mw":300.0,
-    "project_count":2,
+    "total_mw":450.0,
+    "project_count":3,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1161,16 +1161,6 @@
   },
   {
     "state":"IA",
-    "county":"Henry",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":100.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IA",
     "county":"Howard",
     "total_mw":155.0,
     "project_count":1,
@@ -1322,10 +1312,10 @@
   {
     "state":"IA",
     "county":"Story",
-    "total_mw":400.0,
-    "project_count":2,
+    "total_mw":550.0,
+    "project_count":3,
     "solar":400.0,
-    "storage":0.0,
+    "storage":150.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4322,9 +4312,9 @@
   {
     "state":"MO",
     "county":"New Madrid",
-    "total_mw":350.0,
-    "project_count":2,
-    "solar":150.0,
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
