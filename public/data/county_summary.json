@@ -21,6 +21,16 @@
   },
   {
     "state":"",
+    "county":"Fayette",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Grant",
     "total_mw":250.0,
     "project_count":1,
@@ -3462,9 +3472,9 @@
   {
     "state":"MI",
     "county":"Presque Isle",
-    "total_mw":551.5,
-    "project_count":3,
-    "solar":300.0,
+    "total_mw":401.5,
+    "project_count":2,
+    "solar":150.0,
     "storage":0.0,
     "wind":251.5,
     "gas":0.0
@@ -4242,9 +4252,9 @@
   {
     "state":"MO",
     "county":"New Madrid",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
+    "total_mw":350.0,
+    "project_count":2,
+    "solar":150.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
