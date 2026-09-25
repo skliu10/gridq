@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":32531.4,
-    "project_count":107,
+    "total_mw":33016.5,
+    "project_count":109,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -3172,9 +3172,9 @@
   {
     "state":"MI",
     "county":"Delta",
-    "total_mw":55.0,
-    "project_count":1,
-    "solar":0.0,
+    "total_mw":205.0,
+    "project_count":2,
+    "solar":150.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3242,9 +3242,9 @@
   {
     "state":"MI",
     "county":"Huron",
-    "total_mw":3363.0,
-    "project_count":15,
-    "solar":150.0,
+    "total_mw":3563.0,
+    "project_count":16,
+    "solar":350.0,
     "storage":1900.0,
     "wind":1313.0,
     "gas":0.0
@@ -3532,9 +3532,9 @@
   {
     "state":"MI",
     "county":"St. Clair",
-    "total_mw":220.0,
-    "project_count":1,
-    "solar":0.0,
+    "total_mw":415.0,
+    "project_count":2,
+    "solar":195.0,
     "storage":220.0,
     "wind":0.0,
     "gas":0.0
@@ -5302,11 +5302,11 @@
   {
     "state":"OK",
     "county":"Nowata",
-    "total_mw":365.0,
-    "project_count":2,
+    "total_mw":150.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
-    "wind":365.0,
+    "wind":150.0,
     "gas":0.0
   },
   {
