@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":33016.5,
-    "project_count":109,
+    "total_mw":33886.5,
+    "project_count":111,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -203,6 +203,16 @@
     "state":"",
     "county":"Union",
     "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Vermillion",
+    "total_mw":1440.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
