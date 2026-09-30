@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":35062.6,
-    "project_count":113,
+    "total_mw":36771.3,
+    "project_count":118,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -143,6 +143,16 @@
     "state":"",
     "county":"Morehouse Parish",
     "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Peoria",
+    "total_mw":240.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
