@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":36771.3,
-    "project_count":118,
+    "total_mw":37876.3,
+    "project_count":121,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -23,6 +23,16 @@
     "state":"",
     "county":"Fayette",
     "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Ford",
+    "total_mw":300.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
