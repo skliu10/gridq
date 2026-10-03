@@ -570,6 +570,16 @@
     "gas":0.0
   },
   {
+    "state":"AR",
+    "county":"Yell County",
+    "total_mw":150.0,
+    "project_count":1,
+    "solar":150.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
     "state":"AZ",
     "county":"LA PAZ",
     "total_mw":4550.0,
@@ -982,9 +992,9 @@
   {
     "state":"CO",
     "county":"Weld County",
-    "total_mw":80.0,
-    "project_count":1,
-    "solar":80.0,
+    "total_mw":286.01,
+    "project_count":2,
+    "solar":286.01,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -2381,6 +2391,16 @@
   },
   {
     "state":"KS",
+    "county":"Dodge City",
+    "total_mw":150.0,
+    "project_count":1,
+    "solar":150.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"KS",
     "county":"Edwards",
     "total_mw":145.0,
     "project_count":1,
@@ -2421,11 +2441,31 @@
   },
   {
     "state":"KS",
+    "county":"Garden City",
+    "total_mw":1000.0,
+    "project_count":2,
+    "solar":400.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":600.0
+  },
+  {
+    "state":"KS",
     "county":"Jackson",
     "total_mw":300.0,
     "project_count":1,
     "solar":300.0,
     "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"KS",
+    "county":"Kansas City",
+    "total_mw":320.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":170.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2437,6 +2477,16 @@
     "solar":0.0,
     "storage":0.0,
     "wind":300.0,
+    "gas":0.0
+  },
+  {
+    "state":"KS",
+    "county":"Kinsley",
+    "total_mw":80.0,
+    "project_count":1,
+    "solar":80.0,
+    "storage":0.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -2516,6 +2566,16 @@
     "project_count":2,
     "solar":0.0,
     "storage":270.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"KS",
+    "county":"St. John",
+    "total_mw":150.0,
+    "project_count":1,
+    "solar":150.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4251,6 +4311,16 @@
   },
   {
     "state":"MO",
+    "county":"Joplin",
+    "total_mw":250.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":250.0
+  },
+  {
+    "state":"MO",
     "county":"Macon",
     "total_mw":508.43,
     "project_count":2,
@@ -4278,6 +4348,16 @@
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
+  },
+  {
+    "state":"MO",
+    "county":"Maryville ",
+    "total_mw":901.2,
+    "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":901.2
   },
   {
     "state":"MO",
@@ -4362,9 +4442,9 @@
   {
     "state":"MO",
     "county":"Stoddard",
-    "total_mw":225.0,
-    "project_count":1,
-    "solar":0.0,
+    "total_mw":425.0,
+    "project_count":2,
+    "solar":200.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -4721,6 +4801,16 @@
   },
   {
     "state":"ND",
+    "county":"Stanton",
+    "total_mw":1500.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":1500.0
+  },
+  {
+    "state":"ND",
     "county":"Stutsman",
     "total_mw":447.0,
     "project_count":2,
@@ -4911,10 +5001,40 @@
   },
   {
     "state":"NM",
+    "county":"Hobbs",
+    "total_mw":159.5,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":159.5
+  },
+  {
+    "state":"NM",
     "county":"Lea",
     "total_mw":545.0,
     "project_count":3,
     "solar":545.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NM",
+    "county":"Lovington",
+    "total_mw":400.0,
+    "project_count":1,
+    "solar":400.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"NM",
+    "county":"Portales",
+    "total_mw":256.0,
+    "project_count":1,
+    "solar":256.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -4932,9 +5052,9 @@
   {
     "state":"NM",
     "county":"Roswell",
-    "total_mw":100.0,
-    "project_count":2,
-    "solar":0.0,
+    "total_mw":450.0,
+    "project_count":3,
+    "solar":350.0,
     "storage":100.0,
     "wind":0.0,
     "gas":0.0
@@ -5026,6 +5146,16 @@
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"OK",
+    "county":"Ada",
+    "total_mw":123.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":123.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5136,6 +5266,16 @@
     "project_count":1,
     "solar":0.0,
     "storage":200.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"OK",
+    "county":"Fort Cobb",
+    "total_mw":175.0,
+    "project_count":1,
+    "solar":175.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5611,6 +5751,26 @@
   },
   {
     "state":"TX",
+    "county":"Abernathy",
+    "total_mw":217.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":217.0
+  },
+  {
+    "state":"TX",
+    "county":"Amarillo",
+    "total_mw":140.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":140.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"TX",
     "county":"Andrews",
     "total_mw":350.0,
     "project_count":1,
@@ -5691,6 +5851,16 @@
   },
   {
     "state":"TX",
+    "county":"Denver City",
+    "total_mw":250.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":250.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"TX",
     "county":"Dimmit",
     "total_mw":300.0,
     "project_count":1,
@@ -5698,6 +5868,16 @@
     "storage":0.0,
     "wind":300.0,
     "gas":0.0
+  },
+  {
+    "state":"TX",
+    "county":"Earth",
+    "total_mw":232.5,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":232.5
   },
   {
     "state":"TX",
@@ -5727,6 +5907,16 @@
     "solar":0.0,
     "storage":208.0,
     "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"TX",
+    "county":"Hale Center",
+    "total_mw":500.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":500.0,
     "gas":0.0
   },
   {
@@ -5787,6 +5977,16 @@
     "solar":0.0,
     "storage":0.0,
     "wind":288.5,
+    "gas":0.0
+  },
+  {
+    "state":"TX",
+    "county":"Levelland",
+    "total_mw":384.0,
+    "project_count":1,
+    "solar":384.0,
+    "storage":0.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
