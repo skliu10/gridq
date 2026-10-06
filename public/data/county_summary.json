@@ -1981,6 +1981,16 @@
   },
   {
     "state":"IN",
+    "county":"",
+    "total_mw":198.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":198.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"IN",
     "county":"Benton",
     "total_mw":200.0,
     "project_count":2,
@@ -4812,11 +4822,11 @@
   {
     "state":"ND",
     "county":"Stutsman",
-    "total_mw":447.0,
-    "project_count":2,
+    "total_mw":247.0,
+    "project_count":1,
     "solar":247.0,
     "storage":0.0,
-    "wind":200.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -4948,16 +4958,6 @@
     "storage":0.0,
     "wind":0.0,
     "gas":200.0
-  },
-  {
-    "state":"NE",
-    "county":"Wayne Co",
-    "total_mw":135.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":135.0,
-    "wind":0.0,
-    "gas":0.0
   },
   {
     "state":"NH",
