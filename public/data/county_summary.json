@@ -872,10 +872,10 @@
   {
     "state":"CA",
     "county":"SANTA CLARA",
-    "total_mw":823.0,
-    "project_count":6,
+    "total_mw":473.0,
+    "project_count":5,
     "solar":0.0,
-    "storage":703.0,
+    "storage":353.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -1542,9 +1542,9 @@
   {
     "state":"IL",
     "county":"Fayette",
-    "total_mw":729.8,
-    "project_count":6,
-    "solar":463.0,
+    "total_mw":819.8,
+    "project_count":7,
+    "solar":553.0,
     "storage":200.0,
     "wind":66.8,
     "gas":0.0
@@ -2245,16 +2245,6 @@
     "total_mw":945.0,
     "project_count":2,
     "solar":945.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IN",
-    "county":"Putnam",
-    "total_mw":300.0,
-    "project_count":2,
-    "solar":300.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3982,10 +3972,10 @@
   {
     "state":"MN",
     "county":"Mower",
-    "total_mw":1032.0,
-    "project_count":5,
+    "total_mw":532.0,
+    "project_count":4,
     "solar":332.0,
-    "storage":700.0,
+    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4751,16 +4741,6 @@
   },
   {
     "state":"ND",
-    "county":"Max",
-    "total_mw":4.86,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":4.86,
-    "gas":0.0
-  },
-  {
-    "state":"ND",
     "county":"Mercer",
     "total_mw":212.0,
     "project_count":1,
@@ -4772,11 +4752,11 @@
   {
     "state":"ND",
     "county":"Minot",
-    "total_mw":7.7,
-    "project_count":1,
+    "total_mw":12.56,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
-    "wind":7.7,
+    "wind":12.56,
     "gas":0.0
   },
   {
