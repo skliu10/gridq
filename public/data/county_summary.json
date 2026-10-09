@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":37806.3,
-    "project_count":125,
+    "total_mw":41616.2,
+    "project_count":140,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -182,6 +182,16 @@
   {
     "state":"",
     "county":"Portage",
+    "total_mw":250.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Redwood",
     "total_mw":250.0,
     "project_count":1,
     "solar":0.0,
@@ -1062,10 +1072,10 @@
   {
     "state":"IA",
     "county":"Buchanan",
-    "total_mw":205.0,
-    "project_count":1,
+    "total_mw":405.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":205.0,
+    "storage":405.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -1932,8 +1942,8 @@
   {
     "state":"IL",
     "county":"Wabash",
-    "total_mw":235.0,
-    "project_count":1,
+    "total_mw":735.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":235.0,
@@ -2272,8 +2282,8 @@
   {
     "state":"IN",
     "county":"Sullivan",
-    "total_mw":3790.0,
-    "project_count":13,
+    "total_mw":4350.0,
+    "project_count":14,
     "solar":600.0,
     "storage":300.0,
     "wind":0.0,
@@ -4752,11 +4762,11 @@
   {
     "state":"ND",
     "county":"Minot",
-    "total_mw":12.56,
+    "total_mw":120.86,
     "project_count":2,
     "solar":0.0,
     "storage":0.0,
-    "wind":12.56,
+    "wind":120.86,
     "gas":0.0
   },
   {
@@ -5702,11 +5712,11 @@
   {
     "state":"SD",
     "county":"Plankinton",
-    "total_mw":10.8,
+    "total_mw":162.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
-    "wind":10.8,
+    "wind":162.0,
     "gas":0.0
   },
   {
