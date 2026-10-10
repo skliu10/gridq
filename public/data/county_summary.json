@@ -2,8 +2,18 @@
   {
     "state":"",
     "county":"",
-    "total_mw":41616.2,
-    "project_count":140,
+    "total_mw":50723.3,
+    "project_count":167,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Clay",
+    "total_mw":343.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -14,6 +24,16 @@
     "county":"Clinton",
     "total_mw":350.0,
     "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Faribault",
+    "total_mw":0.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -122,8 +142,8 @@
   {
     "state":"",
     "county":"Macon",
-    "total_mw":0.0,
-    "project_count":1,
+    "total_mw":300.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -192,8 +212,8 @@
   {
     "state":"",
     "county":"Redwood",
-    "total_mw":250.0,
-    "project_count":1,
+    "total_mw":1250.0,
+    "project_count":3,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1422,9 +1442,9 @@
   {
     "state":"IL",
     "county":"Adams",
-    "total_mw":815.0,
-    "project_count":6,
-    "solar":315.0,
+    "total_mw":640.0,
+    "project_count":5,
+    "solar":140.0,
     "storage":350.0,
     "wind":0.0,
     "gas":0.0
@@ -4392,9 +4412,9 @@
   {
     "state":"MO",
     "county":"New Madrid",
-    "total_mw":350.0,
-    "project_count":2,
-    "solar":150.0,
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
