@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":50723.3,
-    "project_count":167,
+    "total_mw":49747.2,
+    "project_count":166,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -201,16 +201,6 @@
   },
   {
     "state":"",
-    "county":"Portage",
-    "total_mw":250.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"",
     "county":"Redwood",
     "total_mw":1250.0,
     "project_count":3,
@@ -223,6 +213,16 @@
     "state":"",
     "county":"St. Charles",
     "total_mw":2220.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Starke",
+    "total_mw":976.1,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -273,6 +273,16 @@
     "state":"",
     "county":"Washington",
     "total_mw":185.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Wayne",
+    "total_mw":300.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -2501,16 +2511,6 @@
   },
   {
     "state":"KS",
-    "county":"Kearny",
-    "total_mw":300.0,
-    "project_count":2,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":300.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
     "county":"Kinsley",
     "total_mw":80.0,
     "project_count":1,
@@ -3382,11 +3382,11 @@
   {
     "state":"MI",
     "county":"Ionia",
-    "total_mw":398.0,
-    "project_count":2,
+    "total_mw":200.0,
+    "project_count":1,
     "solar":200.0,
     "storage":0.0,
-    "wind":198.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
