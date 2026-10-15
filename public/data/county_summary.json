@@ -3182,9 +3182,9 @@
   {
     "state":"ME",
     "county":"York",
-    "total_mw":216.425,
-    "project_count":3,
-    "solar":216.425,
+    "total_mw":36.425,
+    "project_count":2,
+    "solar":36.425,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -4398,16 +4398,6 @@
     "storage":0.0,
     "wind":0.0,
     "gas":1004.9
-  },
-  {
-    "state":"MO",
-    "county":"Montgomery",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":100.0,
-    "wind":0.0,
-    "gas":0.0
   },
   {
     "state":"MO",
