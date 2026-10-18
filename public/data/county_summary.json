@@ -2362,10 +2362,10 @@
   {
     "state":"IN",
     "county":"White",
-    "total_mw":1348.0,
-    "project_count":7,
+    "total_mw":948.0,
+    "project_count":6,
     "solar":310.0,
-    "storage":1038.0,
+    "storage":638.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3592,10 +3592,10 @@
   {
     "state":"MI",
     "county":"Ottawa",
-    "total_mw":879.0,
-    "project_count":4,
+    "total_mw":779.0,
+    "project_count":3,
     "solar":0.0,
-    "storage":160.0,
+    "storage":60.0,
     "wind":0.0,
     "gas":719.0
   },
