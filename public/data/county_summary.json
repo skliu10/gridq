@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":49747.2,
-    "project_count":166,
+    "total_mw":56916.7,
+    "project_count":190,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -12,8 +12,8 @@
   {
     "state":"",
     "county":"Clay",
-    "total_mw":343.0,
-    "project_count":1,
+    "total_mw":686.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -144,6 +144,16 @@
     "county":"Macon",
     "total_mw":300.0,
     "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Menard",
+    "total_mw":200.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1612,9 +1622,9 @@
   {
     "state":"IL",
     "county":"Fulton",
-    "total_mw":1550.6,
-    "project_count":4,
-    "solar":1000.6,
+    "total_mw":1370.6,
+    "project_count":3,
+    "solar":820.6,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
@@ -1732,9 +1742,9 @@
   {
     "state":"IL",
     "county":"Marion",
-    "total_mw":549.0,
-    "project_count":4,
-    "solar":100.0,
+    "total_mw":449.0,
+    "project_count":3,
+    "solar":0.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
@@ -2276,16 +2286,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":50.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IN",
-    "county":"Pulaski",
-    "total_mw":945.0,
-    "project_count":2,
-    "solar":945.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3062,10 +3062,10 @@
   {
     "state":"MA",
     "county":"Middlesex",
-    "total_mw":1224.248,
-    "project_count":4,
+    "total_mw":724.248,
+    "project_count":3,
     "solar":0.0,
-    "storage":1212.248,
+    "storage":712.248,
     "wind":0.0,
     "gas":0.0
   },
@@ -3102,10 +3102,10 @@
   {
     "state":"MA",
     "county":"Worcester",
-    "total_mw":383.95,
-    "project_count":2,
+    "total_mw":203.95,
+    "project_count":1,
     "solar":0.0,
-    "storage":383.95,
+    "storage":203.95,
     "wind":0.0,
     "gas":0.0
   },
@@ -3192,9 +3192,9 @@
   {
     "state":"MI",
     "county":"Alcona",
-    "total_mw":451.9,
-    "project_count":3,
-    "solar":451.9,
+    "total_mw":236.9,
+    "project_count":2,
+    "solar":236.9,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0

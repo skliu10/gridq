@@ -11,13 +11,13 @@
   },
   {
     "iso":"ISONE",
-    "total_mw":10800.87,
-    "project_count":56
+    "total_mw":10120.87,
+    "project_count":54
   },
   {
     "iso":"MISO",
-    "total_mw":253105.27,
-    "project_count":1135
+    "total_mw":259377.77,
+    "project_count":1156
   },
   {
     "iso":"SPP",
