@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":58795.7,
-    "project_count":198,
+    "total_mw":61730.2,
+    "project_count":210,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -171,6 +171,16 @@
   },
   {
     "state":"",
+    "county":"Montgomery",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Morehouse",
     "total_mw":300.0,
     "project_count":1,
@@ -263,6 +273,16 @@
     "state":"",
     "county":"Union",
     "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Vermilion",
+    "total_mw":200.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -3036,16 +3056,6 @@
     "project_count":2,
     "solar":0.0,
     "storage":168.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MA",
-    "county":"Essex",
-    "total_mw":225.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":225.0,
     "wind":0.0,
     "gas":0.0
   },
