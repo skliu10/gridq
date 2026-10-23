@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":61730.2,
-    "project_count":210,
+    "total_mw":63254.16,
+    "project_count":214,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1402,11 +1402,11 @@
   {
     "state":"IA",
     "county":"Taylor",
-    "total_mw":700.0,
-    "project_count":2,
+    "total_mw":300.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
-    "wind":700.0,
+    "wind":300.0,
     "gas":0.0
   },
   {
@@ -1852,9 +1852,9 @@
   {
     "state":"IL",
     "county":"Perry",
-    "total_mw":1450.0,
-    "project_count":7,
-    "solar":807.0,
+    "total_mw":1300.0,
+    "project_count":6,
+    "solar":657.0,
     "storage":643.0,
     "wind":0.0,
     "gas":0.0
