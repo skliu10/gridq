@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":63254.16,
-    "project_count":214,
+    "total_mw":65020.16,
+    "project_count":218,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -113,6 +113,16 @@
     "state":"",
     "county":"Isabella County",
     "total_mw":90.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Lee",
+    "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -3092,10 +3102,10 @@
   {
     "state":"MA",
     "county":"Norfolk",
-    "total_mw":470.0,
-    "project_count":2,
+    "total_mw":170.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":470.0,
+    "storage":170.0,
     "wind":0.0,
     "gas":0.0
   },
