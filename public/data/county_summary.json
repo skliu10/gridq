@@ -3422,9 +3422,9 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":947.6,
-    "project_count":6,
-    "solar":180.0,
+    "total_mw":1107.6,
+    "project_count":7,
+    "solar":340.0,
     "storage":450.0,
     "wind":217.3,
     "gas":0.0
