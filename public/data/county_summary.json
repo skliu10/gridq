@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":68023.16,
-    "project_count":231,
+    "total_mw":71613.16,
+    "project_count":247,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1617,6 +1617,16 @@
     "solar":250.0,
     "storage":100.0,
     "wind":200.0,
+    "gas":0.0
+  },
+  {
+    "state":"IL",
+    "county":"Logan",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
