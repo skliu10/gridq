@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":71613.16,
-    "project_count":247,
+    "total_mw":72807.16,
+    "project_count":251,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -2561,16 +2561,6 @@
   },
   {
     "state":"LA",
-    "county":"Bossier",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":150.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"LA",
     "county":"Bossier Parish",
     "total_mw":1549.0,
     "project_count":2,
@@ -2836,16 +2826,6 @@
     "project_count":3,
     "solar":0.0,
     "storage":712.248,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MA",
-    "county":"Norfolk",
-    "total_mw":170.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":170.0,
     "wind":0.0,
     "gas":0.0
   },
