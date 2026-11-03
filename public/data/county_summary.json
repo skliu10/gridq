@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":76643.16,
-    "project_count":265,
+    "total_mw":79932.16,
+    "project_count":276,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -654,8 +654,8 @@
     "county":"KERN",
     "total_mw":11171.78,
     "project_count":42,
-    "solar":8614.78,
-    "storage":1110.0,
+    "solar":8014.78,
+    "storage":1710.0,
     "wind":220.0,
     "gas":35.0
   },
@@ -1621,16 +1621,6 @@
   },
   {
     "state":"IL",
-    "county":"Logan",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
     "county":"Macon",
     "total_mw":880.0,
     "project_count":5,
@@ -1921,16 +1911,6 @@
   },
   {
     "state":"IN",
-    "county":"",
-    "total_mw":198.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":198.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IN",
     "county":"Benton",
     "total_mw":200.0,
     "project_count":2,
@@ -2132,10 +2112,10 @@
   {
     "state":"IN",
     "county":"Newton",
-    "total_mw":875.0,
-    "project_count":5,
-    "solar":100.0,
-    "storage":200.0,
+    "total_mw":725.0,
+    "project_count":3,
+    "solar":0.0,
+    "storage":150.0,
     "wind":275.0,
     "gas":0.0
   },
@@ -2552,10 +2532,10 @@
   {
     "state":"LA",
     "county":"Beauregard",
-    "total_mw":340.0,
-    "project_count":2,
+    "total_mw":140.0,
+    "project_count":1,
     "solar":140.0,
-    "storage":200.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3912,8 +3892,8 @@
   {
     "state":"MO",
     "county":"Adair",
-    "total_mw":300.0,
-    "project_count":1,
+    "total_mw":450.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -4801,16 +4781,6 @@
   },
   {
     "state":"OK",
-    "county":"Ada",
-    "total_mw":123.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":123.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
     "county":"Anadarko",
     "total_mw":690.0,
     "project_count":1,
@@ -5621,16 +5591,6 @@
   },
   {
     "state":"TX",
-    "county":"Liberty",
-    "total_mw":180.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
     "county":"Marion",
     "total_mw":160.0,
     "project_count":1,
@@ -5782,11 +5742,11 @@
   {
     "state":"Texas",
     "county":"Archer",
-    "total_mw":826.93,
-    "project_count":6,
+    "total_mw":808.41,
+    "project_count":5,
     "solar":308.61,
     "storage":499.8,
-    "wind":18.52,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -5802,10 +5762,10 @@
   {
     "state":"Texas",
     "county":"Atascosa",
-    "total_mw":1452.68,
-    "project_count":12,
-    "solar":883.2,
-    "storage":569.48,
+    "total_mw":1914.78,
+    "project_count":15,
+    "solar":1285.7,
+    "storage":629.08,
     "wind":0.0,
     "gas":0.0
   },
@@ -5852,30 +5812,30 @@
   {
     "state":"Texas",
     "county":"Bee",
-    "total_mw":806.84,
-    "project_count":6,
-    "solar":302.45,
-    "storage":504.39,
+    "total_mw":629.29,
+    "project_count":4,
+    "solar":200.86,
+    "storage":428.43,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Bell",
-    "total_mw":1819.99,
-    "project_count":5,
+    "total_mw":2959.68,
+    "project_count":6,
     "solar":116.0,
     "storage":1067.09,
     "wind":0.0,
-    "gas":636.9
+    "gas":1776.59
   },
   {
     "state":"Texas",
     "county":"Bexar",
-    "total_mw":3991.19,
-    "project_count":15,
+    "total_mw":3840.8,
+    "project_count":14,
     "solar":0.0,
-    "storage":3956.69,
+    "storage":3806.3,
     "wind":0.0,
     "gas":34.5
   },
@@ -5922,10 +5882,10 @@
   {
     "state":"Texas",
     "county":"Brazos",
-    "total_mw":1126.5,
-    "project_count":2,
+    "total_mw":1022.08,
+    "project_count":1,
     "solar":0.0,
-    "storage":104.42,
+    "storage":0.0,
     "wind":0.0,
     "gas":1022.08
   },
@@ -5962,10 +5922,10 @@
   {
     "state":"Texas",
     "county":"Brown",
-    "total_mw":2215.23,
-    "project_count":10,
+    "total_mw":2104.17,
+    "project_count":9,
     "solar":858.18,
-    "storage":1357.05,
+    "storage":1245.99,
     "wind":0.0,
     "gas":0.0
   },
@@ -5992,19 +5952,19 @@
   {
     "state":"Texas",
     "county":"Caldwell",
-    "total_mw":3411.52,
+    "total_mw":3412.48,
     "project_count":13,
     "solar":180.84,
-    "storage":831.7,
+    "storage":832.66,
     "wind":0.0,
     "gas":2398.98
   },
   {
     "state":"Texas",
     "county":"Calhoun",
-    "total_mw":654.6,
-    "project_count":3,
-    "solar":347.0,
+    "total_mw":944.6,
+    "project_count":4,
+    "solar":637.0,
     "storage":307.6,
     "wind":0.0,
     "gas":0.0
@@ -6012,22 +5972,22 @@
   {
     "state":"Texas",
     "county":"Callahan",
-    "total_mw":813.1,
-    "project_count":3,
+    "total_mw":3040.6,
+    "project_count":5,
     "solar":402.93,
     "storage":410.17,
     "wind":0.0,
-    "gas":0.0
+    "gas":2227.5
   },
   {
     "state":"Texas",
     "county":"Cameron",
-    "total_mw":5019.68,
-    "project_count":21,
+    "total_mw":7790.7,
+    "project_count":23,
     "solar":808.11,
-    "storage":2295.54,
+    "storage":2094.76,
     "wind":300.0,
-    "gas":1536.4
+    "gas":4508.2
   },
   {
     "state":"Texas",
@@ -6101,51 +6061,41 @@
   },
   {
     "state":"Texas",
-    "county":"Collin",
-    "total_mw":252.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":252.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"Texas",
     "county":"Colorado",
-    "total_mw":1492.01,
-    "project_count":10,
-    "solar":394.32,
-    "storage":1097.69,
+    "total_mw":1244.61,
+    "project_count":8,
+    "solar":200.52,
+    "storage":1044.09,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Comal",
-    "total_mw":866.92,
-    "project_count":3,
+    "total_mw":666.41,
+    "project_count":2,
     "solar":0.0,
-    "storage":866.92,
+    "storage":666.41,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Comanche",
-    "total_mw":1427.2,
-    "project_count":4,
-    "solar":411.0,
-    "storage":1016.2,
+    "total_mw":1897.84,
+    "project_count":6,
+    "solar":665.0,
+    "storage":1232.84,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Concho",
-    "total_mw":577.26,
-    "project_count":3,
+    "total_mw":817.26,
+    "project_count":4,
     "solar":577.26,
-    "storage":0.0,
+    "storage":240.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -6162,10 +6112,10 @@
   {
     "state":"Texas",
     "county":"Cottle",
-    "total_mw":906.41,
-    "project_count":4,
-    "solar":202.91,
-    "storage":201.54,
+    "total_mw":1229.17,
+    "project_count":6,
+    "solar":404.34,
+    "storage":322.87,
     "wind":501.96,
     "gas":0.0
   },
@@ -6262,19 +6212,19 @@
   {
     "state":"Texas",
     "county":"Dimmit",
-    "total_mw":991.4,
-    "project_count":10,
+    "total_mw":866.0,
+    "project_count":9,
     "solar":306.8,
-    "storage":684.6,
+    "storage":559.2,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Duval",
-    "total_mw":3653.09,
-    "project_count":14,
-    "solar":1488.64,
+    "total_mw":3401.75,
+    "project_count":13,
+    "solar":1237.3,
     "storage":964.37,
     "wind":505.9,
     "gas":694.18
@@ -6292,9 +6242,9 @@
   {
     "state":"Texas",
     "county":"Ector",
-    "total_mw":3352.89,
+    "total_mw":3350.34,
     "project_count":17,
-    "solar":2086.98,
+    "solar":2084.43,
     "storage":1265.91,
     "wind":0.0,
     "gas":0.0
@@ -6302,10 +6252,10 @@
   {
     "state":"Texas",
     "county":"Ellis",
-    "total_mw":5206.09,
-    "project_count":23,
+    "total_mw":5080.39,
+    "project_count":22,
     "solar":1291.65,
-    "storage":2966.52,
+    "storage":2840.82,
     "wind":0.0,
     "gas":897.92
   },
@@ -6322,11 +6272,11 @@
   {
     "state":"Texas",
     "county":"Falls",
-    "total_mw":1001.15,
-    "project_count":11,
-    "solar":742.45,
+    "total_mw":611.9,
+    "project_count":7,
+    "solar":551.9,
     "storage":60.0,
-    "wind":198.7,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -6352,12 +6302,12 @@
   {
     "state":"Texas",
     "county":"Fisher",
-    "total_mw":5575.14,
+    "total_mw":5567.14,
     "project_count":7,
     "solar":1556.3,
     "storage":0.0,
     "wind":1018.84,
-    "gas":3000.0
+    "gas":2992.0
   },
   {
     "state":"Texas",
@@ -6372,10 +6322,10 @@
   {
     "state":"Texas",
     "county":"Fort Bend",
-    "total_mw":958.83,
-    "project_count":6,
+    "total_mw":887.49,
+    "project_count":5,
     "solar":0.0,
-    "storage":958.83,
+    "storage":887.49,
     "wind":0.0,
     "gas":0.0
   },
@@ -6392,20 +6342,20 @@
   {
     "state":"Texas",
     "county":"Freestone",
-    "total_mw":2933.6,
-    "project_count":14,
+    "total_mw":4914.8,
+    "project_count":16,
     "solar":789.71,
     "storage":1153.29,
     "wind":0.0,
-    "gas":990.6
+    "gas":2971.8
   },
   {
     "state":"Texas",
     "county":"Frio",
-    "total_mw":923.83,
-    "project_count":5,
+    "total_mw":803.83,
+    "project_count":4,
     "solar":401.7,
-    "storage":522.13,
+    "storage":402.13,
     "wind":0.0,
     "gas":0.0
   },
@@ -6482,9 +6432,9 @@
   {
     "state":"Texas",
     "county":"Guadalupe",
-    "total_mw":3437.46,
-    "project_count":11,
-    "solar":160.5,
+    "total_mw":3276.96,
+    "project_count":10,
+    "solar":0.0,
     "storage":826.46,
     "wind":0.0,
     "gas":2450.5
@@ -6492,10 +6442,10 @@
   {
     "state":"Texas",
     "county":"Hale",
-    "total_mw":2104.15,
+    "total_mw":2120.63,
     "project_count":4,
     "solar":511.63,
-    "storage":601.92,
+    "storage":618.4,
     "wind":0.0,
     "gas":990.6
   },
@@ -6512,19 +6462,19 @@
   {
     "state":"Texas",
     "county":"Harris",
-    "total_mw":5356.13,
-    "project_count":22,
+    "total_mw":5253.08,
+    "project_count":21,
     "solar":0.0,
-    "storage":5280.63,
+    "storage":5177.58,
     "wind":0.0,
     "gas":25.5
   },
   {
     "state":"Texas",
     "county":"Haskell",
-    "total_mw":1471.48,
-    "project_count":8,
-    "solar":998.88,
+    "total_mw":1744.88,
+    "project_count":9,
+    "solar":1272.28,
     "storage":120.0,
     "wind":352.6,
     "gas":0.0
@@ -6542,30 +6492,30 @@
   {
     "state":"Texas",
     "county":"Henderson",
-    "total_mw":880.22,
-    "project_count":4,
+    "total_mw":1084.52,
+    "project_count":5,
     "solar":0.0,
-    "storage":880.22,
+    "storage":1084.52,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Hidalgo",
-    "total_mw":2669.43,
-    "project_count":20,
+    "total_mw":2567.25,
+    "project_count":19,
     "solar":432.11,
-    "storage":1987.32,
+    "storage":1885.14,
     "wind":0.0,
     "gas":250.0
   },
   {
     "state":"Texas",
     "county":"Hill",
-    "total_mw":5447.65,
+    "total_mw":5468.45,
     "project_count":11,
     "solar":168.55,
-    "storage":1192.9,
+    "storage":1213.7,
     "wind":33.2,
     "gas":4053.0
   },
@@ -6602,10 +6552,10 @@
   {
     "state":"Texas",
     "county":"Howard",
-    "total_mw":2379.3,
+    "total_mw":2666.26,
     "project_count":15,
-    "solar":566.44,
-    "storage":1558.81,
+    "solar":401.6,
+    "storage":2010.61,
     "wind":254.05,
     "gas":0.0
   },
@@ -6682,10 +6632,10 @@
   {
     "state":"Texas",
     "county":"Jones",
-    "total_mw":1998.84,
-    "project_count":6,
-    "solar":1095.76,
-    "storage":903.08,
+    "total_mw":2646.44,
+    "project_count":10,
+    "solar":1620.56,
+    "storage":1025.88,
     "wind":0.0,
     "gas":0.0
   },
@@ -6722,9 +6672,9 @@
   {
     "state":"Texas",
     "county":"Kenedy",
-    "total_mw":1310.6,
-    "project_count":4,
-    "solar":609.3,
+    "total_mw":1058.3,
+    "project_count":3,
+    "solar":357.0,
     "storage":178.5,
     "wind":522.8,
     "gas":0.0
@@ -6742,9 +6692,9 @@
   {
     "state":"Texas",
     "county":"Kimble",
-    "total_mw":306.4,
-    "project_count":1,
-    "solar":0.0,
+    "total_mw":507.27,
+    "project_count":2,
+    "solar":200.87,
     "storage":306.4,
     "wind":0.0,
     "gas":0.0
@@ -6762,9 +6712,9 @@
   {
     "state":"Texas",
     "county":"Kinney",
-    "total_mw":708.9,
-    "project_count":8,
-    "solar":506.7,
+    "total_mw":945.07,
+    "project_count":9,
+    "solar":742.87,
     "storage":202.2,
     "wind":0.0,
     "gas":0.0
@@ -6782,19 +6732,19 @@
   {
     "state":"Texas",
     "county":"Knox",
-    "total_mw":403.2,
-    "project_count":4,
-    "solar":272.71,
-    "storage":130.49,
+    "total_mw":1032.84,
+    "project_count":7,
+    "solar":586.51,
+    "storage":446.33,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"La Salle",
-    "total_mw":789.45,
-    "project_count":3,
-    "solar":203.06,
+    "total_mw":998.91,
+    "project_count":5,
+    "solar":412.52,
     "storage":586.39,
     "wind":0.0,
     "gas":0.0
@@ -6802,9 +6752,9 @@
   {
     "state":"Texas",
     "county":"Lamar",
-    "total_mw":2551.42,
-    "project_count":9,
-    "solar":282.7,
+    "total_mw":2687.48,
+    "project_count":10,
+    "solar":418.76,
     "storage":491.72,
     "wind":0.0,
     "gas":545.0
@@ -6822,30 +6772,40 @@
   {
     "state":"Texas",
     "county":"Leon",
-    "total_mw":2888.26,
-    "project_count":7,
-    "solar":395.34,
+    "total_mw":4719.46,
+    "project_count":8,
+    "solar":245.34,
     "storage":511.72,
     "wind":0.0,
-    "gas":1981.2
+    "gas":3962.4
   },
   {
     "state":"Texas",
     "county":"Limestone",
-    "total_mw":334.6,
-    "project_count":5,
+    "total_mw":229.68,
+    "project_count":4,
     "solar":127.94,
-    "storage":206.66,
+    "storage":101.74,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Live Oak",
-    "total_mw":212.16,
+    "total_mw":532.03,
     "project_count":3,
-    "solar":171.36,
-    "storage":40.8,
+    "solar":331.46,
+    "storage":200.57,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"Texas",
+    "county":"Llano",
+    "total_mw":201.18,
+    "project_count":1,
+    "solar":0.0,
+    "storage":201.18,
     "wind":0.0,
     "gas":0.0
   },
@@ -6862,10 +6822,10 @@
   {
     "state":"Texas",
     "county":"Lubbock",
-    "total_mw":226.4,
-    "project_count":1,
+    "total_mw":236.39,
+    "project_count":2,
     "solar":0.0,
-    "storage":226.4,
+    "storage":236.39,
     "wind":0.0,
     "gas":0.0
   },
@@ -6892,10 +6852,10 @@
   {
     "state":"Texas",
     "county":"Matagorda",
-    "total_mw":3882.08,
-    "project_count":14,
-    "solar":1559.57,
-    "storage":985.99,
+    "total_mw":3811.84,
+    "project_count":13,
+    "solar":1354.83,
+    "storage":1120.49,
     "wind":0.0,
     "gas":0.0
   },
@@ -6962,9 +6922,9 @@
   {
     "state":"Texas",
     "county":"Milam",
-    "total_mw":5780.65,
+    "total_mw":5800.65,
     "project_count":14,
-    "solar":1593.3,
+    "solar":1613.3,
     "storage":2049.75,
     "wind":0.0,
     "gas":2137.6
@@ -6982,10 +6942,10 @@
   {
     "state":"Texas",
     "county":"Mitchell",
-    "total_mw":6615.9,
-    "project_count":14,
-    "solar":1502.15,
-    "storage":3823.55,
+    "total_mw":7322.62,
+    "project_count":16,
+    "solar":2004.35,
+    "storage":4028.07,
     "wind":1290.2,
     "gas":0.0
   },
@@ -7012,11 +6972,11 @@
   {
     "state":"Texas",
     "county":"Motley",
-    "total_mw":600.0,
-    "project_count":2,
+    "total_mw":0.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
-    "wind":600.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -7032,19 +6992,19 @@
   {
     "state":"Texas",
     "county":"Navarro",
-    "total_mw":1920.04,
-    "project_count":15,
-    "solar":1391.59,
-    "storage":528.45,
+    "total_mw":1795.76,
+    "project_count":13,
+    "solar":1310.0,
+    "storage":485.76,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Nolan",
-    "total_mw":4010.11,
+    "total_mw":4009.91,
     "project_count":12,
-    "solar":1347.92,
+    "solar":1347.72,
     "storage":917.39,
     "wind":718.8,
     "gas":1026.0
@@ -7062,9 +7022,9 @@
   {
     "state":"Texas",
     "county":"Palo Pinto",
-    "total_mw":206.3,
-    "project_count":2,
-    "solar":206.3,
+    "total_mw":100.57,
+    "project_count":1,
+    "solar":100.57,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -7102,32 +7062,22 @@
   {
     "state":"Texas",
     "county":"Red River",
-    "total_mw":330.21,
+    "total_mw":331.41,
     "project_count":4,
-    "solar":201.03,
-    "storage":129.18,
+    "solar":201.08,
+    "storage":130.33,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Reeves",
-    "total_mw":6702.83,
-    "project_count":15,
-    "solar":1086.7,
+    "total_mw":6599.13,
+    "project_count":14,
+    "solar":983.0,
     "storage":330.0,
     "wind":1030.7,
     "gas":4123.43
-  },
-  {
-    "state":"Texas",
-    "county":"Refugio",
-    "total_mw":100.61,
-    "project_count":1,
-    "solar":0.0,
-    "storage":100.61,
-    "wind":0.0,
-    "gas":0.0
   },
   {
     "state":"Texas",
@@ -7142,10 +7092,10 @@
   {
     "state":"Texas",
     "county":"Robertson",
-    "total_mw":2119.42,
-    "project_count":14,
-    "solar":332.84,
-    "storage":1786.58,
+    "total_mw":1987.38,
+    "project_count":12,
+    "solar":251.27,
+    "storage":1736.11,
     "wind":0.0,
     "gas":0.0
   },
@@ -7172,9 +7122,9 @@
   {
     "state":"Texas",
     "county":"Rusk",
-    "total_mw":739.23,
-    "project_count":4,
-    "solar":228.08,
+    "total_mw":537.95,
+    "project_count":3,
+    "solar":26.8,
     "storage":511.15,
     "wind":0.0,
     "gas":0.0
@@ -7242,10 +7192,10 @@
   {
     "state":"Texas",
     "county":"Starr",
-    "total_mw":2562.31,
-    "project_count":13,
-    "solar":1494.27,
-    "storage":1068.04,
+    "total_mw":2063.1,
+    "project_count":12,
+    "solar":991.58,
+    "storage":1071.52,
     "wind":0.0,
     "gas":0.0
   },
@@ -7262,10 +7212,10 @@
   {
     "state":"Texas",
     "county":"Stonewall",
-    "total_mw":195.2,
-    "project_count":2,
+    "total_mw":60.2,
+    "project_count":1,
     "solar":60.2,
-    "storage":135.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -7302,20 +7252,20 @@
   {
     "state":"Texas",
     "county":"Taylor",
-    "total_mw":3108.09,
-    "project_count":10,
+    "total_mw":2965.09,
+    "project_count":9,
     "solar":2187.93,
-    "storage":920.16,
+    "storage":777.16,
     "wind":0.0,
     "gas":0.0
   },
   {
     "state":"Texas",
     "county":"Throckmorton",
-    "total_mw":677.18,
-    "project_count":5,
+    "total_mw":625.9,
+    "project_count":4,
     "solar":502.8,
-    "storage":174.38,
+    "storage":123.1,
     "wind":0.0,
     "gas":0.0
   },
@@ -7372,9 +7322,9 @@
   {
     "state":"Texas",
     "county":"Van Zandt",
-    "total_mw":455.41,
-    "project_count":4,
-    "solar":150.77,
+    "total_mw":304.64,
+    "project_count":3,
+    "solar":0.0,
     "storage":304.64,
     "wind":0.0,
     "gas":0.0
@@ -7382,12 +7332,12 @@
   {
     "state":"Texas",
     "county":"Victoria",
-    "total_mw":4321.71,
-    "project_count":13,
-    "solar":698.93,
-    "storage":1192.78,
+    "total_mw":4289.99,
+    "project_count":12,
+    "solar":397.11,
+    "storage":987.88,
     "wind":0.0,
-    "gas":1110.0
+    "gas":1585.0
   },
   {
     "state":"Texas",
@@ -7402,10 +7352,10 @@
   {
     "state":"Texas",
     "county":"Ward",
-    "total_mw":1188.55,
-    "project_count":9,
+    "total_mw":1007.65,
+    "project_count":8,
     "solar":264.0,
-    "storage":906.35,
+    "storage":725.45,
     "wind":0.0,
     "gas":18.2
   },
@@ -7492,10 +7442,10 @@
   {
     "state":"Texas",
     "county":"Wise",
-    "total_mw":3952.67,
-    "project_count":10,
+    "total_mw":3777.02,
+    "project_count":9,
     "solar":126.18,
-    "storage":3826.49,
+    "storage":3650.84,
     "wind":0.0,
     "gas":0.0
   },
@@ -7522,10 +7472,10 @@
   {
     "state":"Texas",
     "county":"Zavala",
-    "total_mw":611.83,
-    "project_count":5,
-    "solar":40.9,
-    "storage":570.93,
+    "total_mw":530.03,
+    "project_count":3,
+    "solar":0.0,
+    "storage":530.03,
     "wind":0.0,
     "gas":0.0
   },
@@ -7752,10 +7702,10 @@
   {
     "state":"WI",
     "county":"Portage",
-    "total_mw":1397.43,
-    "project_count":5,
+    "total_mw":1347.12,
+    "project_count":4,
     "solar":1197.12,
-    "storage":200.31,
+    "storage":150.0,
     "wind":0.0,
     "gas":0.0
   },
