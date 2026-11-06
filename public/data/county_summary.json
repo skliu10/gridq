@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":82509.91,
-    "project_count":282,
+    "total_mw":84973.05,
+    "project_count":293,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1382,9 +1382,9 @@
   {
     "state":"IL",
     "county":"Adams",
-    "total_mw":300.0,
-    "project_count":2,
-    "solar":0.0,
+    "total_mw":475.0,
+    "project_count":3,
+    "solar":175.0,
     "storage":150.0,
     "wind":0.0,
     "gas":0.0
@@ -4121,10 +4121,20 @@
   },
   {
     "state":"MO",
-    "county":"New Madrid",
-    "total_mw":200.0,
+    "county":"Montgomery",
+    "total_mw":100.0,
     "project_count":1,
     "solar":0.0,
+    "storage":100.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MO",
+    "county":"New Madrid",
+    "total_mw":350.0,
+    "project_count":2,
+    "solar":150.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
@@ -7692,10 +7702,10 @@
   {
     "state":"WI",
     "county":"Portage",
-    "total_mw":1347.12,
-    "project_count":4,
+    "total_mw":1397.43,
+    "project_count":5,
     "solar":1197.12,
-    "storage":150.0,
+    "storage":200.31,
     "wind":0.0,
     "gas":0.0
   },
