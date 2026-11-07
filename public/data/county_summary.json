@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":84973.05,
-    "project_count":293,
+    "total_mw":88208.04,
+    "project_count":301,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -2341,6 +2341,16 @@
   },
   {
     "state":"KS",
+    "county":"Garden Plain",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":100.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"KS",
     "county":"Jackson",
     "total_mw":300.0,
     "project_count":1,
@@ -4441,6 +4451,16 @@
   },
   {
     "state":"ND",
+    "county":"South Heart",
+    "total_mw":300.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":300.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"ND",
     "county":"Stanton",
     "total_mw":1500.0,
     "project_count":2,
@@ -4812,10 +4832,10 @@
   {
     "state":"OK",
     "county":"Balko",
-    "total_mw":263.13,
-    "project_count":1,
+    "total_mw":463.13,
+    "project_count":2,
     "solar":0.0,
-    "storage":263.13,
+    "storage":463.13,
     "wind":0.0,
     "gas":0.0
   },
