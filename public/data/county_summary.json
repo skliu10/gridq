@@ -211,6 +211,16 @@
   },
   {
     "state":"",
+    "county":"Otsego",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Peoria",
     "total_mw":240.0,
     "project_count":1,
@@ -882,10 +892,10 @@
   {
     "state":"CA",
     "county":"STANISLAUS",
-    "total_mw":420.0,
-    "project_count":3,
+    "total_mw":320.0,
+    "project_count":2,
     "solar":20.0,
-    "storage":400.0,
+    "storage":300.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2275,16 +2285,6 @@
     "total_mw":199.8,
     "project_count":1,
     "solar":199.8,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"KS",
-    "county":"Dodge City",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":150.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
