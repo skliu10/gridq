@@ -2,8 +2,28 @@
   {
     "state":"",
     "county":"",
-    "total_mw":88693.04,
-    "project_count":303,
+    "total_mw":89083.04,
+    "project_count":305,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Adams",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Cass",
+    "total_mw":0.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -25,6 +45,16 @@
     "total_mw":1000.0,
     "project_count":4,
     "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"De Witt",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":100.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -201,6 +231,16 @@
   },
   {
     "state":"",
+    "county":"Marshall",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Menard",
     "total_mw":200.0,
     "project_count":1,
@@ -242,6 +282,16 @@
   {
     "state":"",
     "county":"Morehouse Parish",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Mower",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -343,7 +393,7 @@
     "state":"",
     "county":"Story",
     "total_mw":450.0,
-    "project_count":3,
+    "project_count":4,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1472,9 +1522,9 @@
   {
     "state":"IL",
     "county":"Adams",
-    "total_mw":475.0,
-    "project_count":3,
-    "solar":175.0,
+    "total_mw":300.0,
+    "project_count":2,
+    "solar":0.0,
     "storage":150.0,
     "wind":0.0,
     "gas":0.0
@@ -1572,9 +1622,9 @@
   {
     "state":"IL",
     "county":"De Witt",
-    "total_mw":121.0,
-    "project_count":2,
-    "solar":100.0,
+    "total_mw":21.0,
+    "project_count":1,
+    "solar":0.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -1752,9 +1802,9 @@
   {
     "state":"IL",
     "county":"Marshall",
-    "total_mw":213.0,
-    "project_count":2,
-    "solar":35.0,
+    "total_mw":178.0,
+    "project_count":1,
+    "solar":0.0,
     "storage":0.0,
     "wind":178.0,
     "gas":0.0
@@ -3802,10 +3852,10 @@
   {
     "state":"MN",
     "county":"Mower",
-    "total_mw":532.0,
-    "project_count":4,
+    "total_mw":432.0,
+    "project_count":3,
     "solar":332.0,
-    "storage":200.0,
+    "storage":100.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4122,10 +4172,10 @@
   {
     "state":"MO",
     "county":"Jackson",
-    "total_mw":549.0,
-    "project_count":3,
+    "total_mw":399.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":549.0,
+    "storage":399.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4442,8 +4492,8 @@
   {
     "state":"ND",
     "county":"Cass",
-    "total_mw":1081.0,
-    "project_count":4,
+    "total_mw":600.0,
+    "project_count":3,
     "solar":200.0,
     "storage":200.0,
     "wind":200.0,
@@ -7835,16 +7885,6 @@
     "total_mw":100.0,
     "project_count":1,
     "solar":100.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"WI",
-    "county":"Story",
-    "total_mw":99.0,
-    "project_count":1,
-    "solar":0.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
