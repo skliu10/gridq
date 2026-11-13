@@ -3,7 +3,7 @@
     "state":"",
     "county":"",
     "total_mw":89083.04,
-    "project_count":305,
+    "project_count":309,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -21,7 +21,27 @@
   },
   {
     "state":"",
+    "county":"Branch",
+    "total_mw":100.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":100.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Cass",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Champaign",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -132,6 +152,16 @@
   {
     "state":"",
     "county":"Hot Spring",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Huron",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -301,6 +331,26 @@
   },
   {
     "state":"",
+    "county":"New Madrid",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Olmsted",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Otsego",
     "total_mw":0.0,
     "project_count":1,
@@ -451,6 +501,16 @@
   },
   {
     "state":"",
+    "county":"Walworth",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Washington",
     "total_mw":185.0,
     "project_count":1,
@@ -472,8 +532,8 @@
   {
     "state":"AR",
     "county":"",
-    "total_mw":1015.0,
-    "project_count":2,
+    "total_mw":625.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1532,10 +1592,10 @@
   {
     "state":"IL",
     "county":"Champaign",
-    "total_mw":1114.68,
-    "project_count":7,
+    "total_mw":1014.68,
+    "project_count":6,
     "solar":191.3,
-    "storage":500.0,
+    "storage":400.0,
     "wind":288.38,
     "gas":0.0
   },
@@ -2712,10 +2772,10 @@
   {
     "state":"LA",
     "county":"East Feliciana",
-    "total_mw":377.0,
-    "project_count":2,
+    "total_mw":77.0,
+    "project_count":1,
     "solar":77.0,
-    "storage":300.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3112,10 +3172,10 @@
   {
     "state":"MI",
     "county":"Branch",
-    "total_mw":480.0,
-    "project_count":4,
+    "total_mw":380.0,
+    "project_count":3,
     "solar":100.0,
-    "storage":380.0,
+    "storage":280.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3212,9 +3272,9 @@
   {
     "state":"MI",
     "county":"Huron",
-    "total_mw":3563.0,
-    "project_count":16,
-    "solar":350.0,
+    "total_mw":3413.0,
+    "project_count":15,
+    "solar":200.0,
     "storage":1900.0,
     "wind":1313.0,
     "gas":0.0
@@ -3882,9 +3942,9 @@
   {
     "state":"MN",
     "county":"Olmsted",
-    "total_mw":930.0,
-    "project_count":5,
-    "solar":580.0,
+    "total_mw":730.0,
+    "project_count":4,
+    "solar":380.0,
     "storage":350.0,
     "wind":0.0,
     "gas":0.0
@@ -4262,9 +4322,9 @@
   {
     "state":"MO",
     "county":"New Madrid",
-    "total_mw":350.0,
-    "project_count":2,
-    "solar":150.0,
+    "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
     "storage":200.0,
     "wind":0.0,
     "gas":0.0
@@ -7902,12 +7962,12 @@
   {
     "state":"WI",
     "county":"Walworth",
-    "total_mw":1624.0,
-    "project_count":4,
+    "total_mw":1374.0,
+    "project_count":3,
     "solar":100.0,
     "storage":0.0,
     "wind":0.0,
-    "gas":1524.0
+    "gas":1274.0
   },
   {
     "state":"WI",
