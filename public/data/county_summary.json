@@ -451,6 +451,16 @@
   },
   {
     "state":"",
+    "county":"San Jacinto",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Sanilac",
     "total_mw":250.0,
     "project_count":1,
@@ -5875,16 +5885,6 @@
     "total_mw":142.183,
     "project_count":1,
     "solar":142.183,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"San Jacinto",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":0.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
