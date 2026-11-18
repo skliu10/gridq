@@ -16,12 +16,12 @@
   },
   {
     "iso":"MISO",
-    "total_mw":260045.3,
-    "project_count":1127
+    "total_mw":257862.3,
+    "project_count":1128
   },
   {
     "iso":"SPP",
-    "total_mw":54348.707,
-    "project_count":216
+    "total_mw":54046.707,
+    "project_count":214
   }
 ]

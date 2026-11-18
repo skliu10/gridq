@@ -133,7 +133,7 @@
     "state":"",
     "county":"Goodhue",
     "total_mw":215.0,
-    "project_count":1,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -233,7 +233,7 @@
     "state":"",
     "county":"Johnson",
     "total_mw":0.0,
-    "project_count":1,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -481,6 +481,26 @@
   },
   {
     "state":"",
+    "county":"Pointe Coupee",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Portage",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Pulaski",
     "total_mw":0.0,
     "project_count":1,
@@ -563,7 +583,7 @@
     "state":"",
     "county":"Sullivan",
     "total_mw":600.0,
-    "project_count":3,
+    "project_count":7,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -574,6 +594,16 @@
     "county":"Tazewell",
     "total_mw":450.0,
     "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Tippecanoe",
+    "total_mw":0.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1911,16 +1941,6 @@
   },
   {
     "state":"IL",
-    "county":"Johnson",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":100.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IL",
     "county":"Knox",
     "total_mw":550.0,
     "project_count":3,
@@ -2462,12 +2482,12 @@
   {
     "state":"IN",
     "county":"Sullivan",
-    "total_mw":3390.0,
-    "project_count":11,
+    "total_mw":2290.0,
+    "project_count":7,
     "solar":600.0,
     "storage":100.0,
     "wind":0.0,
-    "gas":2090.0
+    "gas":1590.0
   },
   {
     "state":"IN",
@@ -2946,16 +2966,6 @@
     "project_count":2,
     "solar":1000.0,
     "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"LA",
-    "county":"Pointe Coupee",
-    "total_mw":593.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":593.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3862,10 +3872,10 @@
   {
     "state":"MN",
     "county":"Goodhue",
-    "total_mw":1140.0,
-    "project_count":5,
+    "total_mw":900.0,
+    "project_count":4,
     "solar":450.0,
-    "storage":570.0,
+    "storage":330.0,
     "wind":120.0,
     "gas":0.0
   },
@@ -5181,16 +5191,6 @@
   },
   {
     "state":"OK",
-    "county":"Duncan",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
     "county":"Fort Cobb",
     "total_mw":175.0,
     "project_count":1,
@@ -5202,10 +5202,10 @@
   {
     "state":"OK",
     "county":"Fort Gibson",
-    "total_mw":502.0,
-    "project_count":2,
+    "total_mw":400.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":102.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":400.0
   },
@@ -7962,10 +7962,10 @@
   {
     "state":"WI",
     "county":"Portage",
-    "total_mw":1397.43,
-    "project_count":5,
+    "total_mw":1247.43,
+    "project_count":4,
     "solar":1197.12,
-    "storage":200.31,
+    "storage":50.31,
     "wind":0.0,
     "gas":0.0
   },
