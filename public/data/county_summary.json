@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":90398.04,
-    "project_count":314,
+    "total_mw":90550.04,
+    "project_count":319,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -42,10 +42,10 @@
   {
     "state":"",
     "county":"Branch",
-    "total_mw":100.0,
-    "project_count":1,
+    "total_mw":180.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":100.0,
+    "storage":180.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -91,6 +91,16 @@
   },
   {
     "state":"",
+    "county":"Daviess",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"De Witt",
     "total_mw":100.0,
     "project_count":1,
@@ -113,7 +123,7 @@
     "state":"",
     "county":"Fayette",
     "total_mw":100.0,
-    "project_count":1,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -183,7 +193,7 @@
     "state":"",
     "county":"Huron",
     "total_mw":0.0,
-    "project_count":1,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -237,6 +247,16 @@
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Knox",
+    "total_mw":300.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":300.0,
     "gas":0.0
   },
   {
@@ -501,9 +521,19 @@
   },
   {
     "state":"",
-    "county":"Pulaski",
+    "county":"Presque Isle",
     "total_mw":0.0,
     "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Pulaski",
+    "total_mw":0.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -532,6 +562,16 @@
   {
     "state":"",
     "county":"San Jacinto",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Sangamon",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -593,7 +633,7 @@
     "state":"",
     "county":"Tazewell",
     "total_mw":450.0,
-    "project_count":2,
+    "project_count":3,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1852,9 +1892,9 @@
   {
     "state":"IL",
     "county":"Fayette",
-    "total_mw":819.8,
-    "project_count":7,
-    "solar":553.0,
+    "total_mw":719.8,
+    "project_count":6,
+    "solar":453.0,
     "storage":200.0,
     "wind":66.8,
     "gas":0.0
@@ -2092,10 +2132,10 @@
   {
     "state":"IL",
     "county":"Pulaski",
-    "total_mw":400.0,
-    "project_count":2,
+    "total_mw":200.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":400.0,
+    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2192,10 +2232,10 @@
   {
     "state":"IL",
     "county":"Tazewell",
-    "total_mw":1348.0,
-    "project_count":7,
+    "total_mw":1173.0,
+    "project_count":6,
     "solar":0.0,
-    "storage":873.0,
+    "storage":698.0,
     "wind":475.0,
     "gas":0.0
   },
@@ -2352,11 +2392,11 @@
   {
     "state":"IN",
     "county":"Knox",
-    "total_mw":800.0,
-    "project_count":6,
+    "total_mw":500.0,
+    "project_count":5,
     "solar":300.0,
     "storage":200.0,
-    "wind":300.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -3282,10 +3322,10 @@
   {
     "state":"MI",
     "county":"Branch",
-    "total_mw":380.0,
-    "project_count":3,
+    "total_mw":300.0,
+    "project_count":2,
     "solar":100.0,
-    "storage":280.0,
+    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3382,10 +3422,10 @@
   {
     "state":"MI",
     "county":"Huron",
-    "total_mw":3413.0,
-    "project_count":15,
+    "total_mw":3313.0,
+    "project_count":14,
     "solar":200.0,
-    "storage":1900.0,
+    "storage":1800.0,
     "wind":1313.0,
     "gas":0.0
   },
@@ -3622,11 +3662,11 @@
   {
     "state":"MI",
     "county":"Presque Isle",
-    "total_mw":551.5,
-    "project_count":3,
+    "total_mw":300.0,
+    "project_count":2,
     "solar":300.0,
     "storage":0.0,
-    "wind":251.5,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -4172,8 +4212,8 @@
   {
     "state":"MO",
     "county":"",
-    "total_mw":339.0,
-    "project_count":2,
+    "total_mw":200.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -7782,8 +7822,8 @@
   {
     "state":"WI",
     "county":"",
-    "total_mw":175.0,
-    "project_count":2,
+    "total_mw":100.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
