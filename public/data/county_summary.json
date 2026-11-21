@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":90550.04,
-    "project_count":319,
+    "total_mw":90626.64,
+    "project_count":322,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -303,7 +303,7 @@
     "state":"",
     "county":"Lee",
     "total_mw":0.0,
-    "project_count":1,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -591,6 +591,16 @@
   },
   {
     "state":"",
+    "county":"Randolph",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Redwood",
     "total_mw":1250.0,
     "project_count":3,
@@ -683,7 +693,7 @@
     "state":"",
     "county":"Tazewell",
     "total_mw":450.0,
-    "project_count":3,
+    "project_count":4,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -872,11 +882,11 @@
   {
     "state":"AR",
     "county":"Lee",
-    "total_mw":515.0,
-    "project_count":2,
+    "total_mw":340.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
-    "wind":175.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -3302,8 +3312,8 @@
   {
     "state":"MI",
     "county":"",
-    "total_mw":757.0,
-    "project_count":5,
+    "total_mw":625.0,
+    "project_count":4,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -4525,16 +4535,6 @@
     "total_mw":175.0,
     "project_count":1,
     "solar":175.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Randolph",
-    "total_mw":115.0,
-    "project_count":1,
-    "solar":0.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
