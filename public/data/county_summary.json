@@ -71,6 +71,16 @@
   },
   {
     "state":"",
+    "county":"Cheboygan",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Clay",
     "total_mw":686.0,
     "project_count":2,
@@ -105,6 +115,16 @@
     "total_mw":100.0,
     "project_count":1,
     "solar":100.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Edgar",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -361,9 +381,19 @@
   },
   {
     "state":"",
-    "county":"Lyon",
+    "county":"Louisa",
     "total_mw":0.0,
     "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Lyon",
+    "total_mw":0.0,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -413,6 +443,16 @@
     "state":"",
     "county":"Menard",
     "total_mw":200.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Midland",
+    "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -511,7 +551,27 @@
   },
   {
     "state":"",
+    "county":"Ogemaw",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Olmsted",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Osage",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -604,6 +664,16 @@
     "county":"Redwood",
     "total_mw":1250.0,
     "project_count":3,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Saginaw",
+    "total_mw":0.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -711,6 +781,16 @@
   },
   {
     "state":"",
+    "county":"Tuscola",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Union",
     "total_mw":100.0,
     "project_count":1,
@@ -772,6 +852,16 @@
   {
     "state":"",
     "county":"Williamson",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Winnebago",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -1612,9 +1702,9 @@
   {
     "state":"IA",
     "county":"Louisa",
-    "total_mw":614.1,
-    "project_count":3,
-    "solar":450.0,
+    "total_mw":414.1,
+    "project_count":2,
+    "solar":250.0,
     "storage":0.0,
     "wind":164.1,
     "gas":0.0
@@ -1782,11 +1872,11 @@
   {
     "state":"IA",
     "county":"Winnebago",
-    "total_mw":420.0,
-    "project_count":2,
+    "total_mw":100.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
-    "wind":420.0,
+    "wind":100.0,
     "gas":0.0
   },
   {
@@ -1922,9 +2012,9 @@
   {
     "state":"IL",
     "county":"Edgar",
-    "total_mw":916.23,
-    "project_count":5,
-    "solar":341.23,
+    "total_mw":775.0,
+    "project_count":4,
+    "solar":200.0,
     "storage":400.0,
     "wind":0.0,
     "gas":0.0
@@ -3402,9 +3492,9 @@
   {
     "state":"MI",
     "county":"Cheboygan",
-    "total_mw":201.8,
-    "project_count":2,
-    "solar":201.8,
+    "total_mw":110.0,
+    "project_count":1,
+    "solar":110.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3612,10 +3702,10 @@
   {
     "state":"MI",
     "county":"Midland",
-    "total_mw":504.0,
-    "project_count":4,
+    "total_mw":354.0,
+    "project_count":3,
     "solar":304.0,
-    "storage":150.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3672,9 +3762,9 @@
   {
     "state":"MI",
     "county":"Ogemaw",
-    "total_mw":435.8,
-    "project_count":2,
-    "solar":435.8,
+    "total_mw":290.0,
+    "project_count":1,
+    "solar":290.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -3722,10 +3812,10 @@
   {
     "state":"MI",
     "county":"Saginaw",
-    "total_mw":1321.0,
-    "project_count":8,
+    "total_mw":1141.0,
+    "project_count":7,
     "solar":875.0,
-    "storage":300.0,
+    "storage":120.0,
     "wind":146.0,
     "gas":0.0
   },
@@ -3772,11 +3862,11 @@
   {
     "state":"MI",
     "county":"Tuscola",
-    "total_mw":1107.6,
-    "project_count":7,
+    "total_mw":932.1,
+    "project_count":6,
     "solar":340.0,
     "storage":450.0,
-    "wind":217.3,
+    "wind":41.8,
     "gas":0.0
   },
   {
@@ -4032,11 +4122,11 @@
   {
     "state":"MN",
     "county":"Lyon",
-    "total_mw":685.0,
-    "project_count":3,
+    "total_mw":485.0,
+    "project_count":2,
     "solar":235.0,
     "storage":0.0,
-    "wind":450.0,
+    "wind":250.0,
     "gas":0.0
   },
   {
@@ -4516,16 +4606,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":200.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MO",
-    "county":"Osage",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":100.0,
     "wind":0.0,
     "gas":0.0
   },
