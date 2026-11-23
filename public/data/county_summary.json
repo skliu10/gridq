@@ -121,6 +121,16 @@
   },
   {
     "state":"",
+    "county":"East Feliciana",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Edgar",
     "total_mw":0.0,
     "project_count":1,
@@ -3066,16 +3076,6 @@
     "project_count":3,
     "solar":0.0,
     "storage":150.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"LA",
-    "county":"East Feliciana",
-    "total_mw":77.0,
-    "project_count":1,
-    "solar":77.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
