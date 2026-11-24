@@ -93,7 +93,17 @@
     "state":"",
     "county":"Clinton",
     "total_mw":1000.0,
-    "project_count":4,
+    "project_count":5,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Columbia",
+    "total_mw":0.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -115,6 +125,16 @@
     "total_mw":100.0,
     "project_count":1,
     "solar":100.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Dearborn",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -411,9 +431,29 @@
   },
   {
     "state":"",
+    "county":"MIssissippi",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Macon",
     "total_mw":300.0,
     "project_count":2,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Mahaska",
+    "total_mw":0.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -592,6 +632,16 @@
   {
     "state":"",
     "county":"Otsego",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Otter Tail",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -997,16 +1047,6 @@
     "solar":0.0,
     "storage":0.0,
     "wind":667.5,
-    "gas":0.0
-  },
-  {
-    "state":"AR",
-    "county":"MIssissippi",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":0.0,
-    "wind":0.0,
     "gas":0.0
   },
   {
@@ -1622,8 +1662,8 @@
   {
     "state":"IA",
     "county":"Clinton",
-    "total_mw":450.0,
-    "project_count":2,
+    "total_mw":200.0,
+    "project_count":1,
     "solar":0.0,
     "storage":200.0,
     "wind":0.0,
@@ -1717,16 +1757,6 @@
     "solar":250.0,
     "storage":0.0,
     "wind":164.1,
-    "gas":0.0
-  },
-  {
-    "state":"IA",
-    "county":"Mahaska",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
-    "wind":0.0,
     "gas":0.0
   },
   {
@@ -2451,16 +2481,6 @@
   },
   {
     "state":"IN",
-    "county":"Dearborn",
-    "total_mw":150.0,
-    "project_count":1,
-    "solar":150.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IN",
     "county":"Dubois",
     "total_mw":250.0,
     "project_count":2,
@@ -3076,16 +3096,6 @@
     "project_count":3,
     "solar":0.0,
     "storage":150.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"LA",
-    "county":"Evangeline",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":200.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4232,8 +4242,8 @@
   {
     "state":"MN",
     "county":"Otter Tail",
-    "total_mw":360.0,
-    "project_count":2,
+    "total_mw":200.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":200.0,
@@ -5251,16 +5261,6 @@
   },
   {
     "state":"OK",
-    "county":"Atoka",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":100.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
     "county":"Balko",
     "total_mw":463.13,
     "project_count":2,
@@ -5302,9 +5302,9 @@
   {
     "state":"OK",
     "county":"Choctaw",
-    "total_mw":581.8,
-    "project_count":3,
-    "solar":225.0,
+    "total_mw":456.8,
+    "project_count":2,
+    "solar":100.0,
     "storage":0.0,
     "wind":0.0,
     "gas":356.8
@@ -5476,16 +5476,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":258.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Minco",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5675,16 +5665,6 @@
     "total_mw":150.0,
     "project_count":1,
     "solar":150.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
-    "county":"Woods",
-    "total_mw":100.0,
-    "project_count":1,
-    "solar":100.0,
     "storage":0.0,
     "wind":0.0,
     "gas":0.0
@@ -7972,11 +7952,11 @@
   {
     "state":"WI",
     "county":"Columbia",
-    "total_mw":1269.2,
-    "project_count":6,
+    "total_mw":1019.2,
+    "project_count":5,
     "solar":299.0,
     "storage":720.2,
-    "wind":250.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
