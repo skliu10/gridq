@@ -41,6 +41,16 @@
   },
   {
     "state":"",
+    "county":"Benton",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Branch",
     "total_mw":180.0,
     "project_count":2,
@@ -72,6 +82,26 @@
   {
     "state":"",
     "county":"Cheboygan",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Chisago",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Clark",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -481,6 +511,16 @@
   },
   {
     "state":"",
+    "county":"McDonough",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Meeker",
     "total_mw":500.0,
     "project_count":1,
@@ -533,7 +573,7 @@
     "state":"",
     "county":"Montgomery",
     "total_mw":100.0,
-    "project_count":1,
+    "project_count":2,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -791,6 +831,16 @@
   },
   {
     "state":"",
+    "county":"St. Clair",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Starke",
     "total_mw":976.1,
     "project_count":1,
@@ -861,6 +911,16 @@
   },
   {
     "state":"",
+    "county":"Vanderburgh",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Vermilion",
     "total_mw":200.0,
     "project_count":1,
@@ -922,6 +982,16 @@
   {
     "state":"",
     "county":"Winnebago",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Yellow Medicine",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -1972,9 +2042,9 @@
   {
     "state":"IL",
     "county":"Clark",
-    "total_mw":500.0,
-    "project_count":3,
-    "solar":200.0,
+    "total_mw":300.0,
+    "project_count":2,
+    "solar":0.0,
     "storage":300.0,
     "wind":0.0,
     "gas":0.0
@@ -2232,11 +2302,11 @@
   {
     "state":"IL",
     "county":"McDonough",
-    "total_mw":215.6,
-    "project_count":2,
+    "total_mw":200.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
-    "wind":215.6,
+    "wind":200.0,
     "gas":0.0
   },
   {
@@ -2262,10 +2332,10 @@
   {
     "state":"IL",
     "county":"Montgomery",
-    "total_mw":831.0,
-    "project_count":4,
+    "total_mw":631.0,
+    "project_count":3,
     "solar":631.0,
-    "storage":200.0,
+    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -2716,16 +2786,6 @@
     "project_count":2,
     "solar":67.0,
     "storage":100.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"IN",
-    "county":"Vanderburgh",
-    "total_mw":200.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":200.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -3851,16 +3911,6 @@
   },
   {
     "state":"MI",
-    "county":"St. Clair",
-    "total_mw":220.0,
-    "project_count":1,
-    "solar":0.0,
-    "storage":220.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"MI",
     "county":"St. Joseph",
     "total_mw":346.0,
     "project_count":2,
@@ -3952,10 +4002,10 @@
   {
     "state":"MN",
     "county":"Benton",
-    "total_mw":499.0,
-    "project_count":2,
+    "total_mw":249.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":250.0,
+    "storage":0.0,
     "wind":249.0,
     "gas":0.0
   },
@@ -3982,10 +4032,10 @@
   {
     "state":"MN",
     "county":"Chisago",
-    "total_mw":550.0,
-    "project_count":4,
+    "total_mw":350.0,
+    "project_count":3,
     "solar":150.0,
-    "storage":300.0,
+    "storage":100.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -4350,16 +4400,6 @@
     "gas":0.0
   },
   {
-    "state":"MN",
-    "county":"Yellow Medicine",
-    "total_mw":140.0,
-    "project_count":1,
-    "solar":140.0,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
     "state":"MO",
     "county":"",
     "total_mw":200.0,
@@ -4452,10 +4492,10 @@
   {
     "state":"MO",
     "county":"Clay",
-    "total_mw":450.0,
-    "project_count":2,
+    "total_mw":250.0,
+    "project_count":1,
     "solar":0.0,
-    "storage":450.0,
+    "storage":250.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5581,16 +5621,6 @@
   },
   {
     "state":"OK",
-    "county":"Pittsburg",
-    "total_mw":90.824,
-    "project_count":1,
-    "solar":90.824,
-    "storage":0.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"OK",
     "county":"Pittsburgh",
     "total_mw":1045.0,
     "project_count":1,
@@ -6066,16 +6096,6 @@
     "project_count":1,
     "solar":0.0,
     "storage":457.0,
-    "wind":0.0,
-    "gas":0.0
-  },
-  {
-    "state":"TX",
-    "county":"Swisher",
-    "total_mw":130.0,
-    "project_count":1,
-    "solar":130.0,
-    "storage":0.0,
     "wind":0.0,
     "gas":0.0
   },
