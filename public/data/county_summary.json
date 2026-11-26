@@ -2,8 +2,8 @@
   {
     "state":"",
     "county":"",
-    "total_mw":90626.64,
-    "project_count":322,
+    "total_mw":91376.64,
+    "project_count":324,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -31,7 +31,7 @@
   },
   {
     "state":"",
-    "county":"Barron",
+    "county":"Bay",
     "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
@@ -282,11 +282,11 @@
   {
     "state":"",
     "county":"Huron",
-    "total_mw":0.0,
-    "project_count":2,
+    "total_mw":350.0,
+    "project_count":3,
     "solar":0.0,
     "storage":0.0,
-    "wind":0.0,
+    "wind":350.0,
     "gas":0.0
   },
   {
@@ -701,6 +701,16 @@
   },
   {
     "state":"",
+    "county":"Phillips",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Pike",
     "total_mw":400.0,
     "project_count":1,
@@ -764,6 +774,16 @@
     "county":"Redwood",
     "total_mw":1250.0,
     "project_count":3,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Rock",
+    "total_mw":0.0,
+    "project_count":1,
     "solar":0.0,
     "storage":0.0,
     "wind":0.0,
@@ -1132,11 +1152,11 @@
   {
     "state":"AR",
     "county":"Phillips",
-    "total_mw":590.5,
-    "project_count":3,
+    "total_mw":397.5,
+    "project_count":2,
     "solar":197.5,
     "storage":0.0,
-    "wind":193.0,
+    "wind":0.0,
     "gas":0.0
   },
   {
@@ -3522,11 +3542,11 @@
   {
     "state":"MI",
     "county":"Bay",
-    "total_mw":539.0,
-    "project_count":4,
+    "total_mw":285.0,
+    "project_count":3,
     "solar":235.0,
     "storage":0.0,
-    "wind":304.0,
+    "wind":50.0,
     "gas":0.0
   },
   {
@@ -3632,11 +3652,11 @@
   {
     "state":"MI",
     "county":"Huron",
-    "total_mw":3313.0,
-    "project_count":14,
+    "total_mw":2963.0,
+    "project_count":13,
     "solar":200.0,
     "storage":1800.0,
-    "wind":1313.0,
+    "wind":963.0,
     "gas":0.0
   },
   {
@@ -4342,8 +4362,8 @@
   {
     "state":"MN",
     "county":"Rock",
-    "total_mw":302.0,
-    "project_count":2,
+    "total_mw":72.0,
+    "project_count":1,
     "solar":0.0,
     "storage":72.0,
     "wind":0.0,
@@ -4666,6 +4686,16 @@
     "project_count":1,
     "solar":175.0,
     "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"MO",
+    "county":"Sarcoxie",
+    "total_mw":150.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":150.0,
     "wind":0.0,
     "gas":0.0
   },
@@ -5302,10 +5332,10 @@
   {
     "state":"OK",
     "county":"Balko",
-    "total_mw":463.13,
-    "project_count":2,
+    "total_mw":563.13,
+    "project_count":3,
     "solar":0.0,
-    "storage":463.13,
+    "storage":563.13,
     "wind":0.0,
     "gas":0.0
   },
@@ -5628,6 +5658,16 @@
     "storage":0.0,
     "wind":0.0,
     "gas":1045.0
+  },
+  {
+    "state":"OK",
+    "county":"Red Rock",
+    "total_mw":228.0,
+    "project_count":2,
+    "solar":0.0,
+    "storage":228.0,
+    "wind":0.0,
+    "gas":0.0
   },
   {
     "state":"OK",
