@@ -261,6 +261,16 @@
   },
   {
     "state":"",
+    "county":"Hamilton",
+    "total_mw":0.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
     "county":"Hinds",
     "total_mw":0.0,
     "project_count":1,
@@ -313,6 +323,16 @@
     "state":"",
     "county":"Isabella County",
     "total_mw":90.0,
+    "project_count":1,
+    "solar":0.0,
+    "storage":0.0,
+    "wind":0.0,
+    "gas":0.0
+  },
+  {
+    "state":"",
+    "county":"Jackson",
+    "total_mw":0.0,
     "project_count":1,
     "solar":0.0,
     "storage":0.0,
@@ -2202,9 +2222,9 @@
   {
     "state":"IL",
     "county":"Hamilton",
-    "total_mw":539.99,
-    "project_count":3,
-    "solar":140.0,
+    "total_mw":399.99,
+    "project_count":2,
+    "solar":0.0,
     "storage":200.0,
     "wind":199.99,
     "gas":0.0
@@ -3692,10 +3712,10 @@
   {
     "state":"MI",
     "county":"Jackson",
-    "total_mw":370.0,
-    "project_count":3,
+    "total_mw":250.0,
+    "project_count":2,
     "solar":0.0,
-    "storage":370.0,
+    "storage":250.0,
     "wind":0.0,
     "gas":0.0
   },
